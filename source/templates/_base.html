@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>{% block title %}Styleguide 2{% endblock %}</title>
+
+        <link rel="stylesheet" href="vendor/foundation.min.css"/>
+        <link rel="stylesheet" href="vendor/slick.css"/>
+        <link rel="stylesheet" href="vendor/prism.css"/>
+        <link rel="stylesheet" href="styles/styleguide.css"/>
+        <link rel="stylesheet" href="styles/custom-styles.css"/>
+        <script src="https://use.typekit.net/mvc3cdb.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="top-bar">
+        <span class="top-bar__button js-trigger-menu">menu</span>
+        <nav class="main-menu js-target-menu main-menu--left">
+          <a href="./base-elements.html">Base Elements</a>
+          <a href="./form.html">Form</a>
+          <a href="./sections.html">Sections</a>
+          <a href="./components.html">Base Components</a>
+          <a href="./special-components.html">Special Components</a>
+        </nav>
+        <a class="top-bar__logo" href="./"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
+        <span class="top-bar__button js-trigger-menu">more_vert</span>
+        <nav class="main-menu js-target-menu main-menu--right">
+          <a href="#">Github Repository</a>
+          <a href="./sandbox.html">Sandbox</a>
+        </nav>
+      </header>
+
+        {% block content %}{% endblock %}
+
+        <footer class='footer'>
+            <div class="row">
+                <div class="large-10 large-centered columns">
+                    <div class="row">
+                        <div class="footer__content footer--sections medium-4 column">
+                            <h2>Sections</h2>
+                            <!-- Add generated sections here -->
+                        </div>
+                        <div class="footer__content medium-4 column">
+                            <h2>Lead Supporters</h2>
+                            <a class="footer__partner-logo" href="https://www.macfound.org/" tagret="_blank"><img src="images/partners/macarthur-logo-white.png" alt="MacArthur Foundation"></a>
+                            <a class="footer__partner-logo" href="http://knightfoundation.org/" tagret="_blank"><img src="images/partners/knight-logo-white.png" alt="Knight Foundation"></a>
+                            <a class="footer__partner-logo footer__partner-logo--google" href="http://google.org/" tagret="_blank"><img src="images/partners/google-org.png" alt="Google.org"></a>
+                        </div>
+                        <div class="footer__content medium-4 column">
+                            <h2>Based at</h2>
+                            <a class="footer__partner-logo" href="http://engineering.nyu.edu/tandon" tagret="_blank"><img src="images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
+                            <a class="footer__partner-logo footer--mit" href="https://www.media.mit.edu/" tagret="_blank"><img src="images/partners/mit-logo-white.png" alt="MIT Media Lab"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="row">
+                <div class="large-10 large-centered columns">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="copyright__cc-badge" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+                    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> <br> <a href="#">Copyright Infringement Information</a>.
+                </div>
+            </div>
+        </div>
+
+        <div id="overlay" class="js-overlay"></div>
+        <script src="./vendor/jquery-2.1.4.min.js"></script>
+        <script src="./vendor/slick.min.js"></script>
+        <script src="./vendor/prism.js"></script>
+        <script src="./scripts.js"></script>
+
+        <script>
+        // Styleguide Guide specific functions
+        $(document).ready(function () {
+            $('.language-markup').each(function () {
+                var $obj = $($(this).data('markup'));
+
+                $(this).text($obj.html());
+            });
+        }); // doc.ready
+        </script>
+    </body>
+</html>

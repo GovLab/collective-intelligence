@@ -1,0 +1,85 @@
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+body {
+  letter-spacing: .5px;
+  color: rgba(black, .5);
+  font-family: 'proxima-nova-soft', sans-serif;
+  font-weight: 400;
+  background-color: #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+.small-header {
+
+  h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 20px;
+  }
+
+  .top-nav {
+    text-align: right;
+  }
+
+  .button:hover {
+    background-color: $main-color;
+    color: white;
+  }
+}
+
+.controls {
+  position: fixed;
+  left: 35px;
+  top: 90px;
+
+  &__button {
+    box-shadow: 1px 1px 4px rgba(black, .1);
+    background-color: $accent-color;
+    color: rgba(white, .7);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 0;
+    position: static;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 28px;
+    @extend .u-transition;
+
+    > i {
+      padding: 10px;
+      @extend .u-material-icons;
+    }
+
+    &:hover {
+      background-color: $main-color;
+      color: rgba(black, .4);
+      @extend .u-transition;
+    }
+
+    &:after {
+      content: attr(title);
+      position: absolute;
+      color: $main-color;
+      font-size: 1rem;
+      word-wrap: nowrap;
+      width: 150px;
+      padding: 12px 15px;
+      opacity: 0;
+      margin-left: -50px;
+      @extend .u-transition;
+    }
+
+    &:hover:after {
+      opacity: 1;
+      margin-left: 0;
+      @extend .u-transition;
+    }
+  }
+
+  &--with-header { top: 250px; }
+}
+
