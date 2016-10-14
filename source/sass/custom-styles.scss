@@ -3,6 +3,10 @@
 $main-color: #389482;
 $accent-color: orange;
 
+.main-text {
+  font-size: 3.2em!important;
+}
+
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;
