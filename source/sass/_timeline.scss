@@ -69,8 +69,8 @@
         top: 12;
         border-right: 22px solid transparent;
         border-bottom: 22px solid transparent;
-        border-top: 22px solid #FDFBED;
-        border-left: 22px solid #FDFBED;
+        border-top: 22px solid #fff;
+        border-left: 22px solid #fff;
       }
       &::after {
         position: absolute;
@@ -97,8 +97,8 @@
         background-color: rgba(0, 0, 0, 0.4);
       }
       &:nth-child(1)::after {
-        border-left: 20px solid #FDFBED;
-        border-top: 20px solid #FDFBED;
+        border-left: 20px solid #fff;
+        border-top: 20px solid #fff;
       }
       &:nth-child(2)::after {
         border-left: 20px solid rgba(0, 0, 0, 0.05);
