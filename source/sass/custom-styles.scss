@@ -40,8 +40,11 @@ $accent-color: orange;
 }
 
 .instruction-links {
-  color: #191b3f;
+  color: #523080;
   text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .chair-names {
