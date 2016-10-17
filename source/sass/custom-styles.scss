@@ -7,6 +7,7 @@ $accent-color: orange;
 .tagline {
   text-align: center;
   margin: 0 auto;
+  color: #18fce3;
 }
 
 .page-section {
@@ -30,8 +31,12 @@ $accent-color: orange;
   font-size: 3.2em!important;
 }
 
-.submissions {
-
+.collective-banner {
+  .banner-text {
+    font-size: 1.4em;
+    font-style: italic;
+    padding: 20px;
+  }
 }
 
 .instruction-links {
