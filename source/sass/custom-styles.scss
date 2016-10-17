@@ -41,8 +41,11 @@ $accent-color: orange;
 
 .instruction-links {
   color: #191b3f;
-  font-weight: 600;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.chair-names {
+  color: #18fce3;
 }
 
 /*.background-selection {
