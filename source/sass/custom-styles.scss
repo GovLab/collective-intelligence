@@ -4,18 +4,38 @@
 $main-color: #389482;
 $accent-color: orange;
 
+.tagline {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .page-section {
    &--gray {
     background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
  }
+}
+
+.page-section {
+  &--dark-blue {
+    background-color: #191b3f;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .main-text {
   font-size: 3.2em!important;
 }
 
+.submissions {
+
+}
+
 .instruction-links {
-  color: #008ab3;
+  color: #191b3f;
   font-weight: 600;
   text-decoration: none;
 }
