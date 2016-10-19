@@ -98,6 +98,7 @@ gulp.task('push-gh-pages', function () {
 gulp.task('deploy', function (callback) {
   runSequence(
     'clean',
+    'cname',
     ['sass', 'js', 'image', 'nunjucks', 'vendor'],
     'push-gh-master',
     'push-gh-pages',
