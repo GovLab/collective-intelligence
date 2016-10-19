@@ -1,0 +1,49 @@
+.homepage-banner {
+  background-color: $main-color;
+  background-image: url("../images/bee-hive.png");
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  padding-bottom: 0 !important;
+
+
+  &__main-title {
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: $yellow;
+    @include breakpoint($large) {
+      padding-bottom: 90px;
+    }
+
+    > em {
+      font-size: 2rem;
+      opacity: .6;
+    }
+  }
+
+  &__collective {
+    font-size: 7rem;  
+    font-weight: 200;
+  }
+
+  &__intelligence {
+    font-weight: 100;
+    font-size: 4rem;  
+    letter-spacing: 5px;
+  } 
+
+  &__tagline {
+    text-align: center;
+    margin: 0 auto;
+    color: $accent-color;
+    padding: 10px;
+    font-size: 1.4rem;
+    background-color: $accent-color;
+    color: $main-color;
+    background-blend-mode: multiply;
+  }
+}
+

@@ -2,29 +2,17 @@
 {% block content %}
     <main role="main">
         <!-- main content starts here -->
-        <div class="top-section top-section--purple">
-            <div class="row">
-              <div class="medium-12 column">
-                <h1 class="main-text">Collective Intelligence Conference 2017</h1>
-                <!-- <p class="top-section__tagline">The 5th Edition of the Collective Intelligence Conference</p> -->
-                <section class="collective-banner">
-                  <p class="banner-text">Collective</p>
-                  <p class="banner-text">Intelligent</p>
-                </section>
+        <div class="top-section homepage-banner">
+            <div class="row align-center expanded">
+              <div class="medium-12 column row">
+                <h1 class="homepage-banner__main-title">
+                  <div class="homepage-banner__collective">Collective</div> 
+                  <div class="homepage-banner__intelligence">Intelligence</div>
+                </h1>
+                <p class="homepage-banner__tagline">The 5th Edition of the Collective Intelligence Conference</p>
               </div>
             </div>
         </div>
-        <div class="page-section--dark-blue">
-          <div class="row">
-            <div class="medium-12 medium-centered column">
-              <!-- <p class="tagline top-section__tagline">
-                The 5th Edition of the Collective Intelligence
-              </p> -->
-              <h4 class="tagline top-section__tagline">The 5th Edition of the Collective Intelligence Conference</h4>
-            </div>
-          </div>
-        </div>
-
         <div class="page-section intro">
           <div class="row">
             <div class="medium-12 medium-centered column">
@@ -46,10 +34,10 @@
           </div>
         </div>
 
-        <div class="page-section--gray">
-          <div class="row expanded">
-            <div class="medium-12 medium-centered column">
-              <h6 class="titles">Topics of interest include but are not limited to</h6>
+        <div class="page-section--gray topics">
+          <div class="row expanded align-center">
+            <div class="medium-12 column row">
+              <h6 class="page-section__title">Topics of interest include but are not limited to</h6>
               <section>
                 <table>
                   <tr>
@@ -57,10 +45,10 @@
                       Citizen engagement and participation
                     </td>
                     <td>
-                      Crowdsourcing widely (e.g. mass-based engagement)
+                      Crowdsourcing widely <br>(e.g. mass-based engagement)
                     </td>
                     <td>
-                      Crowdsourcing wisely (e.g. curated engagement)
+                      Crowdsourcing wisely <br>(e.g. curated engagement)
                     </td>
                   </tr>
                   <tr>
@@ -71,18 +59,18 @@
                       New technologies for making groups smarter
                     </td>
                     <td>
-                      Incentives and social-behavioral insights and groups
+                      Incentives and social-behavioral <br>insights and groups
                     </td>
                   </tr>
                   <tr>
                     <td>
-                      Institutional design and governance (e.g. how institutions make use of networks)
+                      Institutional design and governance <br>(e.g. how institutions make use of networks)
                     </td>
                     <td>
                       Firms and networks
                     </td>
                     <td>
-                      Public policy and law reform (e.g. legal frameworks for groups)
+                      Public policy and law reform <br>(e.g. legal frameworks for groups)
                     </td>
                   </tr>
                   <tr>
@@ -101,7 +89,7 @@
                       Crowdfunding
                     </td>
                     <td>
-                      Wisdom of crowds (e.g., prediction markets)
+                      Wisdom of crowds <br>(e.g., prediction markets)
                     </td>
                     <td>
                       Group memory and extended cognition
@@ -109,7 +97,7 @@
                   </tr>
                   <tr>
                     <td>
-                      Collective decision making and problem-solving
+                      Collective decision making <br>and problem-solving
                     </td>
                     <td>
                       Participatory and deliberative democracy
@@ -120,7 +108,7 @@
                   </tr>
                   <tr>
                     <td>
-                      Ethics of collective intelligence (e.g., "digital sweatshops")
+                      Ethics of collective intelligence <br>(e.g., "digital sweatshops")
                     </td>
                     <td>
                       Computational models of group search and optimization
@@ -134,22 +122,28 @@
             </div>
           </div>
         </div>
-        <div class="page-section">
+        <div class="page-section submission">
           <div class="row">
-            <div class="medium-12 medium-centered column">
-              <h6 class="titles">Submissions of three types are invited</h6>
-                <ul class="submissions">
-                  <li>Reports of original results</li>
-                  <li>Demonstrations of tools/technology</li>
-                  <li>Add something on experiment design?</li>
-                </ul>
+            <div class="large-12">
+              <h6 class="page-section__title">Submissions of three types are invited</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="medium-4 column">
+                <a href="./submissions.html" class="button">Reports of original results</a>
+            </div>
+            <div class="medium-4 column">
+                <a href="./submissions.html" class="button">Demonstrations of tools/technology</a>
+            </div>
+            <div class="medium-4 column">
+                <a href="./submissions.html" class="button">Add something on experiment design?</a>
             </div>
           </div>
         <!-- </div>
         <div class="page-section"> -->
           <div class="row">
             <div class="medium-12 medium-centered column">
-              <h6 class="titles">Important Dates</h6>
+              <h6 class="page-section__title">Important Dates</h6>
 
               <div class="b-timeline">
                 <div class="e-timeline-graphic">
@@ -205,43 +199,6 @@
             </div>
           </div>
         </div>
-
-        <div class="page-section--gray">
-          <div class="row">
-            <div class="medium-12 medium-centered column">
-                <h6 class="titles">Instructions</h6>
-                <p>All submissions should be formatted as four-page extended abstracts (up to 3 pages for content and 1 page for references).</p>
-                <ul>
-                  <li>LaTex template: <a class="instruction-links" href="https://sites.google.com/a/stern.nyu.edu/collective-intelligence-conference/ci2016-sample-latex.zip?attredirects=0">ci2016-sample-latex</a></li>
-                  <li>Word template: <a class="instruction-links" href="https://sites.google.com/a/stern.nyu.edu/collective-intelligence-conference/ci2016-sample-word.zip?attredirects=0">ci2016-sample-word</a></li>
-                </ul>
-                <p>All submission should be converted to PDF at the time of submission. Please click here to submit your the document: <a class="instruction-links" href="https://easychair.org/conferences/?conf=ci20160">https://easychair.org/conferences/?conf=ci20160</a></p>
-                <p>In order to encourage a diversity of innovative ideas from a variety of fields, submissions may refer to work that is recently published, under review elsewhere, or in preparation, and may link to up to one publicly accessible paper for the purpose of describing the work in detail. However, submissions will be evaluated solely on the submitted abstract, which must therefore comprise an entirely self-contained description of the work.</p>
-                <p>After review by the Program Committee, a subset of submitted abstracts will be invited for oral presentation with additional presentation as posters and/or demos. A second subset will also be invited exclusively for presentation as posters and/or demos.</p>
-                <p>Authors will not receive detailed feedback from the review process, just an accept/reject decision. The main criteria will be: 1) whether the subject matter is a good fit for the Collective Intelligence conference; 2) whether there are interesting claims made with a promise to present evidence or non-obvious arguments in support of them. The review committee will not assess the validity of the evidence or arguments.</p>
-                <p>Accepted submissions will be compiled into a single report which will be made available to conference participants. We emphasize that abstracts that are distributed to conference participants are not intended to be considered archival publications or to preclude submission of the reported work to archival journals; however, we cannot guarantee that certain journals do not have policies precluding the distribution of extended abstracts. Accepted abstracts will be included as submitted (i.e., submissions should be camera-ready).</p>
-                <p>If your abstract is accepted for presentation or poster session, at least one author has to commit to attending the conference.</p>
-                <p>Please check out prior programs and proceedings to learn more about the Collective Intelligence conference and academic community:</p>
-                <ul>
-                  <li>
-                    <a class="instruction-links" href="http://www.ci2012.org/program/program.pdf?attredirects=0">Collective Intelligence Conference Program, MIT, 2012</a>
-                  </li>
-                  <li>
-                    <a class="instruction-links" href="http://collective.mech.northwestern.edu/?page_id=22">Collective Intelligence Conference Program, MIT, 2014</a>
-                  </li>
-                  <li>
-                    <a class="instruction-links" href="https://sites.lsa.umich.edu/collectiveintelligence/schedule/">Collective Intelligence Conference Program, Santa Clara, 2015</a>
-                  </li>
-                  <li>
-                    <a class="instruction-links" href="https://sites.google.com/a/stern.nyu.edu/collective-intelligence-conference/call-for-papers">Collective Intelligence Conference Program, Stern, 2016</a>
-                  </li>
-                </ul>
-                <p>You may submit your abstract beginning December 1, 2017.</p>
-            </div>
-          </div>
-        </div>
-
-
 
         <div class="page-section page-section--dark-blue">
           <div class="row">
