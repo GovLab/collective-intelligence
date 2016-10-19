@@ -83,6 +83,11 @@ gulp.task('nunjucks', function() {
     .pipe(browserSync.reload({ stream: true }));
 });
 
+gulp.task('cname', function() {
+  return gulp.src('source/CNAME')
+  .pipe(gulp.dest('public'));
+});
+
 gulp.task('push-gh-master', shell.task(['git push origin master']));
 
 gulp.task('push-gh-pages', function () {
