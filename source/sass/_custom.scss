@@ -1,11 +1,15 @@
+.copyright {
+  &__links {
+    
+    color: red;
+  }
+}
+
 .top-bar {
   &--main-color {
     background-color: $main-color;
   }
 }
-
-
-
 
 .page-section {
    &--gray {
@@ -51,11 +55,12 @@
 
 .chair-names {
   color: #18fce3;
+  text-decoration: none;
 }
 
 
 .submission {
-  
+
 
   .button {
     background-color: $yellow;
@@ -65,16 +70,6 @@
     box-shadow: 1px 1px 5px rgba(black, .1);
   }
 }
-
-
-/*.background-selection {
-
- &--gray {
-  background-color: #f2f2f2;
- }
-}*/
-
-
 
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
