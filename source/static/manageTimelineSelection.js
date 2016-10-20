@@ -7,7 +7,7 @@ $(document).ready(function() {
     allEvents.each(function(i) {
         var eventDate = new Date($(this).find("time").attr("datetime"));
 
-        if ( first && eventDate >= $.now() ) {
+        if ( first && eventDate <= $.now() ) {
             $(this).addClass("m-current");
             $(allTimeboxes.get(i)).addClass("m-current");
             $(mobileTimeboxes.children().get(i)).addClass("m-current");

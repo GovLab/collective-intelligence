@@ -46,8 +46,13 @@
   font-weight: 400;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
+}
+
+.conference-links {
+  color: $main-color;
+  font-weight: 600;
 }
 
 .chair-names {
