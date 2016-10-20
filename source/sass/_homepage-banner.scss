@@ -25,25 +25,22 @@
   }
 
   &__collective {
-    font-size: 7rem;  
+    font-size: 7rem;
     font-weight: 200;
   }
 
   &__intelligence {
     font-weight: 100;
-    font-size: 4rem;  
+    font-size: 4rem;
     letter-spacing: 5px;
-  } 
+  }
 
   &__tagline {
     text-align: center;
     margin: 0 auto;
-    color: $accent-color;
     padding: 10px;
     font-size: 1.4rem;
     background-color: $accent-color;
-    color: $main-color;
-    background-blend-mode: multiply;
+    color: rgba(0,0,0,0.5);
   }
 }
-

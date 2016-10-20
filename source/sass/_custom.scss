@@ -1,11 +1,12 @@
+.copyright {
+  text-align: center;
+}
+
 .top-bar {
   &--main-color {
     background-color: $main-color;
   }
 }
-
-
-
 
 .page-section {
    &--gray {
@@ -45,17 +46,23 @@
   font-weight: 400;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
+}
+
+.conference-links {
+  color: $main-color;
+  font-weight: 600;
 }
 
 .chair-names {
   color: #18fce3;
+  text-decoration: none;
 }
 
 
 .submission {
-  
+
 
   .button {
     background-color: $yellow;
@@ -65,16 +72,6 @@
     box-shadow: 1px 1px 5px rgba(black, .1);
   }
 }
-
-
-/*.background-selection {
-
- &--gray {
-  background-color: #f2f2f2;
- }
-}*/
-
-
 
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
