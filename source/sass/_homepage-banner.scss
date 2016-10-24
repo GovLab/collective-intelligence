@@ -14,14 +14,18 @@
     padding: 0;
     text-transform: uppercase;
     color: $yellow;
-    @include breakpoint($large) {
-      padding-bottom: 90px;
-    }
+    // @include breakpoint($large) {
+      // padding-bottom: 90px;
+    // }
 
     > em {
       font-size: 2rem;
       opacity: .6;
     }
+  }
+
+  &__submissions {
+    padding-bottom: 90px;
   }
 
   &__collective {
@@ -42,5 +46,10 @@
     font-size: 1.4rem;
     background-color: $accent-color;
     color: rgba(0,0,0,0.5);
+  }
+
+  &__location {
+    padding-bottom: 10px;
+    text-transform: none;
   }
 }
