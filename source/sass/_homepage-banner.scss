@@ -29,14 +29,20 @@
   }
 
   &__collective {
-    font-size: 7rem;
+    font-size: 3.5rem;
     font-weight: 200;
+    @include breakpoint($large) {
+      font-size: 7rem;
+    }
   }
 
   &__intelligence {
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: 5px;
+    @include breakpoint($large) {
+      font-size: 4rem;
+    }
   }
 
   &__tagline {
