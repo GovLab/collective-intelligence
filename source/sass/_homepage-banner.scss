@@ -19,13 +19,21 @@
     // }
 
     > em {
-      font-size: 2rem;
+      font-size: 1.5rem;
       opacity: .6;
+      @include breakpoint($large) {
+        font-size: 2rem!important;
+      }
     }
   }
 
   &__submissions {
     padding-bottom: 90px;
+    font-size: 3rem!important;
+    font-weight: 200!important;
+    @include breakpoint($large) {
+      font-size: 5rem!important;
+    }
   }
 
   &__collective {
