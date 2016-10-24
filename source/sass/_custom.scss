@@ -25,8 +25,22 @@
   &__title {
     text-align: center;
     font-size: 1.5rem;
+    // @include breakpoint($large) {
+    //   padding-bottom: 2.5rem;
+    //   text-align: center;
+    // }
   }
 }
+
+    td {
+      font-size: 12px !important;
+      padding: 5px !important;
+
+      @include breakpoint($large) {
+        padding: 30px!important;
+        font-size: 1.3rem!important;
+      }
+    }
 
 .template-download {
   text-align: center;
