@@ -38,15 +38,15 @@ h6 {
   font-weight: 100;
 }
 
-    td {
-      font-size: 12px !important;
-      padding: 5px !important;
+td {
+  font-size: 12px !important;
+  padding: 5px !important;
 
-      @include breakpoint($large) {
-        padding: 30px!important;
-        font-size: 1.3rem!important;
-      }
-    }
+  @include breakpoint($large) {
+    padding: 30px!important;
+    font-size: 1.3rem!important;
+  }
+}
 
 .template-download {
   text-align: center;
@@ -88,18 +88,24 @@ h6 {
 
 .submission {
 
-
   .button {
     background-color: $yellow;
     text-align: center;
     font-weight: 400;
     padding: 30px;
-    margin-bottom: 5px;
-    width: 100%;
+    font-size: .8rem;
+    width: 100%!important;
+    margin-bottom: 10px;
+
+
+    // width: 380px;
+    // margin-bottom: 5px;
+
 
     box-shadow: 1px 1px 5px rgba(black, .1);
     @include breakpoint($large) {
       padding: 30px;
+      font-size: 1rem;
     }
   }
 }
