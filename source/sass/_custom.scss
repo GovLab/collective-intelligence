@@ -48,18 +48,18 @@ td {
   }
 }
 
-.template-download {
-  text-align: center;
-
-  .button {
-      background-color: $yellow;
-      box-shadow: 1px 1px 5px rgba(black, .1);
-
-      &:hover {
-        background-color: $accent-color;
-      }
-  }
-}
+// .template-download {
+//   text-align: center;
+//
+//   .button {
+//       background-color: $yellow;
+//       box-shadow: 1px 1px 5px rgba(black, .1);
+//
+//       &:hover {
+//         background-color: $accent-color;
+//       }
+//   }
+// }
 
 .instruction-links {
   text-align: center;
@@ -67,6 +67,18 @@ td {
 
   &:hover {
     text-decoration: none;
+  }
+}
+
+.template-links {
+  color: $main-color;
+  font-weight: 600;
+  border-bottom: 1px solid $accent-color;
+  // display: inline-block;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: 1px solid $yellow;
   }
 }
 
