@@ -30,6 +30,14 @@
     //   text-align: center;
     // }
   }
+
+  &--links {
+    margin-top: 0;
+    padding-bottom: 30px;
+    p {
+      margin-top: 0;
+    }
+  }
 }
 
 h6 {
