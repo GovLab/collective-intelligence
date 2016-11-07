@@ -67,6 +67,15 @@
 
   &__location {
     color: $yellow;
+    text-transform: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  &__date {
+    text-transform: uppercase;
+    color: $yellow;
+    margin-top: 0;
     padding-bottom: 10px;
     text-transform: none;
   }
