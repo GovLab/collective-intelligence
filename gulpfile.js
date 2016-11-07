@@ -40,9 +40,9 @@ gulp.task('sass', function () {
     .pipe(browserSync.reload({ stream: true }));
 });
 
-gulp.task('vendor', function () {
-  return gulp.src('source/static/vendor/**/*')
-    .pipe(gulp.dest('public/vendor'));
+gulp.task('scripts', function () {
+  return gulp.src('source/static/scripts/**/*')
+    .pipe(gulp.dest('public/scripts'));
 });
 
 gulp.task('image', function () {
@@ -99,7 +99,7 @@ gulp.task('deploy', function (callback) {
   runSequence(
     'clean',
     'cname',
-    ['sass', 'js', 'image', 'nunjucks', 'vendor'],
+    ['sass', 'js', 'image', 'nunjucks', 'scripts'],
     'push-gh-master',
     'push-gh-pages',
     callback
@@ -110,14 +110,14 @@ gulp.task('watch', function () {
   gulp.watch('source/static/**/*.js', ['js']);
   gulp.watch('source/sass/**/*.scss', ['sass']);
   gulp.watch('source/templates/**/*.html', ['nunjucks']);
-  gulp.watch('source/static/vendor/**/*.js', ['vendor']);
-  gulp.watch('source/static/vendorimages/**/*', ['images']);
+  gulp.watch('source/static/scripts/**/*.js', ['scripts']);
+  gulp.watch('source/static/scriptsimages/**/*', ['images']);
 });
 
 gulp.task('default', function (callback) {
   runSequence(
     'clean',
-    ['sass', 'js', 'image', 'nunjucks', 'vendor'],
+    ['sass', 'js', 'image', 'nunjucks', 'scripts'],
     ['browserSync', 'watch'],
     callback
   );
