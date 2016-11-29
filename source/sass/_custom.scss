@@ -166,3 +166,78 @@ td {
   &::-moz-placeholder { @content }
   &:-ms-input-placeholder { @content }
 }
+
+@mixin circle {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+// Top bar fixes
+
+.top-bar__logo { margin-right: -57.5px; }
+
+.top-bar__twitter { 
+  height: 50px; 
+  line-height: 26px; 
+  vertical-align: middle; 
+  color: $white-80; 
+  padding: 12px 15px 12px 15px;  
+}
+
+.top-bar__twitter:hover { color: $white; text-decoration: none; }
+
+// Nav-menu fix
+.main-menu:not(.m-active) {
+  box-shadow: none;
+}
+
+.divider--accent { background-color: $accent-color; color: $gray-50; }
+
+// ALL TEMPORARY I WILL FIX ON FRIDAY
+
+#map { 
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+}
+
+.map-legend, .wax-legend{
+     @media screen and (max-width:800px)  {
+      display:none;
+    }  
+}
+
+.temporary-mobile-class, .leaflet-popup{
+  display:none;
+     @media screen and (max-width:800px)  {
+      display:block;
+    }  
+}
+
+.b-subway-lines {
+  .e-line {
+    @include circle;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ccc;
+    font-weight: bold;
+    color: $white;
+    line-height: 24px;
+
+    &.m-red   { background-color: rgba(220, 0, 0, 1); }
+    &.m-blue   { background-color: #0073ad; }
+    &.m-orange   { background-color: #ef6c28; }
+    &.m-yellow   { background-color: #fbde22; }
+    &.m-green { background-color: rgba(0, 180, 0, 1); }
+    &.m-light-green { background-color: #a0d86d; }
+
+
+  }
+
+}
+
+ul { list-style-type: none; }
