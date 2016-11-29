@@ -1,0 +1,109 @@
+{% extends '_base.html' %}
+{% block content %}
+<main role="main">
+        <!-- main content starts here -->
+        <div class="top-section homepage-banner">
+            <div class="row align-center expanded">
+              <div class="medium-12 column row">
+                <h1 class="homepage-banner__main-title homepage-banner__submissions">
+                  Logistics
+                </h1>
+              </div>
+            </div>
+        </div>
+
+        <div class="divider divider--accent">
+    		<h1>Registration</h1>
+		</div>
+
+        <div class="page-section">
+        	<div class="row">
+            <div class="medium-10 medium-offset-1 small-12 column">
+        	<p class="intro__highlight">Important Dates</p>
+            <ul>
+        		<li>Registrations opens: <b>December 5th</b></li>
+        		<li>Early bird registration ends:  <b>April 4th</b></li>
+        		<li>Regular registration ends: <b>June 8th</b></li>
+        	</ul>
+            <br>
+            <p class="intro__highlight">Registration Fee Details</p>
+            <table>
+                <!-- <caption>Registration Fee Details</caption> -->
+                <colgroup>
+                    <col style="width:30%" />
+                    <col style="width:20%" />
+                    <col style="width:20%" />
+                    <col style="width:20%" />
+                </colgroup>
+                <!-- <thead>
+                    <tr>
+                        <th scope="col"></th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td><b>Early Bird</b></td>
+                        <td><b>Regular</b></td>
+                        <td><b>Late / Onsite</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Regular</b></td>
+                        <td>$399.00</td>
+                        <td>$499.00</td>
+                        <td>$599.00</td>
+                    </tr>
+                    <tr>
+                        <td><b>Student*</b></td>
+                        <td>$299.00</td>
+                        <td>$399.00</td>
+                        <td>$499.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><em>*Student registrants must show proof of current student status at the registration desk on the day of the conference. (Valid Student ID or proof of enrollment)</em></p>
+            <br>
+            <p class="intro__highlight">Location</p>
+            <p class="temporary-mobile-class"><strong>NYU Tandon School of Engineering</strong><br>Pfizer Auditorium<br>5 MetroTech Center<br>Brooklyn, NY 11201</p>
+            <div id="map"></div>
+            <p class="b-subway-lines"><span class="e-line m-blue">A</span> <span class="e-line m-blue">C</span> <span class="e-line m-orange">F</span> to Jay Street-Metrotech <em>(exit towards "Myrtle Promenade")</em><br>
+            <span class="e-line m-yellow">R</span> to Jay Street-Metrotech <em>(exit towards "Lawrence Street")</em></p>
+            <p class="b-subway-lines"><span class="e-line m-red">2 </span> <span class="e-line m-red">3</span> <span class="e-line m-green">4</span> <span class="e-line m-green">5</span> to Borough Hall, <span class="e-line m-light-green">G</span> to Hoyt-Schemerhorn Streets</p>
+        	</div>
+       	</div>
+</main>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+<script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWJpYWxhcyIsImEiOiJjaWh3bzVybjUwMm92dGZraHFwcnY4bG16In0.j2Sl8c2UoLY_yHBjO1vAfQ';
+        var map = L.mapbox.map('map', 'mapbox.light', {
+            infoControl: false,
+            attributionControl: false,
+            legendControl: {
+                    position: 'topright'
+            }
+        }).setView([40.6934,-73.9859], 14);
+        var attribution = L.control.attribution();
+        attribution.setPrefix('Made by <a href="./"><strong>GovLab</strong></a>');
+        attribution.addAttribution('Powered by <a href="https://www.mapbox.com/about/maps/">Mapbox + OpenStreetMap</a> <a href="http://mapbox.com/map-feedback/" class="mapbox-improve-map">Improve this map</a>');
+        attribution.addTo(map);
+        map.scrollWheelZoom.disable();
+        map.legendControl.addLegend('<strong>NYU Tandon School of Engineering</strong><br> Pfizer Auditorium<br>5 MetroTech Center<br>Brooklyn, NY 11201');
+        var marker = L.mapbox.featureLayer({
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [-73.9859, 40.6934]
+                },
+                properties: {
+                    'marker-color': '#FFD300',
+                    'marker-size':'large',
+                    'marker-symbol': 'star',
+                    'title': '<strong>NYU Tandon School of Engineering</strong>',
+                    'description': 'Pfizer Auditorium<br>5 MetroTech Center<br>Brooklyn, NY 11201'
+                }
+        }).addTo(map);
+       
+</script>
+{% endblock %}
