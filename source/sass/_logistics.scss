@@ -1,20 +1,3 @@
-
-
-@import '../../node_modules/govlab-styleguide-2/source/sass/styleguide.scss';
-
-
-
-$main-color: #191b3f;
-$accent-color: #18fce3;
-$yellow: #ffd300;
-
-@import 'custom';
-@import 'timeline';
-@import 'intro';
-@import 'homepage-banner';
-@import 'topics';
-@import 'logistics';
-
 @mixin circle {
     overflow: hidden;
     border-radius: 50%;
