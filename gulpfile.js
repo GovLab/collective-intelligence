@@ -45,6 +45,11 @@ gulp.task('scripts', function () {
     .pipe(gulp.dest('public/scripts'));
 });
 
+gulp.task('files', function () {
+  return gulp.src('source/static/files/**/*')
+    .pipe(gulp.dest('public/files'));
+});
+
 gulp.task('image', function () {
   return gulp.src('source/static/images/**/*')
     .pipe(imagemin())
@@ -112,12 +117,13 @@ gulp.task('watch', function () {
   gulp.watch('source/templates/**/*.html', ['nunjucks']);
   gulp.watch('source/static/scripts/**/*.js', ['scripts']);
   gulp.watch('source/static/scriptsimages/**/*', ['images']);
+  gulp.watch('source/static/files/**/*', ['files']);
 });
 
 gulp.task('default', function (callback) {
   runSequence(
     'clean',
-    ['sass', 'js', 'image', 'nunjucks', 'scripts'],
+    ['sass', 'js', 'image', 'nunjucks', 'scripts', 'files'],
     ['browserSync', 'watch'],
     callback
   );
