@@ -3,25 +3,6 @@
     border-radius: 50%;
 }
 
-// Top bar fixes
-
-.top-bar__logo { margin-right: -57.5px; }
-
-.top-bar__twitter { 
-	height: 50px; 
-	line-height: 26px; 
-	vertical-align: middle; 
-	color: $white-80; 
-	padding: 12px 15px 12px 15px;  
-}
-
-.top-bar__twitter:hover { color: $white; text-decoration: none; }
-
-// Nav-menu fix
-.main-menu:not(.m-active) {
-  box-shadow: none;
-}
-
 .divider--accent { background-color: $accent-color; color: $gray-50; }
 
 // ALL TEMPORARY I WILL FIX ON FRIDAY
