@@ -104,7 +104,7 @@ gulp.task('deploy', function (callback) {
   runSequence(
     'clean',
     'cname',
-    ['sass', 'js', 'image', 'nunjucks', 'scripts'],
+    ['sass', 'js', 'image', 'nunjucks', 'scripts', 'files'],
     'push-gh-master',
     'push-gh-pages',
     callback
