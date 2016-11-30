@@ -8,6 +8,10 @@
   }
 }
 
+.button{
+  &--main { background-color: $main-color; color: $white; }
+
+}
 .page-section {
 
   .team-links {
