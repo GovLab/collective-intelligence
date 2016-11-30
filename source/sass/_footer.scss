@@ -1,0 +1,37 @@
+.footer {
+  background-color: $main-color;
+  height: 500px;
+  padding: 0;
+  position: relative;
+  @include breakpoint($small-only) {
+    height: 400px;
+  }
+
+  &--darken {
+    background-color: darken($main-color, 4) !important;
+    height: 80px;
+    width: 100%;
+  }
+
+  &__icons {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+
+    @include breakpoint($small-only) {
+      position: relative;
+      left: 20px;
+      top: 170px;
+    }
+  }
+
+  &__partner-logo {
+    color: white;
+    display: inline;
+
+    img {
+      opacity: 1;
+      padding-right: 50px;
+    }
+  }
+}
