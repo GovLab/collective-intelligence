@@ -228,3 +228,33 @@ ol { font-weight: 600; text-align: center; list-style-position:inside; font-size
   background-color: $main-color;
 
 }
+
+.main-buttons {
+  @media only screen 
+    and (max-device-width: 400px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      .button {
+        width: 46%;
+      }
+    }
+  text-align: center;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 1;
+  .button {
+    margin: 0 5px;
+    box-shadow: 2px 2px 10px rgba(black, .1);
+
+    &--yellow {background-color: $accent-color; color: $main-color; font-weight: 600; }
+
+    &--yellow:hover { background-color: darken($accent-color, 8); }
+  }
+  &__index {
+    @media only screen 
+    and (max-device-width: 1200px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        width: 75%;
+    }
+
+  }
+}
