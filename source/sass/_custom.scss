@@ -1,233 +1,85 @@
-.copyright {
-  text-align: center;
+.top-bar {
+  &--main-color {
+    background-color: $main-color;
+  }
+
+  &__logo { margin-right: -57.5px; }
+
+  &__twitter {
+    height: 50px;
+    line-height: 26px;
+    vertical-align: middle;
+    color: $white-80;
+    padding: 12px 15px 12px 15px;
+
+    &:hover { color: $white; text-decoration: none; cursor: pointer; }
+  }
 }
 
-.top-bar {
+.top-section {
+  &--main-color { 
+    background-color: $main-color; 
+    color: $yellow;
+
+    background-image: url("../images/bee-hive.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+
+    h3 { opacity: 0.8; } 
+  }
+}
+
+.divider {
+
+  &--accent-color { 
+    background-color: $accent-color;
+    color: $main-color;
+     text-align: center; 
+    h4{ 
+      margin-bottom: 0; 
+      text-transform: capitalize; 
+    }  
+  }
   &--main-color {
     background-color: $main-color;
   }
 }
 
-.button{
-  &--main { background-color: $main-color; color: $white; }
-
-}
 .page-section {
+  h6 { text-transform: none; font-weight: 400; text-align: center; }
 
-  .team-links {
+  &--dark-gray {
+    background-color: #D5D5D5;
+  }
+
+  &__link {
     color: $main-color;
-    // font-weight: 600;
+    font-weight: 600;
+    text-decoration: none;
     border-bottom: 1px solid $accent-color;
-    text-decoration:none;
+
     &:hover {
       text-decoration: none;
       border-bottom: 1px solid $yellow;
       cursor:pointer;
     }
-  }
 
-   &--gray {
-    background-color: #f2f2f2;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  &--dark-gray {
-    background-color: #D5D5D5;
-  }
+    &--team { 
+      color: inherit; 
+      font-weight: 300; 
+      text-decoration:none; 
+      border-bottom: 1px solid $accent-color; 
 
-  &--dark-blue {
-    background-color: #191b3f;
-    color: #FFF;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  &__title {
-    text-align: center;
-    font-size: 1.5rem;
-
-    &--margin {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    // margin: 0;
-    // @include breakpoint($large) {
-    //   padding-bottom: 2.5rem;
-    //   text-align: center;
-    // }
-  }
-
-  &--links {
-    margin-top: 0;
-    padding-bottom: 30px;
-    p {
-      margin-top: 0;
-    }
-  }
-}
-
-h6 {
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: 100;
-}
-
-td {
-  font-size: 12px !important;
-  padding: 5px !important;
-  vertical-align: middle;
-
-  @include breakpoint($large) {
-    padding: 10px!important;
-    font-size: 1.3rem!important;
-  }
-}
-
-// .template-download {
-//   text-align: center;
-//
-//   .button {
-//       background-color: $yellow;
-//       box-shadow: 1px 1px 5px rgba(black, .1);
-//
-//       &:hover {
-//         background-color: $accent-color;
-//       }
-//   }
-// }
-
-.instruction-links {
-  text-align: center;
-  font-weight: 400;
-
-  &:hover {
-    text-decoration: none;
-    cursor:pointer;
-  }
-}
-
-.template-links {
-  color: $main-color;
-  font-weight: 600;
-  border-bottom: 1px solid $accent-color;
-  // display: inline-block;
-
-  &:hover {
-    text-decoration: none;
-    border-bottom: 1px solid $yellow;
-    cursor:pointer;
-  }
-}
-
-.conference-links {
-  color: $main-color;
-  font-weight: 600;
-  border-bottom: 1px solid $accent-color;
-  text-decoration:none;
-  &:hover {
-    text-decoration: none;
-    border-bottom: 1px solid $yellow;
-    cursor:pointer;
-  }
-}
-
-.update-links {
-  text-decoration: none;
-}
-
-.chair-names {
-  color: #18fce3;
-  text-decoration: none;
-}
-
-
-.submission {
-
-  .button {
-    background-color: $yellow;
-    text-align: center;
-    font-weight: 400;
-    padding: 30px;
-    font-size: .8rem;
-    width: 100%!important;
-    margin-bottom: 10px;
-
-
-    // width: 380px;
-    // margin-bottom: 5px;
-
-
-    box-shadow: 1px 1px 5px rgba(black, .1);
-    @include breakpoint($large) {
-      padding: 30px;
-      font-size: 1rem;
-    }
-  }
-
-  &__list {
-    @include breakpoint($small-only) {
-      margin-right: 50px!important;
-      >li {
-        padding-bottom: 20px;
+      &:hover { 
+        text-decoration: none;
+        border-bottom: 1px solid $yellow;
+        cursor: pointer;
       }
     }
   }
 }
 
-.clearfix:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-}
-
-.u-material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
-}
-
-.u-transition { transition: all .4s ease; }
-
-ol { font-weight: 600; text-align: center; list-style-position:inside; font-size: 21px; }
-
-.center { text-align: center; }
-
-
-// Top bar fixes
-
-.top-bar__logo { margin-right: -57.5px; }
-
-.top-bar__twitter {
-  height: 50px;
-  line-height: 26px;
-  vertical-align: middle;
-  color: $white-80;
-  padding: 12px 15px 12px 15px;
-}
-
-.top-bar__twitter:hover { color: $white; text-decoration: none; cursor: pointer; }
-
-// Nav-menu fix
-.main-menu:not(.m-active) {
-  box-shadow: none;
-}
-
-.divider--main {
-  background-color: $main-color;
-
-}
+ul { list-style-type: none; }
 
 .main-buttons {
   @media only screen 
@@ -236,20 +88,20 @@ ol { font-weight: 600; text-align: center; list-style-position:inside; font-size
       .button {
         width: 46%;
       }
-    }
+  }  
   text-align: center;
-  margin-bottom: -25px;
+  margin-bottom: -55px;
   position: relative;
   z-index: 1;
   .button {
     margin: 0 5px;
     box-shadow: 2px 2px 10px rgba(black, .1);
 
-    &--yellow {background-color: $accent-color; color: $main-color; font-weight: 600; }
+    &--accent {background-color: $accent-color; color: $main-color; font-weight: 600; }
 
-    &--yellow:hover { background-color: darken($accent-color, 8); }
+    &--accent:hover { background-color: darken($accent-color, 8); }
   }
-  &__index {
+  &submit {
     @media only screen 
     and (max-device-width: 1200px)
     and (-webkit-min-device-pixel-ratio: 2) {

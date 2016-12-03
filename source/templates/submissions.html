@@ -1,74 +1,51 @@
 {% extends '_base.html' %}
 {% block content %}
-    <main role="main">
-        <!-- main content starts here -->
-        <div class="top-section homepage-banner">
-            <div class="row align-center expanded">
-              <div class="medium-12 column row">
-                <h1 class="homepage-banner__main-title homepage-banner__submissions">
-                  Submissions<br>
-                  <em>Now Open</em>
-                </h1>
-              </div>
-            </div>
-            <div class="main-buttons main-buttons__index">
-              <a href="https://the-govlab.forms.fm/collective-intelligence-conference-2017-submissions" class="button button--yellow">SUBMIT AN ABSTRACT</a>
-            </div>
+  <main role="main">
+    <!-- main content starts here -->
+    <div class="top-section top-section--main-color">
+        <h1>Submissions</h1>
+        <h3><em>Now Open</em></h3>
+        <div class="main-buttons main-buttons__submit">
+            <a href="https://the-govlab.forms.fm/collective-intelligence-conference-2017-submissions" class="button button--accent">SUBMIT AN ABSTRACT</a>
         </div>
-        <!-- <div class="divider divider--accent">
-        <h1>Instructions</h1>
-        </div> -->
-        <div class="row expanded">
-          <div class="page-section--gray">
-            <div class="medium-8 medium-offset-2 medium-centered small-12 column">
-            <!-- <div class="small-12 medium-6 column template-download">
-              <a class="button instruction-links" href="https://sites.google.com/a/stern.nyu.edu/collective-intelligence-conference/ci2016-sample-latex.zip?attredirects=0" download>LaTex template</a>
-            </div>
-            <div class="small-12 medium-6 column template-download">
-              <a class="button instruction-links" href="https://sites.google.com/a/stern.nyu.edu/collective-intelligence-conference/ci2016-sample-word.zip?attredirects=0" download>Word template</a>
-            </div> -->
-                <!-- <p>All submission should be converted to PDF at the time of submission. </p> -->
-                  <!-- Please click here to submit your the document: <a class="instruction-links" href="https://easychair.org/conferences/?conf=ci20160">https://easychair.org/conferences/?conf=ci20160</a></p> -->
-                <!-- <a href="https://the-govlab.forms.fm/collective-intelligence-conference-2017-submissions" class="template-links">Click here to be redirected to the submission form</a> -->
-                <p class="intro__highlight">Instructions</p>
-                <p>All submissions should be formatted as four-page extended abstracts (up to 3 pages for content and 1 page for references).</p>
-                <ul>
-                  <li>
-                    <a class="template-links" href="./files/ci-2017-latex-sample.zip" download>Download LaTex sample</a>
-                  </li>
-                  <li>
-                    <a class="template-links" href="./files/ci-2017-word-sample.zip" download>Download Word sample</a>
-                  </li>
-                </li>
-                </ul>
-                <p>In order to encourage a diversity of innovative ideas from a variety of fields, submissions may refer to work that is recently published, under review elsewhere, or in preparation, and may link to up to one publicly accessible paper for the purpose of describing the work in detail. However, submissions will be evaluated solely on the submitted abstract, which must therefore comprise an entirely self-contained description of the work.</p>
-                </div>
-                </div>
-                </div>
-                <div class="row expanded">
-                <div class="page-section--dark-gray topics">
-                <div class="medium-8 medium-offset-2 medium-centered small-12 column">
-                <p><b>For demos of tools/technology/experiments:</b></p>
-                <p>Keeping with the collective intelligence conference’s emphasis on projects that address societal problems, we will also be accepting submissions of demos of innovative and interesting  tools/technology or experiments. Demos could also be resubmissions from previous conferences. A demo submission should use the template above but follow the general format and general goals of a demo submission to a conference such as <a class="conference-links" href="https://uist.acm.org/uist2016/demos">ACM UIST.</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="row expanded">
-                <div class="page-section--gray">
-                <div class="medium-8 medium-offset-2 medium-centered small-12 column">
-                <p>After review by the Program Committee, a subset of submitted abstracts will be invited for oral presentation with additional presentation as posters and/or demos. A second subset will also be invited exclusively for presentation as posters and/or demos.</p>
-
-                <p>Authors will not receive detailed feedback from the review process, just an accept/reject decision. The main criteria will be: 1) whether the subject matter is a good fit for the Collective Intelligence conference; 2) whether there are interesting claims made with a promise to present evidence or non-obvious arguments in support of them. The review committee will not assess the validity of the evidence or arguments.</p>
-
-                <p>Accepted submissions will be compiled into a single report which will be made available to conference participants. We will also invite authors of accepted papers to present their work at the demo reception.</p>
-
-                <p>We emphasize that abstracts that are distributed to conference participants are not intended to be considered archival publications or to preclude submission of the reported work to archival journals; however, we cannot guarantee that certain journals do not have policies precluding the distribution of extended abstracts. Accepted abstracts will be included as submitted (i.e., submissions should be camera-ready).</p>
-
-                <p>If your abstract is accepted for presentation or poster session, at least one author has to commit to attending the conference.</p>
-            </div>
-          </div>
+    </div>
+    <div class="page-section">
+    <div class="row">
+        <div class="medium-10 medium-offset-1 small-12 column">
+          <h5>Instructions</h5>
+          <p>All submissions should be formatted as four-page extended abstracts (up to 3 pages for content and 1 page for references).</p>
+          <ul>
+            <li>
+              <a class="template-links" href="./files/ci-2017-latex-sample.zip" download>Download LaTex sample</a>
+            </li>
+            <li>
+              <a class="template-links" href="./files/ci-2017-word-sample.zip" download>Download Word sample</a>
+            </li>
+          </ul>
+          <p>In order to encourage a diversity of innovative ideas from a variety of fields, submissions may refer to work that is recently published, under review elsewhere, or in preparation, and may link to up to one publicly accessible paper for the purpose of describing the work in detail. However, submissions will be evaluated solely on the submitted abstract, which must therefore comprise an entirely self-contained description of the work.</p>
         </div>
-
-
+      </div>
+    </div>
+    <div class="page-section--dark-gray">
+    <div class="row">
+        <div class="medium-10 medium-offset-1 small-12 column">
+          <br>
+          <p><b>For demos of tools/technology/experiments:</b></p>
+          <p>Keeping with the collective intelligence conference’s emphasis on projects that address societal problems, we will also be accepting submissions of demos of innovative and interesting  tools/technology or experiments. Demos could also be resubmissions from previous conferences. A demo submission should use the template above but follow the general format and general goals of a demo submission to a conference such as <a class="page-section__link" href="https://uist.acm.org/uist2016/demos">ACM UIST.</a></p>
+          <br>
+        </div>
+    </div>
+    </div>
+    <div class="page-section">
+    <div class="row">
+        <div class="medium-10 medium-offset-1 small-12 column">
+            <p>After review by the Program Committee, a subset of submitted abstracts will be invited for oral presentation with additional presentation as posters and/or demos. A second subset will also be invited exclusively for presentation as posters and/or demos.</p>
+            <p>Authors will not receive detailed feedback from the review process, just an accept/reject decision. The main criteria will be: 1) whether the subject matter is a good fit for the Collective Intelligence conference; 2) whether there are interesting claims made with a promise to present evidence or non-obvious arguments in support of them. The review committee will not assess the validity of the evidence or arguments.</p>
+            <p>Accepted submissions will be compiled into a single report which will be made available to conference participants. We will also invite authors of accepted papers to present their work at the demo reception.</p>
+            <p>We emphasize that abstracts that are distributed to conference participants are not intended to be considered archival publications or to preclude submission of the reported work to archival journals; however, we cannot guarantee that certain journals do not have policies precluding the distribution of extended abstracts. Accepted abstracts will be included as submitted (i.e., submissions should be camera-ready).</p>
+            <p>If your abstract is accepted for presentation or poster session, at least one author has to commit to attending the conference.</p>
+        </div>
+      </div>
+      </div>
     </main>
 {% endblock %}
