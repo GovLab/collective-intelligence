@@ -82,6 +82,7 @@
 ul { list-style-type: none; }
 
 .main-buttons {
+
   @media only screen 
     and (max-device-width: 400px)
     and (-webkit-min-device-pixel-ratio: 2) {
@@ -89,10 +90,12 @@ ul { list-style-type: none; }
         width: 46%;
       }
   }  
+
   text-align: center;
   margin-bottom: -55px;
   position: relative;
   z-index: 1;
+
   .button {
     margin: 0 5px;
     box-shadow: 2px 2px 10px rgba(black, .1);
@@ -101,12 +104,12 @@ ul { list-style-type: none; }
 
     &--accent:hover { background-color: darken($accent-color, 8); }
   }
-  &submit {
+
+  &__submit {
     @media only screen 
     and (max-device-width: 1200px)
     and (-webkit-min-device-pixel-ratio: 2) {
         width: 75%;
     }
-
   }
 }
