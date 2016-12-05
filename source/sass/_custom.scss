@@ -17,28 +17,28 @@
 }
 
 .top-section {
-  &--main-color { 
-    background-color: $main-color; 
+  &--main-color {
+    background-color: $main-color;
     color: $yellow;
 
     background-image: url("../images/bee-hive.png");
     background-size: cover;
     background-blend-mode: multiply;
 
-    h3 { opacity: 0.8; } 
+    h3 { opacity: 0.8; }
   }
 }
 
 .divider {
 
-  &--accent-color { 
+  &--accent-color {
     background-color: $accent-color;
     color: $main-color;
-     text-align: center; 
-    h4{ 
-      margin-bottom: 0; 
-      text-transform: capitalize; 
-    }  
+     text-align: center;
+    h4{
+      margin-bottom: 0;
+      text-transform: capitalize;
+    }
   }
   &--main-color {
     background-color: $main-color;
@@ -64,13 +64,13 @@
       cursor:pointer;
     }
 
-    &--team { 
-      color: inherit; 
-      font-weight: 300; 
-      text-decoration:none; 
-      border-bottom: 1px solid $accent-color; 
+    &--team {
+      color: inherit;
+      font-weight: 300;
+      text-decoration:none;
+      border-bottom: 1px solid $accent-color;
 
-      &:hover { 
+      &:hover {
         text-decoration: none;
         border-bottom: 1px solid $yellow;
         cursor: pointer;
@@ -83,18 +83,15 @@ ul { list-style-type: none; }
 
 .main-buttons {
 
-  @media only screen 
+  @media only screen
     and (max-device-width: 400px)
     and (-webkit-min-device-pixel-ratio: 2) {
       .button {
         width: 46%;
       }
-  }  
+  }
 
-  text-align: center;
-  margin-bottom: -55px;
-  position: relative;
-  z-index: 1;
+
 
   .button {
     margin: 0 5px;
@@ -106,10 +103,14 @@ ul { list-style-type: none; }
   }
 
   &__submit {
-    @media only screen 
+    @media only screen
     and (max-device-width: 1200px)
     and (-webkit-min-device-pixel-ratio: 2) {
         width: 75%;
     }
+    text-align: center;
+    margin-bottom: -55px;
+    position: relative;
+    z-index: 1;
   }
 }
