@@ -10,6 +10,9 @@ $yellow: #ffd300;
 @import 'logistics';
 @import 'footer';
 
+// Transition
+.u-transition { transition: all .4s ease; }
+
 // Nav-menu fix
 .main-menu:not(.m-active) {
   box-shadow: none;
@@ -31,9 +34,6 @@ $yellow: #ffd300;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
-
-// Transition
-.u-transition { transition: all .4s ease; }
 
 
 // Clearfix

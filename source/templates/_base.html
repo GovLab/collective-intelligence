@@ -62,6 +62,7 @@
         <script src="../scripts/manageTimelineSelection.js"></script>
 
         <script>
+
         // Styleguide Guide specific functions
         $(document).ready(function () {
             $('.language-markup').each(function () {
@@ -75,11 +76,22 @@
                 $('#overlay').addClass('js-active');
             });
 
+            $('.js-close-sticky').click(function () {
+                $('.js-target-sticky').removeClass('js-active');
+                sessionStorage.setItem('closed', 'true');
+            });
+
+            if (!sessionStorage.getItem("closed")) {
+                $('#sticky-code').css( "display", "block");
+            }
+
             // General Click Behavior for Overlay
             $('#overlay').click(function () {
                 $('.js-active').removeClass('js-active');
                 $('.js-active-menu').removeClass('js-active-menu');
             });
+
+
         }); // doc.ready
         </script>
     </body>
