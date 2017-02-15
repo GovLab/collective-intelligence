@@ -1,12 +1,12 @@
 #sticky-code { display: none; }
 
-.sticky { 
-  background-color: #161837; 
+.sticky {
+  background-color: #161837;
   color: rgba(255,255,255,0.8);
-  opacity: .95; 
+  opacity: .95;
   p {
 
-    font-size: 20px; 
+    font-size: 20px;
 
     a { text-decoration: none; font-weight: 700; color: $accent-color; @extend .u-transition; }
     a:hover { text-decoration: none; color: $yellow; @extend .u-transition; }
@@ -68,6 +68,9 @@
 }
 
 .page-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
   h6 { text-transform: none; font-weight: 400; text-align: center; }
 
   &--dark-gray {
