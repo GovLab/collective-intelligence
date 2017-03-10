@@ -1,6 +1,8 @@
 ---
 ---
 
+* { box-sizing: border-box; }
+
 // Breakpoints
 $small-only: screen and (max-width: 39.9375em);
 $touch: screen and (max-width: 64em);
