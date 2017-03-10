@@ -28,7 +28,7 @@ gulp.task('image', function () {
 gulp.task('push-gh-master', shell.task(['git push origin master']));
 
 gulp.task('push-gh-pages', function () {
-  return gulp.src('public/**/*')
+  return gulp.src('_site/**/*')
     .pipe(ghPages({ force: true }));
 });
 
@@ -42,18 +42,29 @@ gulp.task('deploy', function (callback) {
 });
 
 gulp.task('jekyll', shell.task(['bundle exec jekyll build --incremental']));
+gulp.task('jekyll-force', shell.task(['bundle exec jekyll build']));
 
 gulp.task('jekyll-rebuild', ['jekyll'], function () {
     browserSync.reload();
 });
 
-gulp.task('watch', function () {
-  gulp.watch('source/**/*.*', ['jekyll-rebuild']);
+gulp.task('sync', function () {
+    browserSync.reload();
 });
 
-gulp.task('default', function (callback) {
+gulp.task('jekyll-rebuild-force', ['jekyll-force'], function () {
+    browserSync.reload();
+});
+
+
+gulp.task('watch', function () {
+  gulp.watch('source/**/*.*', ['jekyll-rebuild']);
+  gulp.watch('source/_data/*.*', ['jekyll-rebuild-force']);
+});
+
+  gulp.task('default', function (callback) {
   runSequence(
-    ['watch', 'browserSync'],
+    ['jekyll-rebuild-force', 'watch', 'browserSync'],
     callback
   );
 });
