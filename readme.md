@@ -2,7 +2,7 @@
 
 #### Installation:
 
-`bundle install`
+`bundle install`<br>
 `npm install` 
 
 #### Build after cloning and following each pull:
