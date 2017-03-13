@@ -35,6 +35,7 @@ gulp.task('push-gh-pages', function () {
 gulp.task('deploy', function (callback) {
   runSequence(
     'image',
+    'cname',
     'push-gh-master',
     'push-gh-pages',
     callback
@@ -56,6 +57,10 @@ gulp.task('jekyll-rebuild-force', ['jekyll-force'], function () {
     browserSync.reload();
 });
 
+gulp.task('cname', function() {
+  return gulp.src('source/CNAME')
+  .pipe(gulp.dest('_site'));
+});
 
 gulp.task('watch', function () {
   gulp.watch('source/**/*.*', ['jekyll-rebuild']);
