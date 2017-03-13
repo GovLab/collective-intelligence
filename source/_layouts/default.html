@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>{{page.title}}</title>
+
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/vendor/foundation.min.css">
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/vendor/styleguide-v2.1.css">
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/vendor/slick.css"/>
+    <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/css/styles.css">
+    <link rel="icon" type="image/png" href="{{site.url}}{{site.baseurl}}/images/icon.png">
+    <script src="https://use.typekit.net/mvc3cdb.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+  </head>
+
+  <body>
+    {% include top-bar.html %}
+
+    {{content}}
+
+    {% include footer.html %}
+
+    <div id="overlay" class="js-overlay"></div>
+    <script src="{{site.url}}{{site.baseurl}}/vendor/jquery-2.1.4.min.js"></script>
+    <script src="{{site.url}}{{site.baseurl}}/vendor/slick.min.js"></script>
+    <script src="{{site.url}}{{site.baseurl}}/js/scripts.js"></script>
+  </body>
+</html>

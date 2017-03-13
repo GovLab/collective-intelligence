@@ -1,4 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+.publish
 .DS_Store
-.publish/
-public/
-/node_modules
+.byebug_history
