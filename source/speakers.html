@@ -1,0 +1,36 @@
+---
+layout: default
+title: Speakers | Collective Intelligence
+subtitle: 
+---
+
+{% assign speakers = site.data.contentful.spaces.conference.speakers | sort: "name" %}
+  <main role="main">
+    <!-- main content starts here -->
+    <div class="top-section top-section--main-color">
+        <h1>Speakers</h1>
+    </div>
+
+    <div class="speakers">
+      {% for speaker in speakers %}
+        <div class="speaker__container">
+          <div class="row large-unstack align-center">
+            <div class="large-4 medium-12 small-12 column">
+              {%if speaker.image.url%}
+              <div class="speaker__image" style="background-image: url('{{speaker.image.url}}')"></div>
+              {%endif%}
+            </div>
+            <div class="large-8 medium-12 small-12 column">
+              <div class="speaker__bio">
+                <h3>{{speaker.name}}</h3>
+                <h5>{{speaker.professionalTitle}}</h5>
+                <h5>{{speaker.affiliation}}</h5>
+                <p>{{speaker.bio | markdownify}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </main>
