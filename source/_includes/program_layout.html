@@ -4,12 +4,12 @@
   <section class="program-table">
   {% for session_group in schedule %}
     {% assign session_time = session_group.items | first %}
-    {% assign start_time = session_time.sessionStart | date: "%I:%M %p" %}
-    {% assign end_time = session_time.sessionEnd | date: "%I:%M %p" %}
+    {% assign start_time = session_time.sessionStart | date: "%l:%M %p" %}
+    {% assign end_time = session_time.sessionEnd | date: "%l:%M %p" %}
 
     <div class="row expanded collapse">
       <div class="column large-2 small-12">
-        <div class="program-table__time"><p>{{ start_time }} - {{ end_time }}</p></div>
+        <div class="program-table__time"><p>{{ start_time }} &mdash; {{ end_time }}</p></div>
       </div>
     {% assign group_size = session_group.items | size %}
     {% if group_size == 1 %}
