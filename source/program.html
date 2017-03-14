@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+
+
+{% assign day_one = site.data.contentful.spaces.conference.session | where: "sessionDay", "Day One" | sort: "sessionStart"%}
+
+{% assign day_two = site.data.contentful.spaces.conference.session | where: "sessionDay", "Day Two" | sort: "sessionStart"%}
+
+{% assign day_one_schedule = day_one | group_by:"sessionStart" %}
+{% assign day_two_schedule = day_two | group_by:"sessionStart" %}
+
+
+<main role="main">
+    <!-- main content starts here -->
+    <div class="top-section top-section--main-color">
+        <h1>Program</h1>
+    </div>
+
+  <div class="divider">
+    <h1>Day One</h1>
+  </div>
+  {% include program_layout.html schedule=day_one_schedule%}
+
+  <div class="divider">
+    <h1>Day Two</h1>
+  </div>
+  {% include program_layout.html schedule=day_two_schedule%}
+
+
+</main>
