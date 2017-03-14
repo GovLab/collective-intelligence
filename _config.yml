@@ -35,4 +35,12 @@ exclude:
 source: ./source
 # sass_dir: source/css
 
+contentful:
+  spaces:
+    - conference: # Jekyll _data folder identifier - Required
+        space: 5tbgktilyyxn     # Required
+        access_token: bd4a6990e74e7a16b01ceb01b5cd64c7ea591d3a803f9801d33870af11c01fcd
+        base_path: ./source         # Optional - Defaults to Current directory
+        all_entries: true
+
 
