@@ -35,6 +35,27 @@ speakers:
 - sys:
     id: 3R87RnBQvuIkouq0UmQu24
   name: Geoff Mulgan
+  professionalTitle: Chief Executive of NESTA
+  tags:
+  - example-1
+  - example-2
+  - example-3
+  image:
+    title: geoff-mulgan
+    description: 
+    url: "//images.contentful.com/5tbgktilyyxn/48O6wosNdm28UuySsmGKwO/2a628b6172075dcbf09b14d1fe0e48ec/geoff-mulgan.jpg"
+  bio: 'Geoff Mulgan CBE (born 1961) is Chief Executive of the National Endowment
+    for Science Technology and the Arts (NESTA)[1] and Visiting Professor at University
+    College London, the London School of Economics, the University of Melbourne and
+    a regular lecturer at the China Executive Leadership Academy. He is an adviser
+    to many governments around the world, and has been a board member of the Work
+    Foundation, the Health Innovation Council, Political Quarterly and the Design
+    Council, and chair of Involve. He is also currently chair of the Studio Schools
+    Trust and the Social Innovation Exchange. His recent books include The Art of
+    Public Strategy - Mobilising Power and Knowledge for the Public Good, Good and
+    Bad Power: the ideals and betrayals of government and Connexity. His latest book
+    The Locust and the Bee was published by Princeton University Press in March 2013.
+    Read more on some of the ideas Geoff has been involved in over the years.'
 - sys:
     id: 58288NEDskkE2EKmmC8I80
   name: Pablo Iglesias
