@@ -79,6 +79,7 @@ session:
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 08:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 08:30:00.000000000 -04:00
+  sessionLocation: Room A
 - sys:
     id: 17AHlmGzqCqcMC0meU0kcK
   sessionName: Introductory Remarks
@@ -112,6 +113,7 @@ session:
       id: 6fX6DRbke4sgKWc2GKU22i
     name: Tom Kalil
     affiliation: OSTP
+  sessionLocation: Room A
 - sys:
     id: 2jM45wKtdGGUcsCyqyWyui
   sessionName: Break
@@ -132,6 +134,7 @@ session:
     - Brent Hecht, [The Role of Human Geography in Collective Intelligence](https://www.example.com)
     - Carsten Bergenholtz, [The Ikea-effect in collective problem solving](https://www.example.com)
 
+  sessionLocation: Room B
 - sys:
     id: OwxNtt5zK8kksySwCO2kq
   sessionName: Parallel Session 2
@@ -145,6 +148,7 @@ session:
     - Jordan B Barlow, [Collective Intelligence and its Relationship to Collective Individual Intelligence](https://www.example.com)
     - Giuseppe Carbone, [Emergence of Collective Intelligence in Human Groups](https://www.example.com)
     - Dhaval Adjodah, [Large-Scale Experiment on the Importance of Social Learning and Unimodality in the Wisdom of the Crowd](https://www.example.com)
+  sessionLocation: Room A
 - sys:
     id: 2aCDG5N5uUIuAqq6q4OykK
   sessionName: Lunch
@@ -206,6 +210,7 @@ session:
     - Hanna Halaburda, Incentives and Trust in Blockchain Technologies
     - Tino Marti, Score prediction of peers as a learning and evaluation system in education: the development of GuessScore
     - Frank Nagle, [Goldilocks and the Three Programmers: Unpacking the Relationship Between Online Contributions and Productivity at Work](https://www.example.com)
+  sessionLocation: Room A
 - sys:
     id: 4ToIi6NaooayquM24q4oiU
   sessionName: Break
@@ -222,6 +227,7 @@ session:
   - sys:
       id: PmDi5MlOSGoCgWMQU0AAK
     name: Roger Luke Dubois
+  sessionLocation: Room A
 - sys:
     id: 7jckFw5QmQwcS4gsgkSK4w
   sessionName: Dinner
@@ -261,6 +267,7 @@ session:
     - Hila Lifshitz-Assaf, Delineating Emergent Role Behaviors in Wikipedia
     - Yue Han, Collective Exploration: Remixing with Human-based Search Algorithms
     - Yuko Sakurai , Toward Crowdsourced Mechanism Design
+  sessionLocation: Room B
 - sys:
     id: 5chmpr82VU2mqMc0Ma4weQ
   sessionName: Parallel Session 4
@@ -326,6 +333,7 @@ session:
     - Andres Abeliuk, Controlling Collective Behavior Through Position Bias
     - Mark Whiting, Designing A Constitution for a Self-Governing Crowdsourcing Marketplace
     - Young Ji Kim, More Evidence for a General Collective Intelligence Factor in Human Groups: A Meta-Analysis
+  sessionLocation: Room A
 - sys:
     id: 4MdFzwKqwwOGqaiOWCs62m
   sessionName: Parallel Session 6
@@ -338,6 +346,7 @@ session:
     - Jiye Baek, Using cohort size to promote content contribution: a field experiment on a discussion forum
     - Yun Huang, BandCaption: Crowdsourcing Video Caption Corrections
     - Elisa Mattarelli, Co-creating innovation: how feedback exchange processes impact upon innovation in a crowdsourcing platform
+  sessionLocation: Room B
 - sys:
     id: 7Hpac00IxO6uSM6Y8gkiu6
   sessionName: Break

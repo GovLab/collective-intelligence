@@ -17,6 +17,9 @@
         <div class="column large-10 small-12 program-table__item--container">
           <div class="program-table__item">
             <p class="program-table__item--title">{{session.sessionName}}</p>
+            {% if session.sessionLocation %}
+              <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
+            {%endif%}
             <div class="program-table__item--description">
               {{session.sessionDescription | markdownify }}
             </div>
@@ -42,6 +45,9 @@
         <div class="column large-5 small-12 program-table__item--container">
           <div class="program-table__item">
             <p class="program-table__item--title">{{session.sessionName}}</p>
+            {% if session.sessionLocation %}
+            <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
+            {% endif %}
             <div class="program-table__item--description">{{session.sessionDescription | markdownify }}
             </div>
             {% if session.sessionSpeakers %}
