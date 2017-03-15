@@ -218,17 +218,6 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-15 17:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 18:00:00.000000000 -04:00
 - sys:
-    id: 6IYr3qSb6wgOga4Ueug6Ck
-  sessionName: Keynote 1
-  sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 18:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 19:00:00.000000000 -04:00
-  sessionSpeakers:
-  - sys:
-      id: PmDi5MlOSGoCgWMQU0AAK
-    name: Roger Luke Dubois
-  sessionLocation: Room A
-- sys:
     id: 7jckFw5QmQwcS4gsgkSK4w
   sessionName: Dinner
   sessionDay: Day One

@@ -1,3 +1,4 @@
+
 .program-table {
   &__time {
     font-weight: 600;
@@ -11,6 +12,18 @@
   }
   &__item {
     // padding: 10px;
+    &--details {
+      // display: none;
+    }
+    &--trigger {
+          text-align: right;
+      i {
+        color: red;
+        &:before {
+          content:"keyboard_arrow_down";
+        }
+      }
+    }
     &--title {
       font-weight: 600;
       text-transform: uppercase;
