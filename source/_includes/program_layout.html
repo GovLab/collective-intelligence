@@ -1,7 +1,6 @@
 {% assign schedule = include.schedule %}
 
 <div class="page-section">
-<dl class="accordion accordion--blue">
   <section class="program-table">
   {% for session_group in schedule %}
     {% assign session_time = session_group.items | first %}
@@ -16,15 +15,11 @@
     {% if group_size == 1 %}
       {% for session in session_group.items %}
         <div class="column large-10 small-12 program-table__item--container">
-          <div class="program-table__item">
-            <div class="accordion__item js-open-accordion">
-              <dt>
-                <p class="program-table__item--title ">{{session.sessionName}}</p>
-              </dt>
-              <dd>
+          <div class="program-table__item js-open-details">
+            <p class="program-table__item--title">{{session.sessionName}}</p>
+            <div class="program-table__item--details">
               {% if session.sessionLocation %}
                 <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
-
               {%endif%}
               <div class="program-table__item--description">
                 {{session.sessionDescription | markdownify }}
@@ -40,7 +35,6 @@
 
                 {%endfor%}
               {% endif %}
-              </dd>
             </div>
           </div>
         </div>
@@ -49,39 +43,37 @@
     {% if group_size == 2 %}
     {% assign sessions = session_group.items | sort: "sessionName" %}
 
-
-
-
-
-      {% for session in sessions %}
-    
-        <div class="column large-5 small-12 program-table__item--container">
-          <div class="program-table__item">
-            <p class="program-table__item--title">{{session.sessionName}}</p>
-            {% if session.sessionLocation %}
-            <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
-            {% endif %}
-            <div class="program-table__item--description">{{session.sessionDescription | markdownify }}
+<div class="column large-10 small-12 program-table__item--container">
+  <div class="program-table__item js-open-details">
+    <div class="row expanded">
+        {% for session in sessions %}
+          <div class="column large-6 small-12">
+            <div class="program-table__item--parallel">
+              <p class="program-table__item--title">{{session.sessionName}}</p>
+              <div class="program-table__item--details">
+                {% if session.sessionLocation %}
+                <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
+                {% endif %}
+                <div class="program-table__item--description">{{session.sessionDescription | markdownify }}
+                </div>
+                {% if session.sessionSpeakers %}
+                  {% for speaker in session.sessionSpeakers%}
+                    {% assign speakerDisplay = "" | split:"" | push: speaker.name %}
+                    {% if speaker.professionalTitle %}{% assign speakerDisplay = speakerDisplay | push: speaker.professionalTitle%}{%endif%}
+                    {% if speaker.affiliation%}{% assign speakerDisplay = speakerDisplay | push: speaker.affiliation %}{%endif%}
+                    <p class="program-table__item--speaker">{{speakerDisplay | join: ", " }}</p>
+                  {%endfor%}
+                {% endif %}
+              </div>
             </div>
-            {% if session.sessionSpeakers %}
-              {% for speaker in session.sessionSpeakers%}
-                {% assign speakerDisplay = "" | split:"" | push: speaker.name %}
-                {% if speaker.professionalTitle %}{% assign speakerDisplay = speakerDisplay | push: speaker.professionalTitle%}{%endif%}
-                {% if speaker.affiliation%}{% assign speakerDisplay = speakerDisplay | push: speaker.affiliation %}{%endif%}
-                <p class="program-table__item--speaker">{{speakerDisplay | join: ", " }}</p>
-              {%endfor%}
-            {% endif %}
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
     {% endif %}
     </div>
   {% endfor %}
-
-
-
-
-
   </section>
-</dl>
 </div>
