@@ -106,6 +106,10 @@ speakers:
   name: Bernardo Huberman
   professionalTitle: Senior HP Fellow and Director
   affiliation: Social Computing Lab, Hewlett-Packard Laboratories
+  image:
+    title: huberman
+    description: 
+    url: "//images.contentful.com/5tbgktilyyxn/4m8xJrhKQMkI4A84uOogMK/607b619044d44778c2209ff5b4a9312a/huberman.jpg"
   bio: "Bernardo Huberman is a Senior HP Fellow and Director of the Social Computing
     Lab at Hewlett-Packard Laboratories. He received his Ph.D. in Physics from the
     University of Pennsylvania, and is currently a Consulting Professor in the Department
@@ -564,6 +568,10 @@ session:
     name: Bernardo Huberman
     professionalTitle: Senior HP Fellow and Director
     affiliation: Social Computing Lab, Hewlett-Packard Laboratories
+    image:
+      title: huberman
+      description: 
+      url: "//images.contentful.com/5tbgktilyyxn/4m8xJrhKQMkI4A84uOogMK/607b619044d44778c2209ff5b4a9312a/huberman.jpg"
     bio: "Bernardo Huberman is a Senior HP Fellow and Director of the Social Computing
       Lab at Hewlett-Packard Laboratories. He received his Ph.D. in Physics from the
       University of Pennsylvania, and is currently a Consulting Professor in the Department
