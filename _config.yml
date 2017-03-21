@@ -31,6 +31,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+timezone: America/New_York
+
 # Folder Structure
 source: ./source
 # sass_dir: source/css
