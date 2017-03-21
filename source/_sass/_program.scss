@@ -1,0 +1,72 @@
+.program-table {
+  &__time {
+    font-weight: 600;
+    background-color: transparent !important;
+    vertical-align: center;
+    // padding-right: 10px;
+    @include breakpoint($touch) {
+      padding: 0 !important;
+      border-bottom: 1px solid rgba(black, 0.2) !important;
+    }
+  }
+
+  &__item {
+    &.js-active:before {
+      content: "expand_less";
+    }
+    &:before {
+      @extend .u-material-icons;
+      color: rgba(black, .4);
+      margin: 10px 20px;
+      float: right;
+      content: "expand_more";
+      cursor: pointer; 
+    }
+    &--details {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .6s ease;
+      box-sizing: border-box;
+      padding-bottom: 0;
+      &.js-active { max-height: 900px;}
+    }
+    &--title {
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    &--location {
+      margin: 0;
+      font-weight: 600;
+      border-bottom: 1px rgba(black, .1) solid;
+      border-top: 1px rgba(black, .1) solid;
+    }
+    &--description {
+      ul { 
+        padding: 0; 
+        li {
+          padding-bottom: 1rem;
+          a {
+            color: $main-color;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px solid $accent-color;
+            &:hover {
+              text-decoration: none;
+              border-bottom: 1px solid $yellow;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    &--speaker { padding: 0 0 10px 0; margin: 0;}
+  }
+  .program-table__item--container {
+    padding-left: 5% !important;
+  }
+  .row:nth-child(even) {
+    .program-table__item--container {
+      background-color: rgba(black,0.05);
+    }
+  }
+}
