@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 
-email: 
+title:
+email:
 description: > # this means to ignore newlines until "baseurl:"
-  
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://collectiveintelligenceconference.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+# url: "http://collectiveintelligenceconference.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""
+twitter_username:
+github_username:
 
 # Build settings
 markdown: kramdown
@@ -44,5 +45,3 @@ contentful:
         access_token: bd4a6990e74e7a16b01ceb01b5cd64c7ea591d3a803f9801d33870af11c01fcd
         base_path: ./source         # Optional - Defaults to Current directory
         all_entries: true
-
-
