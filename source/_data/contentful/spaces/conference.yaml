@@ -170,7 +170,7 @@ speakers:
 - sys:
     id: 3R87RnBQvuIkouq0UmQu24
   name: Geoff Mulgan
-  professionalTitle: 'Chief Executive Officer '
+  professionalTitle: Chief Executive Officer
   affiliation: NESTA
   tags:
   - example-1
@@ -319,7 +319,7 @@ session:
   - sys:
       id: 3R87RnBQvuIkouq0UmQu24
     name: Geoff Mulgan
-    professionalTitle: 'Chief Executive Officer '
+    professionalTitle: Chief Executive Officer
     affiliation: NESTA
     tags:
     - example-1
@@ -432,7 +432,7 @@ session:
     - __Andrew Young__, Leveraging Corporate Data and Collective Intelligence to Solve Public Problems:  Data Collaboratives as Prize-Backed Challenges
     - __Eoin Cullina__, Driving Entrepreneurship Through Crowdsourcing in Scientific Research Funding Agencies
     - __Brent Hecht__, The Role of Human Geography in Collective Intelligence
-    - __Carsten Bergenholtz__, The Ikea-effect in collective problem solving
+    - __Carsten Bergenholtz__, The Ikea-effect in Collective Problem Solving
 
 - sys:
     id: OwxNtt5zK8kksySwCO2kq
@@ -537,7 +537,7 @@ session:
     - __Tom Grad,__ The Role of Cognitive Distance in Crowd-based Evaluations
     - __Justin Longo,__ OPEN AMC: Opening governance in the New York University Administrative Management Council
     - __Qiong Bu,__ Quality Assessment in Complex Crowdsourcing
-    - Feng Shi, Wisdom of Polarized Crowds
+    - __Feng Shi__, Wisdom of Polarized Crowds
     - __Kurt Luther,__ Crowdsourced Image Geolocation as Collective Intelligence
     - __Simon Kloker,__ Partition Dependence Bias in Prediction Markets
     - __Manuel Moritz__, Collaborative Competition or Competitive Collaboration? Exploring User Behavior in Community-based Innovation Contests

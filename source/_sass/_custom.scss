@@ -41,7 +41,20 @@
     background-size: cover;
     background-blend-mode: multiply;
 
-    h3 { opacity: 0.8; }
+    h3 { opacity: 0.8; margin-top: 20px;}
+
+    h1 {
+      text-transform: uppercase;
+    }
+    .title-top {
+      margin-bottom:0;
+      font-size: 4.5rem;
+    }
+    .title-bottom {
+      margin: 0;
+      margin-top: -20px;
+      font-size: 3.3rem;
+    }
   }
 }
 

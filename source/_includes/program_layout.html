@@ -39,10 +39,11 @@
               {% if session.sessionSpeakers %}
                 {% for speaker in session.sessionSpeakers%}
 
-                  {% assign speakerDisplay = "" | split:"" | push: speaker.name %}
+                  {% assign speakerName= "" | split:"" | push: speaker.name %}
+                  {% assign speakerDisplay = "" | split:""%}
                   {% if speaker.professionalTitle %}{% assign speakerDisplay = speakerDisplay | push: speaker.professionalTitle%}{%endif%}
                   {% if speaker.affiliation%}{% assign speakerDisplay = speakerDisplay | push: speaker.affiliation %}{%endif%}
-                  <p class="program-table__item--speaker">{{speakerDisplay | join: ", " }}</p>
+                  <p class="program-table__item--speaker"><b>{{speakerName}}</b>, {{speakerDisplay | join: ", " }}</p>
 
                 {%endfor%}
               {% endif %}
