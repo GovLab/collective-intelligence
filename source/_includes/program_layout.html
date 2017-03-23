@@ -61,8 +61,8 @@
         {% for session in sessions %}
           <div class="column large-6 small-12">
             <div class="program-table__item--parallel">
-              <p class="program-table__item--title">{{session.sessionName}}</p>
-              <div class="program-table__item--details">
+              <p class="program-table__item--title parallel">{{session.sessionName}}</p>
+              <div class="program-table__item--details parallel">
                 {% if session.sessionLocation %}
                 <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
                 {% endif %}
@@ -89,3 +89,5 @@
   {% endfor %}
   </section>
 </div>
+
+<p class="program-table__item--title break" style="display: none;"></p>

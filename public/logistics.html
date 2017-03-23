@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Collective Intelligence Conference</title>
+
+        <link rel="icon" type="image/png" href="./images/icon.png">
+        <link rel="apple-touch-icon" type="image/png" href="./images/icon.png">
+        <link rel="icon" sizes="144x144" href="./images/icon.png">
+
+        <link rel="stylesheet" href="scripts/foundation.min.css"/>
+        <link rel="stylesheet" href="scripts/slick.css"/>
+        <!-- <link rel="stylesheet" href="scripts/prism.css"/> -->
+        <!-- <link rel="stylesheet" href="styles/styleguide.css"/> -->
+        <link rel="stylesheet" href="styles/custom-styles.css"/>
+        <script src="https://use.typekit.net/mvc3cdb.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://use.fontawesome.com/75b6f856d6.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="top-bar top-bar--main-color">
+            <span class="top-bar__button js-trigger-menu">menu</span>
+            <nav class="main-menu js-target-menu main-menu--left">
+                <a href="./index.html">Home</a>
+                <a href="./logistics.html">Logistics</a>
+                <a href="./submissions.html">Submissions</a>
+            </nav>
+            <a class="top-bar__logo" href="./"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
+            <a class="top-bar__twitter" href="https://twitter.com/@cicon17">@cicon17 <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </header>
+
+        
+<main role="main">
+    <!-- main content starts here -->
+    <div class="top-section top-section--main-color">
+        <h1>Logistics</h1>
+        <h3>Registration & Venue</h3>
+        <div class="main-buttons main-buttons__index main-buttons__submit">
+            <a href="https://www.eventbrite.com/e/collective-intelligence-conference-2017-tickets-29760232657" class="button button--accent">REGISTER NOW</a>
+        </div>
+    </div>
+  <!--   <div class="divider divider--accent-color">
+        <h4>Registration</h4>
+    </div> -->
+
+    <div class="page-section">
+        <div class="row">
+        <div class="medium-10 medium-offset-1 small-12 column">
+        	<h5>Important Dates</h5>
+            <ul>
+        		<li>Registration opens: <b>December 5th</b></li>
+        		<li>Early bird registration ends:  <b>April 4th</b></li>
+        		<li>Regular registration ends: <b>June 8th</b></li>
+        	</ul>
+            <br>
+            <h5>Registration Fee Details</h5>
+            <table>
+                <!-- <caption>Registration Fee Details</caption> -->
+                <colgroup>
+                    <col style="width:30%" />
+                    <col style="width:20%" />
+                    <col style="width:20%" />
+                    <col style="width:20%" />
+                </colgroup>
+                <!-- <thead>
+                    <tr>
+                        <th scope="col"></th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td><b>Early Bird</b></td>
+                        <td><b>Regular</b></td>
+                        <td><b>Late / Onsite</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Regular</b></td>
+                        <td>$399.00</td>
+                        <td>$499.00</td>
+                        <td>$599.00</td>
+                    </tr>
+                    <tr>
+                        <td><b>Students* and Retirees</b></td>
+                        <td>$299.00</td>
+                        <td>$399.00</td>
+                        <td>$499.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><em>*Student registrants must show proof of current student status at the registration desk on the day of the conference. (Valid Student ID or proof of enrollment)</em></p>
+            <br>
+            <h5>Location</h5>
+            <p class="temporary-mobile-class"><strong>NYU Tandon School of Engineering</strong><br>Pfizer Auditorium<br>5 MetroTech Center<br>Brooklyn, NY 11201</p>
+            <div id="map"></div>
+            <p class="b-subway-lines"><span class="e-line m-blue">A</span> <span class="e-line m-blue">C</span> <span class="e-line m-orange">F</span> to Jay Street-Metrotech <em>(exit towards "Myrtle Promenade")</em><br>
+            <span class="e-line m-yellow">R</span> to Jay Street-Metrotech <em>(exit towards "Lawrence Street")</em></p>
+            <p class="b-subway-lines"><span class="e-line m-red">2 </span> <span class="e-line m-red">3</span> <span class="e-line m-green">4</span> <span class="e-line m-green">5</span> to Borough Hall, <span class="e-line m-light-green">G</span> to Hoyt-Schemerhorn Streets</p>
+        	</div>
+       	</div>
+</main>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+<script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiYW5uYWJpYWxhcyIsImEiOiJjaWh3bzVybjUwMm92dGZraHFwcnY4bG16In0.j2Sl8c2UoLY_yHBjO1vAfQ';
+        var map = L.mapbox.map('map', 'govlab.6f7v4ous', {
+            infoControl: false,
+            attributionControl: false,
+            legendControl: {
+                    position: 'topright'
+            }
+        }).setView([40.6934,-73.9859], 14);
+        var attribution = L.control.attribution();
+        attribution.setPrefix('Made by <a href="./"><strong>GovLab</strong></a>');
+        attribution.addAttribution('Powered by <a href="https://www.mapbox.com/about/maps/">Mapbox + OpenStreetMap</a> <a href="http://mapbox.com/map-feedback/" class="mapbox-improve-map">Improve this map</a>');
+        attribution.addTo(map);
+        map.scrollWheelZoom.disable();
+        map.legendControl.addLegend('<strong>NYU Tandon School of Engineering</strong><br> Pfizer Auditorium<br>5 MetroTech Center<br>Brooklyn, NY 11201');
+        var marker = L.mapbox.featureLayer({
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [-73.9859, 40.6934]
+                },
+                properties: {
+                    'marker-color': '#FFD300',
+                    'marker-size':'large',
+                    'marker-symbol': 'star',
+                    'title': '<strong>NYU Tandon School of Engineering</strong>',
+                    'description': 'Pfizer Auditorium<br>5 MetroTech Center<br>Brooklyn, NY 11201'
+                }
+        }).addTo(map);
+
+</script>
+
+
+        <footer class='footer'>
+          <div class="row expanded">
+            <div class="footer--darken"></div>
+          </div>
+          <div class="footer__icons">
+            <a class="footer__partner-logo" href="http://thegovlab.org" tagret="_blank"><img src="images/govlab-logo-white.png" alt="The Governance Lab"></a>
+            <a class="footer__partner-logo" href="http://engineering.nyu.edu/tandon" tagret="_blank"><img src="images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
+          </div>
+        </footer>
+<!--         <div class="copyright">
+          <div class="row">
+            <div class="large-10 large-centered columns">
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="copyright__cc-badge" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+              This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+            </div>
+          </div>
+        </div> -->
+
+        <div id="overlay" class="js-overlay"></div>
+<!--         <script src="./scripts/jquery-2.1.4.min.js"></script> -->
+        <script src="./scripts/slick.min.js"></script>
+        <!-- <script src="./scripts/prism.js"></script> -->
+<!--         <script src="../scripts/scripts.js"></script> -->
+        <script src="../scripts/manageTimelineSelection.js"></script>
+
+        <script>
+
+        // Styleguide Guide specific functions
+        $(document).ready(function () {
+            $('.language-markup').each(function () {
+                var $obj = $($(this).data('markup'));
+
+                $(this).text($obj.html());
+            });
+            // Main Menu Click Behavior
+            $('.js-trigger-menu').click(function (e) {
+                $(this).next().addClass('js-active-menu');
+                $('#overlay').addClass('js-active');
+            });
+
+            $('.js-close-sticky').click(function () {
+                $('.js-target-sticky').removeClass('js-active');
+                sessionStorage.setItem('closed', 'true');
+            });
+
+            if (!sessionStorage.getItem("closed")) {
+                $('#sticky-code').css( "display", "block");
+            }
+
+            // General Click Behavior for Overlay
+            $('#overlay').click(function () {
+                $('.js-active').removeClass('js-active');
+                $('.js-active-menu').removeClass('js-active-menu');
+            });
+
+
+        }); // doc.ready
+        </script>
+    </body>
+</html>

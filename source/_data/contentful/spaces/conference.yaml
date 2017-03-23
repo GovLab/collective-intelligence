@@ -207,24 +207,6 @@ speakers:
     \  \n\nGeoff’s Twitter handle is [@geoffmulgan](http://www.twitter.com/geoffmulgan).
     A summary of ideas Geoff has worked on can be found [here](http://www.nesta.org.uk/sites/default/files/geoff_mulgan_-_ideas.pdf)."
 - sys:
-    id: 58288NEDskkE2EKmmC8I80
-  name: Pablo Iglesias
-  professionalTitle: Secretary-General
-  affiliation: Podemos
-  image:
-    title: PabloIglesias
-    description: 
-    url: "//images.contentful.com/5tbgktilyyxn/4SUHOc91K0206u8mKMmI4Y/ada5a1c00fcdbd504a479a44626f226d/PabloIglesias.jpg"
-  bio: Pablo Iglesias has been the Secretary-General of Spanish political party, Podemos
-    since 2014. Prior to his entry into politics, he was a lecturer in political science
-    at the Complutense University of Madrid. He was elected to the European Parliament
-    in the 2014 elections as the leading candidate of the newly formed party Podemos,
-    along with four other members of his party. Pablo frequently presents political
-    debate TV shows, Fort Apache for the Iranian government's Hispan TV and La Tuerka.
-    He is also the director of programming at a production company called Con Mano
-    Izquierda. He has also written articles in publications such as Público, Kaosenlared,
-    Diagonal and Rebelion.org
-- sys:
     id: 5c5DXsJ9XqWs6aiWwsmou4
   name: Eric Gordon
   professionalTitle: 'Associate Professor '
@@ -319,29 +301,68 @@ session:
     id: 1sigzmxD4wqqEkkYgsOSGw
   sessionName: Breakfast (Day 2)
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 08:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 08:30:00.000000000 -04:00
-  sessionLocation: Room A
+  sessionStart: !ruby/object:DateTime 2017-06-16 08:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 09:00:00.000000000 -04:00
 - sys:
     id: 17AHlmGzqCqcMC0meU0kcK
   sessionName: Introductory Remarks
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 08:20:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 08:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 08:50:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 09:00:00.000000000 -04:00
 - sys:
     id: 768iKiRrTa04Q8mEcIu6kG
-  sessionName: Panel Discussion 1 - A discussion with Geoff Mulgan
+  sessionName: 'In conversation with: Geoff Mulgan'
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 08:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 09:30:00.000000000 -04:00
-  sessionDescription: 'Beth led to frame the conversation / conference '
+  sessionStart: !ruby/object:DateTime 2017-06-15 09:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 10:00:00.000000000 -04:00
+  sessionSpeakers:
+  - sys:
+      id: 3R87RnBQvuIkouq0UmQu24
+    name: Geoff Mulgan
+    professionalTitle: 'Chief Executive Officer '
+    affiliation: NESTA
+    tags:
+    - example-1
+    - example-2
+    - example-3
+    image:
+      title: geoff-mulgan
+      description: 
+      url: "//images.contentful.com/5tbgktilyyxn/48O6wosNdm28UuySsmGKwO/2a628b6172075dcbf09b14d1fe0e48ec/geoff-mulgan.jpg"
+    bio: "Geoff Mulgan is Chief Executive of Nesta, and has been in post since 2011.
+      Under his leadership Nesta has moved out of the public sector to become a charity
+      (in 2012), launched a range of new initiatives in investment, programmes and
+      research and has implemented a new strategy involving partnerships with foundations,
+      governments and companies in the UK and internationally.\n\nFrom 2004-2011 he
+      was the first Chief Executive of the Young Foundation, which became a leading
+      centre for social innovation, combining research, creation of new ventures and
+      practical projects. Between 1997 and 2004 Geoff had various roles in the UK
+      government including director of the Government's Strategy Unit and head of
+      policy in the Prime Minister's office under Tony Blair. Before that he was the
+      founder and director of the think-tank Demos. He has also been Chief Adviser
+      to Gordon Brown MP; a lecturer in telecommunications; an investment executive;
+      and a reporter on BBC TV and radio.\n\nFrom 2016 Geoff is co-chair of a new
+      World Economic Forum group looking at innovation and entrepreneurship in the
+      fourth industrial revolution. He is also member of the board of the French government’s
+      French Digital Agency; a member of an Academy of Medical Science’s review of
+      public health; the Scottish Government’s CAN-DO panel; chair of an international
+      advisory committee for the Mayor of Seoul and member of an advisory committee
+      in the Prime Minister’s office in UAE.\n\nHis recent books include [The Locust
+      and the Bee](http://press.princeton.edu/titles/9953.html) (Princeton University
+      Press, 2013); [The Art of Public Strategy - Mobilising Power and Knowledge for
+      the Public Good](http://www.youngfoundation.org/node/683) (Oxford University
+      Press, 2008), [Good and Bad Power: the ideals and betrayals of government](http://www.youngfoundation.org/publications/books/good_and_bad_power)
+      (Penguin, 2006) and Connexity (Harvard Business Press and Jonathon Cape, 1998).
+      His next book, to be published by Princeton UP, is on collective intelligence.
+      \  \n\nGeoff’s Twitter handle is [@geoffmulgan](http://www.twitter.com/geoffmulgan).
+      A summary of ideas Geoff has worked on can be found [here](http://www.nesta.org.uk/sites/default/files/geoff_mulgan_-_ideas.pdf)."
 - sys:
     id: 4ICf9cpINyk6Mio088k0Um
-  sessionName: 'Plenary Talk 1 (Citizen / public innovation) '
+  sessionName: 'Plenary Talks: Citizen / public innovation '
   sessionType: Plenary Talk
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 09:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 10:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 10:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 11:00:00.000000000 -04:00
   sessionSpeakers:
   - sys:
       id: 3BMFUiWV5eG6uy4eiQqsqU
@@ -397,48 +418,48 @@ session:
     id: 2jM45wKtdGGUcsCyqyWyui
   sessionName: Break (Morning  Day one)
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 10:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 11:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 11:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 11:30:00.000000000 -04:00
 - sys:
     id: 6M3OQcxXYkWCqmCiQkA2Ac
   sessionName: Parallel Session 1
   sessionType: Parallel Session
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 11:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 12:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 11:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 13:00:00.000000000 -04:00
   sessionDescription: |+
-    - Thomas W. Malone, Using Contest Webs to Address the Problem of Global Climate Change
-    - Andrew Young, Leveraging Corporate Data and Collective Intelligence to Solve Public Problems:  Data Collaboratives as Prize-Backed Challenges
-    - Eoin Cullina, Driving Entrepreneurship Through Crowdsourcing in Scientific Research Funding Agencies
-    - Brent Hecht, The Role of Human Geography in Collective Intelligence
-    - Carsten Bergenholtz, The Ikea-effect in collective problem solving
+    - __Thomas W. Malone__, Using Contest Webs to Address the Problem of Global Climate Change
+    - __Andrew Young__, Leveraging Corporate Data and Collective Intelligence to Solve Public Problems:  Data Collaboratives as Prize-Backed Challenges
+    - __Eoin Cullina__, Driving Entrepreneurship Through Crowdsourcing in Scientific Research Funding Agencies
+    - __Brent Hecht__, The Role of Human Geography in Collective Intelligence
+    - __Carsten Bergenholtz__, The Ikea-effect in collective problem solving
 
 - sys:
     id: OwxNtt5zK8kksySwCO2kq
   sessionName: Parallel Session 2
   sessionType: Parallel Session
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 11:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 12:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 11:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 13:00:00.000000000 -04:00
   sessionDescription: |
-    - Pablo Daniel Azar, Markets and Media: A Case Study of Crowdsourcing During Election Night
-    - Anca Dumitrache, Crowdsourcing Ambiguity-Aware Ground Truth
-    - Jordan B Barlow, Collective Intelligence and its Relationship to Collective Individual Intelligence
-    - Giuseppe Carbone, Emergence of Collective Intelligence in Human Groups
-    - Dhaval Adjodah, Large-Scale Experiment on the Importance of Social Learning and Unimodality in the Wisdom of the Crowd
+    - __Pablo Daniel Azar__, Markets and Media: A Case Study of Crowdsourcing During Election Night
+    - __Anca Dumitrache__, Crowdsourcing Ambiguity-Aware Ground Truth
+    - __Jordan B Barlow__, Collective Intelligence and its Relationship to Collective Individual Intelligence
+    - __Giuseppe Carbone__, Emergence of Collective Intelligence in Human Groups
+    - __Dhaval Adjodah__, Large-Scale Experiment on the Importance of Social Learning and Unimodality in the Wisdom of the Crowd
 - sys:
     id: 2aCDG5N5uUIuAqq6q4OykK
   sessionName: Lunch (Day one)
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 12:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 13:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 13:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 14:00:00.000000000 -04:00
 - sys:
     id: 2CjXqUvgyMGiGCWkqsGOcK
-  sessionName: Plenary Talk 2 (Orgs)
+  sessionName: 'Plenary Talks: Orgs'
   sessionType: Plenary Talk
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 13:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 14:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 14:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 15:00:00.000000000 -04:00
   sessionSpeakers:
   - sys:
       id: 5APwZVmq4wOekosSoaCiCG
@@ -490,18 +511,18 @@ session:
     id: 5oHCrG2dSEU0mEmE0MIaAQ
   sessionName: Break (Before Poster Session 1)
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 14:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 15:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 15:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 15:15:00.000000000 -04:00
 - sys:
     id: 6lQ0zshe8ggMM2OkY6MKeM
   sessionName: Poster Session 1
   sessionType: Poster Session
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 15:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 16:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 15:15:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 16:15:00.000000000 -04:00
   sessionDescription: |
     - __Louis Rosenberg__, Human Swarms amplify accuracy in Honesty Detection
-    - Larissa Galdino de Magalhães Santos, Government Initiatives of E-Participation in São Paulo: e-participation, open government and public policies
+    - __Larissa Galdino de Magalhães Santos__, Government Initiatives of E-Participation in São Paulo: e-participation, open government and public policies
     - __Philip Feldman__, Modeling The Law of Group Polarization
     - __Carlos Parra,__ Collective Intelligence and Institutional (In)Stability
     - __Jordan B Barlow,__ Emergent Roles in Computer-Mediated Collective Work
@@ -528,17 +549,17 @@ session:
     id: 4ToIi6NaooayquM24q4oiU
   sessionName: Break (Before Keynote)
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 16:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 16:15:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 16:30:00.000000000 -04:00
 - sys:
     id: 7jckFw5QmQwcS4gsgkSK4w
   sessionName: Cocktail hour
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 17:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 18:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 17:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 18:30:00.000000000 -04:00
 - sys:
     id: 51UyVxkLmMwkEGCEwOw0Gw
-  sessionName: 'Plenary Talk 3 (Modeling) '
+  sessionName: 'Plenary Talks: Modeling'
   sessionType: Plenary Talk
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 09:00:00.000000000 -04:00
@@ -634,12 +655,11 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 10:15:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 23:45:00.000000000 -04:00
   sessionDescription: |
-    - Thomas Malone, Analyzing Group Interactions Using a Technique Developed for Measuring Consciousness
-    - Pantelis Pipergias Analytis, Diversity of preference can increase collective welfare in sequential exploration problems
-    - Hila Lifshitz-Assaf, Delineating Emergent Role Behaviors in Wikipedia
-    - Yue Han, Collective Exploration: Remixing with Human-based Search Algorithms
-    - Yuko Sakurai , Toward Crowdsourced Mechanism Design
-  sessionLocation: Room B
+    - __Thomas Malone__, Analyzing Group Interactions Using a Technique Developed for Measuring Consciousness
+    - __Pantelis Pipergias Analytis__, Diversity of preference can increase collective welfare in sequential exploration problems
+    - __Hila Lifshitz-Assaf__, Delineating Emergent Role Behaviors in Wikipedia
+    - __Yue Han__, Collective Exploration: Remixing with Human-based Search Algorithms
+    - __Yuko Sakurai__, Toward Crowdsourced Mechanism Design
 - sys:
     id: 5chmpr82VU2mqMc0Ma4weQ
   sessionName: Parallel Session 4
@@ -648,11 +668,11 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 10:15:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 23:45:00.000000000 -04:00
   sessionDescription: |
-    - John Prpić, [Unpacking Blockchains](https://www.example.com)
-    - Jeremy Foote, [The Behavior and Network Position of Peer Production Community Founders](https://www.example.com)
-    - Martina Balestra, P2P Lending As Networks Of Exchange
-    - John Harlow, Proactively Identifying and Correcting for Social Biases in Datasets Proliferating into Civic Technologies
-    - Ting-Hao (Kenneth) Huang, Real-time On-Demand Crowd-powered Entity Extraction
+    - __John Prpić__, Unpacking Blockchains
+    - __Jeremy Foote__, The Behavior and Network Position of Peer Production Community Founders
+    - __Martina Balestra__, P2P Lending As Networks Of Exchange
+    - __John Harlow__, Proactively Identifying and Correcting for Social Biases in Datasets Proliferating into Civic Technologies
+    - __Ting-Hao (Kenneth) Huang__, Real-time On-Demand Crowd-powered Entity Extraction
 - sys:
     id: 4ulpwdm10kK862a8WIwyWu
   sessionName: Break (Morning Day 2)
@@ -661,29 +681,10 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-16 10:15:00.000000000 -04:00
 - sys:
     id: 1mhKZTO0X2o06sGUS44mGi
-  sessionName: 'Keynote 2 ( Pablo Iglesias ) '
+  sessionName: Keynote
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 14:15:00.000000000 -04:00
-  sessionSpeakers:
-  - sys:
-      id: 58288NEDskkE2EKmmC8I80
-    name: Pablo Iglesias
-    professionalTitle: Secretary-General
-    affiliation: Podemos
-    image:
-      title: PabloIglesias
-      description: 
-      url: "//images.contentful.com/5tbgktilyyxn/4SUHOc91K0206u8mKMmI4Y/ada5a1c00fcdbd504a479a44626f226d/PabloIglesias.jpg"
-    bio: Pablo Iglesias has been the Secretary-General of Spanish political party,
-      Podemos since 2014. Prior to his entry into politics, he was a lecturer in political
-      science at the Complutense University of Madrid. He was elected to the European
-      Parliament in the 2014 elections as the leading candidate of the newly formed
-      party Podemos, along with four other members of his party. Pablo frequently
-      presents political debate TV shows, Fort Apache for the Iranian government's
-      Hispan TV and La Tuerka. He is also the director of programming at a production
-      company called Con Mano Izquierda. He has also written articles in publications
-      such as Público, Kaosenlared, Diagonal and Rebelion.org
 - sys:
     id: 70bSmA4t7aEgg8EG02SIgY
   sessionName: Lunch (Day 2)
@@ -692,7 +693,7 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
 - sys:
     id: 4VnmnCLQTukIeYguYiYQSW
-  sessionName: Plenary Talk 4
+  sessionName: 'Plenary Talks: Government use of public / crowd participation'
   sessionType: Plenary Talk
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 16:15:00.000000000 -04:00
@@ -772,12 +773,11 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 14:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 16:00:00.000000000 -04:00
   sessionDescription: |
-    - Alejandro Noriega Campero, Wisdom of Dynamic Networks: Selective Social Learning and the Adaptive Wisdom of the Crowd
-    - Emile Servan-Schreiber, Debunking Three Myths About Crowd-Based Forecasting
-    - Andres Abeliuk, Controlling Collective Behavior Through Position Bias
-    - Mark Whiting, Designing A Constitution for a Self-Governing Crowdsourcing Marketplace
-    - Young Ji Kim, More Evidence for a General Collective Intelligence Factor in Human Groups: A Meta-Analysis
-  sessionLocation: Room A
+    - __Alejandro Noriega Campero__, Wisdom of Dynamic Networks: Selective Social Learning and the Adaptive Wisdom of the Crowd
+    - __Emile Servan-Schreiber__, Debunking Three Myths About Crowd-Based Forecasting
+    - __Andres Abeliuk__, Controlling Collective Behavior Through Position Bias
+    - __Mark Whiting__, Designing A Constitution for a Self-Governing Crowdsourcing Marketplace
+    - __Young Ji Kim__, More Evidence for a General Collective Intelligence Factor in Human Groups: A Meta-Analysis
 - sys:
     id: 4MdFzwKqwwOGqaiOWCs62m
   sessionName: Parallel Session 6
@@ -786,11 +786,10 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 14:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 16:00:00.000000000 -04:00
   sessionDescription: |
-    - Mehdi Moussaid, The propagation of accurate judgments in experimental transmission chains
-    - Jiye Baek, Using cohort size to promote content contribution: a field experiment on a discussion forum
-    - Yun Huang, BandCaption: Crowdsourcing Video Caption Corrections
-    - Elisa Mattarelli, Co-creating innovation: how feedback exchange processes impact upon innovation in a crowdsourcing platform
-  sessionLocation: Room B
+    - __Mehdi Moussaid__, The propagation of accurate judgments in experimental transmission chains
+    - __Jiye Baek__, Using cohort size to promote content contribution: a field experiment on a discussion forum
+    - __Yun Huang__, BandCaption: Crowdsourcing Video Caption Corrections
+    - __Elisa Mattarelli__, Co-creating innovation: how feedback exchange processes impact upon innovation in a crowdsourcing platform
 - sys:
     id: 7Hpac00IxO6uSM6Y8gkiu6
   sessionName: Break (Before Plenary 4)
@@ -805,29 +804,29 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 11:45:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
   sessionDescription: |-
-    - Christopher Welty, The Quantum Collective
-    - Oana Inel, Crowdsourcing for Video Event Detection
-    - Gianluigi Viscusi, Crowd Dynamics and Crowd Capital in Small Teams: Insights from three crowdsourcing exercises in higher education
-    - Lora Aroyo, Disagreement in Crowdsourcing and Active Learning for Better Distant Supervision Quality
-    - Benjamin Timmermans, ControCurator: Understanding Controversy Using Collective Intelligence
-    - Carina Antonia Hallin, The State of Collective Intelligence Behavior and Practices of Danish Corporations
-    - Edmond Awad, Did They Escape? Judging Groups at Face Value
-    - Irene Tello Arista, Using crowdsourcing and crowdlaw to enact anti-corruption legislation
-    - Pavel Izhutov, Optimal Pricing for a Matching Platform
-    - Hamed Nilforoshan, Segment-Predict-Explain for Automatic Writing Feedback
-    - W. Ben Towne, Even on Wikipedia, Draft Status Makes A Difference
-    - David Thompson, A Basket of Social Science, a Bushel of Social Goo
-    - Sai Gouravajhala, Towards Hybrid Intelligence for Robotics
-    - Tom Saunders, Governing with Collective Intelligence
-    - Ville Satopaa, Collecting Information from Multiple Forecasters: Inefficiency of Measures of Central Tendency
-    - Charles Pezeshki, Origins of Collective Intelligence: Is there a Homology between Social Networks and Knowledge Structures?
-    - Oana Inel, Improving NER Performance by Harnessing Diversity of Machines and Crowds
-    - Ohad Barzilay, A Potato Salad with a Lemon Twist: Using Supply-Side Shocks to Study the Impact of Low-Quality Actors on Crowdfunding Platforms
-    - Charlotte Reypens, Novel Solutions in an Uncertain World: An Experiment
-    - Yulistina Riyadi, Collaborative Translation to Better Listen to Citizen Feedback and Voices on a Public Sector Programme
-    - Pablo Ojanguren, Argos: Crowdlaw Web Tool
-    - George Tilesch, Collective Creativity as the Frontier of Innovation
-    - Ulrich Atz, The HUMAN Project: a public resource for representative big data research addressing societal problems
+    - __Christopher Welty__, The Quantum Collective
+    - __Oana Inel__, Crowdsourcing for Video Event Detection
+    - __Gianluigi Viscusi__, Crowd Dynamics and Crowd Capital in Small Teams: Insights from three crowdsourcing exercises in higher education
+    - __Lora Aroyo__, Disagreement in Crowdsourcing and Active Learning for Better Distant Supervision Quality
+    - __Benjamin Timmermans__, ControCurator: Understanding Controversy Using Collective Intelligence
+    - __Carina Antonia Hallin__, The State of Collective Intelligence Behavior and Practices of Danish Corporations
+    - __Edmond Awad__, Did They Escape? Judging Groups at Face Value
+    - __Irene Tello Arista__, Using crowdsourcing and crowdlaw to enact anti-corruption legislation
+    - __Pavel Izhutov__, Optimal Pricing for a Matching Platform
+    - __Hamed Nilforoshan__, Segment-Predict-Explain for Automatic Writing Feedback
+    - __W. Ben Towne__, Even on Wikipedia, Draft Status Makes A Difference
+    - __David Thompson__, A Basket of Social Science, a Bushel of Social Goo
+    - __Sai Gouravajhala__, Towards Hybrid Intelligence for Robotics
+    - __Tom Saunders__, Governing with Collective Intelligence
+    - __Ville Satopaa__, Collecting Information from Multiple Forecasters: Inefficiency of Measures of Central Tendency
+    - __Charles Pezeshki__, Origins of Collective Intelligence: Is there a Homology between Social Networks and Knowledge Structures?
+    - __Oana Inel__, Improving NER Performance by Harnessing Diversity of Machines and Crowds
+    - __Ohad Barzilay__, A Potato Salad with a Lemon Twist: Using Supply-Side Shocks to Study the Impact of Low-Quality Actors on Crowdfunding Platforms
+    - __Charlotte Reypens__, Novel Solutions in an Uncertain World: An Experiment
+    - __Yulistina Riyadi__, Collaborative Translation to Better Listen to Citizen Feedback and Voices on a Public Sector Programme
+    - __Pablo Ojanguren__, Argos: Crowdlaw Web Tool
+    - __George Tilesch__, Collective Creativity as the Frontier of Innovation
+    - __Ulrich Atz__, The HUMAN Project: a public resource for representative big data research addressing societal problems
 - sys:
     id: 25a2rulLsE8i64WEqWIMa
   sessionName: Closing Remarks
@@ -838,5 +837,27 @@ session:
     id: 2DJfuvbhGo2GGEKiO2SEAq
   sessionName: Breakfast and Registration
   sessionDay: Day One
-  sessionStart: !ruby/object:DateTime 2017-06-15 08:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-15 08:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-15 08:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 09:00:00.000000000 -04:00
+- sys:
+    id: 5bhNV2G2FGoGQsUEI2m4AU
+  sessionName: 'Keynote: Luke Dubois '
+  sessionDay: Day One
+  sessionStart: !ruby/object:DateTime 2017-06-15 16:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-15 17:30:00.000000000 -04:00
+  sessionSpeakers:
+  - sys:
+      id: PmDi5MlOSGoCgWMQU0AAK
+    name: Roger Luke Dubois
+    professionalTitle: Co-Director and Associate Professor of Integrated Digital Media
+    affiliation: NYU Tandon School of Engineering
+    image:
+      title: 20140112-LUKE-slide-7BLG-jumbo
+      description: 
+      url: "//images.contentful.com/5tbgktilyyxn/6ytPdpta3CkGyoqKA8eMA4/7ef2fbc8e2f2a25b27a77c82069d86dc/20140112-LUKE-slide-7BLG-jumbo.jpg"
+    bio: |
+      R. Luke DuBois is a composer, artist, and performer who explores the temporal, verbal, and visual structures of cultural and personal ephemera. He holds a doctorate in music composition from Columbia University, and has lectured and taught worldwide on interactive sound and video performance. He has collaborated on interactive performance, installation, and music production work with many artists and organizations including Toni Dove, Todd Reynolds, Jamie Jewett, Bora Yoon, Michael Joaquin Grey, Matthew Ritchie, Elliott Sharp, Michael Gordon, Maya Lin, Bang on a Can, Engine 27, Harvestworks, and LEMUR, and was the director of the Princeton Laptop Orchestra for its 2007 season.
+
+      An active visual and musical collaborator, DuBois is the co-author of Jitter, a software suite for the real-time manipulation of matrix data developed by San Francisco-based software company Cycling'74. He appears on nearly twenty-five albums both individually and as part of the avant-garde electronic group The Freight Elevator Quartet. He currently performs as part of Bioluminescence, a duo with vocalist Lesley Flanigan that explores the modality of the human voice, and in Fair Use, a trio with Zach Layton and Matthew Ostrowski, that looks at our accelerating culture through elecronic performance and remixing of cinema.
+
+      DuBois has lived for the last twenty-two years in New York City. He is the director of the Brooklyn Experimental Media Center at the NYU Tandon School of Engineering, and is on the Board of Directors of the ISSUE Project Room. His records are available on Caipirinha/Sire, Liquid Sky, C74, and Cantaloupe Music. His artwork is represented by bitforms gallery in New York City.

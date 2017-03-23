@@ -13,24 +13,31 @@ layout: default
 
 
 <main role="main">
-    <!-- main content starts here -->
+  <!-- main content starts here -->
   <div class="top-section top-section--main-color">
-      <h1>Program</h1>
-      <h3>(Tentative)</h3>
+    <h1 id="pdf-title">Program</h1>
+    <h3>(Tentative)</h3>
   </div>
 
   <div class="divider divider--accent-color">
-    <h4>Day One</h4>
-    <h5>Date: June 15, 2017</h5>
+    <h4 id="day-one">Day One</h4>
+    <h5 id="day-one-date">June 15, 2017</h5>
   </div>
-  
+
   {% include program_layout.html schedule=day_one_schedule%}
 
   <div class="divider divider--accent-color">
-    <h4>Day Two</h4>
-    <h5>June 16, 2017</h5>
+    <h4 id="day-two">Day Two</h4>
+    <h5 id="day-two-date">June 16, 2017</h5>
   </div>
   {% include program_layout.html schedule=day_two_schedule%}
 
-
+  <div class="page-section" style="text-align: center">
+    <div class="button download-button">
+      Download as PDF
+    </div>
+  </div>
 </main>
+
+<img id="gov-logo" src="../images/ci-print-header.png" alt="" style="display:none;">
+<img id="gov-footer" src="../images/ci-print-footer.png" alt="" style="display:none;">
