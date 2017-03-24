@@ -41,48 +41,84 @@ $(document).ready(function() {
         } else if ($(this).hasClass('parallel') && column == 2) {
           doc.text($(this).text(), 110, y, {'width': 90});
 
-          var detailsLines1 = $(details[j]).html();
-          var detailsLines2 = $(details[j+1]).html();
+          if ($(details[j]).find('.program-table__item--speaker').length) {
+            // none of the split sessions use this but should update if that changes
+          } else {
+            $(details[j]).find('li').each(function(index) {
+              if (y > 250) {
+                doc.addPage();
+                doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
+                doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
+                y = 30;
+              } else {
+                y += 8;
+              }
+              doc.setFontSize(10);
 
-          if ($(details[j]).text().trim().length > 0) {
-            y += 5;
-            if (y + doc.getTextDimensions(detailsLines1).h > 250 || y + doc.getTextDimensions(detailsLines2).h > 250) {
-              doc.addPage();
-              doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
-              doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
-              y = 30;
-            }
-            doc.fromHTML(detailsLines1, 10, y, {'width': 80});
+              // col 1
+              var unsplit = $(this).text();
+              var t = doc.splitTextToSize(unsplit, 80);
+              if (unsplit.length) {
+                doc.text(12, y, t);
+              }
+
+              // col 2
+              unsplit = $($(details[j+1]).find('li')[index]).text();
+              var t2 = doc.splitTextToSize(unsplit, 80);
+              if (unsplit.length) {
+                doc.text(100, y, t2);
+              }
+
+              if (t.length > t2.length) {
+                y += 4*(t.length-1);
+              } else {
+                y += 4*(t2.length-1);
+              }
+            });
+            doc.setFontSize(12);
           }
 
           j++;
-
-          if ($(details[j]).text().trim().length > 0) {
-            doc.fromHTML(detailsLines2, 100, y, {'width': 80});
-            if (doc.getTextDimensions(detailsLines1).h > doc.getTextDimensions(detailsLines2).h) {
-              var yd = doc.getTextDimensions(detailsLines1).h;
-            } else {
-              var yd = doc.getTextDimensions(detailsLines2).h;
-            }
-            y += yd + 5;
-          }
-
           column = 1;
+
         } else {
           doc.text($(times[i]).text(), 10, y, {'width': 180});
           doc.text($(this).text(), 60, y, {'width': 180});
 
           if ($(details[j]).text().trim().length > 0) {
-            var detailsLines = $(details[j]).html();
-            y += 5;
-            if (y + doc.getTextDimensions(detailsLines).h > 250) {
-              doc.addPage();
-              doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
-              doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
-              y = 30;
+            if ($(details[j]).find('.program-table__item--speaker').length) {
+              $(details[j]).find('.program-table__item--speaker').each(function(index) {
+                if (y > 250) {
+                  doc.addPage();
+                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
+                  doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
+                  y = 30;
+                } else {
+                  y += 8;
+                }
+                doc.setFontSize(10);
+                var t = doc.splitTextToSize($(this).text(), 180);
+                doc.text(12, y, t);
+                y += 4*(t.length-1);
+              });
+              doc.setFontSize(12);
+            } else {
+              $(details[j]).find('li').each(function(index) {
+                if (y > 250) {
+                  doc.addPage();
+                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
+                  doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
+                  y = 30;
+                } else {
+                  y += 8;
+                }
+                doc.setFontSize(10);
+                var t = doc.splitTextToSize($(this).text(), 180);
+                doc.text(12, y, t);
+                y += 4*(t.length-1);
+              });
+              doc.setFontSize(12);
             }
-            doc.fromHTML(detailsLines, 10, y, {'width': 180});
-            y += doc.getTextDimensions(detailsLines).h - 5;
           }
         }
 
@@ -100,5 +136,5 @@ $(document).ready(function() {
     });
 
     doc.save('program.pdf');
-  })
-})
+  });
+});
