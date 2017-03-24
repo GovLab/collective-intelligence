@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Speakers | Collective Intelligence
-subtitle: 
+subtitle:
 ---
 
 {% assign speakers = site.data.contentful.spaces.conference.speakers | sort: "name" %}
@@ -25,7 +25,7 @@ subtitle:
                 <h3>{{speaker.name}}</h3>
                 <h5>{{speaker.professionalTitle}}</h5>
                 <h5>{{speaker.affiliation}}</h5>
-                {{speaker.bio | markdownify}}
+                <p class="speaker__bio--p">{{speaker.bio | markdownify}}</p>
               </div>
             </div>
           </div>
