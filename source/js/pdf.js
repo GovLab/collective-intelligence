@@ -3,14 +3,14 @@ $(document).ready(function() {
     var doc = new jsPDF();
     doc.setFont('helvetica');
 
-    doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
-    doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
+    doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
+    doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
 
     doc.setFontSize(22);
-    doc.text(10, 30, 'Program');
+    doc.text(10, 40, 'Program');
 
     doc.setFontSize(16);
-    doc.text(10, 40, 'Day One');
+    doc.text(10, 50, 'Day One');
 
     var titles = $('.program-table__item--title');
     var details = $('.program-table__item--details');
@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     doc.setFontSize(12);
 
-    var y = 55;
+    var y = 60;
     var column = 1;
     var first = true;
     var i = 0;
@@ -48,9 +48,9 @@ $(document).ready(function() {
             $(details[j]).find('li').each(function(index) {
               if (y > 260) {
                 doc.addPage();
-                doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
-                doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
-                y = 35;
+                doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
+                doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+                y = 40;
               } else {
                 y += 8;
               }
@@ -91,9 +91,9 @@ $(document).ready(function() {
               $(details[j]).find('.program-table__item--speaker').each(function(index) {
                 if (y > 260) {
                   doc.addPage();
-                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
-                  doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
-                  y = 35;
+                  doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
+                  doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+                  y = 40;
                 } else {
                   y += 8;
                 }
@@ -107,8 +107,8 @@ $(document).ready(function() {
               $(details[j]).find('li').each(function(index) {
                 if (y > 260) {
                   doc.addPage();
-                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
-                  doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
+                  doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
+                  doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
                   y = 35;
                 } else {
                   y += 8;
@@ -125,9 +125,9 @@ $(document).ready(function() {
 
         if (y > 260) {
           doc.addPage();
-          doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
-          doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
-          y = 35;
+          doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
+          doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+          y = 40;
         } else {
           y += 10;
         }
