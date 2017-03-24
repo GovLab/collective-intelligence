@@ -3,8 +3,8 @@ $(document).ready(function() {
     var doc = new jsPDF();
     doc.setFont('helvetica');
 
-    doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
-    doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
+    doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
+    doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
 
     doc.setFontSize(22);
     doc.text(10, 30, 'Program');
@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     doc.setFontSize(12);
 
-    var y = 50;
+    var y = 55;
     var column = 1;
     var first = true;
     var i = 0;
@@ -34,22 +34,23 @@ $(document).ready(function() {
         y += 15;
       } else {
         if ($(this).hasClass('parallel') && column == 1) {
-          doc.text($(times[i]).text(), 10, y, {'width': 180});
-          doc.text($(this).text(), 60, y, {'width': 90});
+          doc.text($(times[i]).text().trim(), 10, y);
+          y += 10;
+          doc.text($(this).text(), 10, y);
           column = 2;
           return;
         } else if ($(this).hasClass('parallel') && column == 2) {
-          doc.text($(this).text(), 110, y, {'width': 90});
+          doc.text($(this).text(), 100, y);
 
           if ($(details[j]).find('.program-table__item--speaker').length) {
             // none of the split sessions use this but should update if that changes
           } else {
             $(details[j]).find('li').each(function(index) {
-              if (y > 250) {
+              if (y > 260) {
                 doc.addPage();
-                doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
-                doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
-                y = 30;
+                doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
+                doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
+                y = 35;
               } else {
                 y += 8;
               }
@@ -59,7 +60,7 @@ $(document).ready(function() {
               var unsplit = $(this).text();
               var t = doc.splitTextToSize(unsplit, 80);
               if (unsplit.length) {
-                doc.text(12, y, t);
+                doc.text(10, y, t);
               }
 
               // col 2
@@ -82,39 +83,39 @@ $(document).ready(function() {
           column = 1;
 
         } else {
-          doc.text($(times[i]).text(), 10, y, {'width': 180});
-          doc.text($(this).text(), 60, y, {'width': 180});
+          doc.text($(times[i]).text().trim(), 10, y);
+          doc.text($(this).text(), 60, y);
 
           if ($(details[j]).text().trim().length > 0) {
             if ($(details[j]).find('.program-table__item--speaker').length) {
               $(details[j]).find('.program-table__item--speaker').each(function(index) {
-                if (y > 250) {
+                if (y > 260) {
                   doc.addPage();
-                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
-                  doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
-                  y = 30;
+                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
+                  doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
+                  y = 35;
                 } else {
                   y += 8;
                 }
                 doc.setFontSize(10);
                 var t = doc.splitTextToSize($(this).text(), 180);
-                doc.text(12, y, t);
+                doc.text(10, y, t);
                 y += 4*(t.length-1);
               });
               doc.setFontSize(12);
             } else {
               $(details[j]).find('li').each(function(index) {
-                if (y > 250) {
+                if (y > 260) {
                   doc.addPage();
-                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
-                  doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
-                  y = 30;
+                  doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
+                  doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
+                  y = 35;
                 } else {
                   y += 8;
                 }
                 doc.setFontSize(10);
                 var t = doc.splitTextToSize($(this).text(), 180);
-                doc.text(12, y, t);
+                doc.text(10, y, t);
                 y += 4*(t.length-1);
               });
               doc.setFontSize(12);
@@ -122,11 +123,11 @@ $(document).ready(function() {
           }
         }
 
-        if (y > 250) {
+        if (y > 260) {
           doc.addPage();
-          doc.addImage($('#gov-logo').get(0), 65, 10, 80, 10);
-          doc.addImage($('#gov-footer').get(0), 7, 275, 195, 18);
-          y = 30;
+          doc.addImage($('#gov-logo').get(0), 65, 10, 80, 12);
+          doc.addImage($('#gov-footer').get(0), 5, 270, 195, 26);
+          y = 35;
         } else {
           y += 10;
         }
