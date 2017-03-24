@@ -43,8 +43,19 @@
                   {% assign speakerDisplay = "" | split:""%}
                   {% if speaker.professionalTitle %}{% assign speakerDisplay = speakerDisplay | push: speaker.professionalTitle%}{%endif%}
                   {% if speaker.affiliation%}{% assign speakerDisplay = speakerDisplay | push: speaker.affiliation %}{%endif%}
-                  <p class="program-table__item--speaker"><b>{{speakerName}}</b>, {{speakerDisplay | join: ", " }}</p>
 
+                  <div class="row">
+                    <div class="column large-1">
+                      <a href="{{site.url}}{{site.baseurl}}/speakers.html">
+                        <div class="speaker__image speaker__image--program" style="background-image: url('{{speaker.image.url}}')"></div>
+                      </a>
+                    </div>
+                    <div class="column">
+
+                        <p class="program-table__item--speaker"><a class="page-section__link" href="{{site.url}}{{site.baseurl}}/speakers.html"><b>{{speakerName}}</b></a>, {{speakerDisplay | join: ", " }}</p>
+
+                    </div>
+                  </div>
                 {%endfor%}
               {% endif %}
             </div>

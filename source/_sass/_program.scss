@@ -20,7 +20,7 @@
       margin: 10px 20px;
       float: right;
       content: "expand_more";
-      cursor: pointer; 
+      cursor: pointer;
     }
     &--details {
       max-height: 0;
@@ -41,8 +41,8 @@
       border-top: 1px rgba(black, .1) solid;
     }
     &--description {
-      ul { 
-        padding: 0; 
+      ul {
+        padding: 0;
         li {
           padding-bottom: 1rem;
           a {
@@ -59,7 +59,7 @@
         }
       }
     }
-    &--speaker { padding: 0 0 10px 0; margin: 0;}
+    &--speaker { padding: 0 0 10px 0; margin: 0; padding-bottom: 1.2rem; margin-left: -20px;}
   }
   .program-table__item--container {
     padding-left: 5% !important;
