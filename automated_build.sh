@@ -3,7 +3,7 @@ CWD=`pwd`
 
 # Clone Pages repository
 cd /tmp
-git clone https://github.com/GovLab/collective-intelligence.git build
+git clone git@github.com:GovLab/collective-intelligence.git build
 cd build && git checkout -b gh-pages origin/gh-pages
 # cd build && git checkout -b YOUR_BRANCH origin/YOUR_BRANCH # If not using master
 
