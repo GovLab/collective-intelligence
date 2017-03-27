@@ -299,7 +299,7 @@ speakers:
 session:
 - sys:
     id: 1sigzmxD4wqqEkkYgsOSGw
-  sessionName: Breakfast (Day 2)
+  sessionName: 'Breakfast '
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 08:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 09:00:00.000000000 -04:00
@@ -416,7 +416,7 @@ session:
       Previously, Thomas Kalil served as the Deputy Assistant to President Clinton for Technology and Economic Policy, and the Deputy Director of the White House National Economic Council. He was the NEC's point person on a wide range of technology and telecommunications issues, such as the liberalization of Cold War export controls, the allocation of spectrum for new wireless services, and investments in upgrading America's high-tech workforce. He led a number of White House technology initiatives, such as the National Nanotechnology Initiative, the Next Generation Internet, bridging the digital divide, e-learning, increasing funding for long-term information technology research, making IT more accessible to people with disabilities, and addressing the growing imbalance between support for biomedical research and for the physical sciences and engineering.
 - sys:
     id: 2jM45wKtdGGUcsCyqyWyui
-  sessionName: Break (Morning  Day one)
+  sessionName: Break
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 11:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 11:30:00.000000000 -04:00
@@ -449,13 +449,13 @@ session:
     - __Dhaval Adjodah__, Large-Scale Experiment on the Importance of Social Learning and Unimodality in the Wisdom of the Crowd
 - sys:
     id: 2aCDG5N5uUIuAqq6q4OykK
-  sessionName: Lunch (Day one)
+  sessionName: Lunch
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 13:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 14:00:00.000000000 -04:00
 - sys:
     id: 2CjXqUvgyMGiGCWkqsGOcK
-  sessionName: 'Plenary Talks: Orgs'
+  sessionName: 'Plenary Talks: Organizing and Organizations'
   sessionType: Plenary Talk
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 14:00:00.000000000 -04:00
@@ -509,7 +509,7 @@ session:
       Professor Lifshitz-Assaf earned a doctorate from Harvard Business School, an MBA from Tel Aviv University, magna cum laude, a BA in Management and an LLB in Law from Tel Aviv University, Israel, both magna cum laude.
 - sys:
     id: 5oHCrG2dSEU0mEmE0MIaAQ
-  sessionName: Break (Before Poster Session 1)
+  sessionName: Break
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 15:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 15:15:00.000000000 -04:00
@@ -547,7 +547,7 @@ session:
     - __Frank Nagle__, Goldilocks and the Three Programmers: Unpacking the Relationship Between Online Contributions and Productivity at Work
 - sys:
     id: 4ToIi6NaooayquM24q4oiU
-  sessionName: Break (Before Keynote)
+  sessionName: Break
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 16:15:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 16:30:00.000000000 -04:00
@@ -559,7 +559,7 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-15 18:30:00.000000000 -04:00
 - sys:
     id: 51UyVxkLmMwkEGCEwOw0Gw
-  sessionName: 'Plenary Talks: Modeling'
+  sessionName: 'Plenary Talks: Modeling Intelligence'
   sessionType: Plenary Talk
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 09:00:00.000000000 -04:00
@@ -675,7 +675,7 @@ session:
     - __Ting-Hao (Kenneth) Huang__, Real-time On-Demand Crowd-powered Entity Extraction
 - sys:
     id: 4ulpwdm10kK862a8WIwyWu
-  sessionName: Break (Morning Day 2)
+  sessionName: Break
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 10:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 10:15:00.000000000 -04:00
@@ -687,7 +687,7 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-16 14:15:00.000000000 -04:00
 - sys:
     id: 70bSmA4t7aEgg8EG02SIgY
-  sessionName: Lunch (Day 2)
+  sessionName: Lunch
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
@@ -792,13 +792,13 @@ session:
     - __Elisa Mattarelli__, Co-creating innovation: how feedback exchange processes impact upon innovation in a crowdsourcing platform
 - sys:
     id: 7Hpac00IxO6uSM6Y8gkiu6
-  sessionName: Break (Before Plenary 4)
+  sessionName: Break
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 16:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 16:15:00.000000000 -04:00
 - sys:
     id: 5uN0xeRo6QU0CKsaS0aMAA
-  sessionName: Poster Session (Day 2)
+  sessionName: Poster Session 2
   sessionType: Poster Session
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 11:45:00.000000000 -04:00
