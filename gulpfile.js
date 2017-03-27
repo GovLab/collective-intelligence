@@ -25,6 +25,11 @@ gulp.task('image', function () {
     .pipe(gulp.dest('_site/images'));
 });
 
+gulp.task('circleci', function () {
+  return gulp.src('./circle.yml')
+    .pipe(gulp.dest('_site'));
+});
+
 gulp.task('push-gh-master', shell.task(['git push origin master']));
 
 gulp.task('push-gh-pages', function () {
@@ -36,6 +41,7 @@ gulp.task('deploy', function (callback) {
   runSequence(
     'image',
     'cname',
+    'circleci',
     'push-gh-master',
     'push-gh-pages',
     callback
