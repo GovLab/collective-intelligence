@@ -1,0 +1,23 @@
+machine:
+  environment:
+    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+
+general:
+  branches:
+    only:
+     - master # list of branches to build
+
+dependencies:
+  pre:
+    - gem install bundler
+
+checkout:
+  post:
+    - bundle install
+    - bash automated_build.sh
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - gulp deploy
