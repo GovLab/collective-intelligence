@@ -28,7 +28,9 @@
         <div class="column large-10 small-12 program-table__item--container">
           <div class="program-table__item{%if details_size == 0%}--empty{%endif%} js-open-details">
             <p class="program-table__item--title">{{session.sessionName}}</p>
-            <div class="program-table__item--details">
+            <div class="program-table__item--details {% if session.sessionSpeakers != [] %}
+              js-active
+            {% endif %}">
               {% if session.sessionLocation %}
                 <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
               {%endif%}
@@ -73,7 +75,7 @@
         {% for session in sessions %}
           <div class="column large-6 small-12">
             <div class="program-table__item--parallel">
-              <p class="program-table__item--title parallel">{{session.sessionName}}</p>
+              <p class="program-table__item--title  parallel">{{session.sessionName}}</p>
               <div class="program-table__item--details parallel">
                 {% if session.sessionLocation %}
                 <p class="program-table__item--location">Location: {{session.sessionLocation}}</p>
