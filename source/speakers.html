@@ -12,7 +12,7 @@ subtitle:
   </div>
   <div class="speakers">
     {% for speaker in speakers %}
-      <div class="speaker__container">
+      <div class="speaker__container" id="{{ speaker.name | slugify }}">
         <div class="row large-unstack align-center">
           <div class="large-4 medium-12 small-12 column">
             {%if speaker.image.url%}
