@@ -10,6 +10,8 @@
     }
   }
 
+
+
   &__item {
     &.js-active:before {
       content: "expand_less";
@@ -22,6 +24,7 @@
       content: "expand_more";
       cursor: pointer;
     }
+
     &--details {
       max-height: 0;
       overflow: hidden;
@@ -68,5 +71,15 @@
     .program-table__item--container {
       background-color: rgba(black,0.05);
     }
+  }
+}
+
+.program-table__item.open:before {
+  content: "expand_more";
+}
+
+.open {
+  &.js-active:before {
+    content: "expand_less";
   }
 }
