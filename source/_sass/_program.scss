@@ -74,11 +74,11 @@
   }
 }
 
-.program-table__item.testing:before {
+.program-table__item.open:before {
   content: "expand_more";
 }
 
-.testing {
+.open {
   &.js-active:before {
     content: "expand_less";
   }
