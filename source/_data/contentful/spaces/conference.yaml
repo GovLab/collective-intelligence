@@ -2,6 +2,8 @@
 speakers:
 - sys:
     id: 3BMFUiWV5eG6uy4eiQqsqU
+  firstName: Dana
+  lastName: Lewis
   name: Dana Lewis
   professionalTitle: Founder
   affiliation: "#OpenAPS"
@@ -15,6 +17,8 @@ speakers:
     Dana frequently writes and publishes on topics specific to DIY diabetes work and the broader implications of patient-driven and -designed research. Her work has been referenced or featured in Nature, The Lancet, WNYC’s “Only Human” podcast, The Wall Street Journal, Popular Science, WebMD, Diabetes Forecast, and other mainstream media publications. Her own writings also frequently appear elsewhere, ranging from publication such as Clinical Diabetes and Journal of Diabetes Science and Technology to being cited in books like Free to Make. She has been invited numerous times to the White House under the Obama administration to participate in workshops related to the Precision Medicine Initiative, in addition to being invited by the White House to speak on stage at the White House Frontiers Conference. Additionally, Dana collaborates actively with HHS, NIH, and FDA officials on a regular basis in the U.S., in addition to sharing insight with government officials in other countries interested in patient-driven innovation. She also travels and speaks worldwide on the topics of patient DIY-ing, OpenAPS, and the changes coming to health and healthcare as a result of patients having easy access to technology and collaboration tools in their pockets. Dana has keynoted at conferences ranging from the O’Reilly Open Source Conference (OSCON) to a convenening at European Parliament.
 - sys:
     id: 6fX6DRbke4sgKWc2GKU22i
+  firstName: Tom
+  lastName: Kalil
   name: Tom Kalil
   professionalTitle: Former Deputy Director
   affiliation: White House Office of Science and Technology Policy
@@ -28,6 +32,8 @@ speakers:
     Previously, Thomas Kalil served as the Deputy Assistant to President Clinton for Technology and Economic Policy, and the Deputy Director of the White House National Economic Council. He was the NEC's point person on a wide range of technology and telecommunications issues, such as the liberalization of Cold War export controls, the allocation of spectrum for new wireless services, and investments in upgrading America's high-tech workforce. He led a number of White House technology initiatives, such as the National Nanotechnology Initiative, the Next Generation Internet, bridging the digital divide, e-learning, increasing funding for long-term information technology research, making IT more accessible to people with disabilities, and addressing the growing imbalance between support for biomedical research and for the physical sciences and engineering.
 - sys:
     id: 5APwZVmq4wOekosSoaCiCG
+  firstName: Noshir
+  lastName: Contractor
   name: Noshir Contractor
   professionalTitle: Jane S. & William J. White Professor of Behavioral Sciences
   affiliation: Northwestern University
@@ -43,6 +49,8 @@ speakers:
     Professor Contractor has a Bachelor’s degree in Electrical Engineering from the Indian Institute of Technology, Madras and a Ph.D. from the Annenberg School of Communication at the University of Southern California.
 - sys:
     id: 11jAOibnouAwSc686umkEC
+  firstName: Mark
+  lastName: Ackerman
   name: Mark Ackerman
   professionalTitle: George Herbert Mead Collegiate Professor of Human-Computer Interaction
   affiliation: University of Michigan, Ann Arbor
@@ -56,6 +64,8 @@ speakers:
     Previously, Mark was a faculty member at the University of California, Irvine, and a research scientist at MIT's Laboratory for Computer Science (now CSAIL). Before becoming an academic, Mark led the development of the first home banking system, had three Billboard Top-10 games for the Atari 2600, and worked on the X Window System's first user-interface widget set. Mark has degrees from the University of Chicago, Ohio State, and MIT.
 - sys:
     id: 1crhgkkVk0UOgWaiOOso28
+  firstName: Hila
+  lastName: Lifshitz-Assaf
   name: Hila Lifshitz-Assaf
   professionalTitle: Assistant Professor
   affiliation: NYU Stern School of Business
@@ -73,7 +83,9 @@ speakers:
     Professor Lifshitz-Assaf earned a doctorate from Harvard Business School, an MBA from Tel Aviv University, magna cum laude, a BA in Management and an LLB in Law from Tel Aviv University, Israel, both magna cum laude.
 - sys:
     id: PmDi5MlOSGoCgWMQU0AAK
-  name: Roger Luke Dubois
+  firstName: R Luke
+  lastName: Dubois
+  name: R Luke Dubois
   professionalTitle: Co-Director and Associate Professor of Integrated Digital Media
   affiliation: NYU Tandon School of Engineering
   image:
@@ -83,11 +95,15 @@ speakers:
   bio: |
     R. Luke DuBois is a composer, artist, and performer who explores the temporal, verbal, and visual structures of cultural and personal ephemera. He holds a doctorate in music composition from Columbia University, and has lectured and taught worldwide on interactive sound and video performance. He has collaborated on interactive performance, installation, and music production work with many artists and organizations including Toni Dove, Todd Reynolds, Jamie Jewett, Bora Yoon, Michael Joaquin Grey, Matthew Ritchie, Elliott Sharp, Michael Gordon, Maya Lin, Bang on a Can, Engine 27, Harvestworks, and LEMUR, and was the director of the Princeton Laptop Orchestra for its 2007 season.
 
+    Stemming from his investigations of “time-lapse phonography,” his work is a sonic and encyclopedic relative to time-lapse photography. Just as a long camera exposure fuses motion into a single image, his projects reveal the average sonority, visual language, and vocabulary in music, film, text, or cultural information. Exhibitions of his work include: the Insitut Valencià d’Art Modern, Spain; Haus der elektronischen Künste, Switzerland; 2008 Democratic National Convention, Denver; Weisman Art Museum, Minneapolis; San Jose Museum of Art; National Constitution Center, Philadelphia; Cleveland Museum of Contemporary Art; Daelim Contemporary Art Museum, Seoul; 2007 Sundance Film Festival; the Sydney Film Festival; the Smithsonian American Art Museum; PROSPECT.2 New Orleans; and the Aspen Institute. DuBois' work and writing has appeared in print and online in the New York Times, National Geographic, and Esquire Magazine, and he was an invited speaker at the 2016 TED Conference. A major survey of his work, NOW, received its premiere at the Ringling Museum of Art in 2014, with a catalogue published by Scala Art & Heritage Publishers.
+
     An active visual and musical collaborator, DuBois is the co-author of Jitter, a software suite for the real-time manipulation of matrix data developed by San Francisco-based software company Cycling'74. He appears on nearly twenty-five albums both individually and as part of the avant-garde electronic group The Freight Elevator Quartet. He currently performs as part of Bioluminescence, a duo with vocalist Lesley Flanigan that explores the modality of the human voice, and in Fair Use, a trio with Zach Layton and Matthew Ostrowski, that looks at our accelerating culture through elecronic performance and remixing of cinema.
 
     DuBois has lived for the last twenty-two years in New York City. He is the director of the Brooklyn Experimental Media Center at the NYU Tandon School of Engineering, and is on the Board of Directors of the ISSUE Project Room. His records are available on Caipirinha/Sire, Liquid Sky, C74, and Cantaloupe Music. His artwork is represented by bitforms gallery in New York City.
 - sys:
     id: 20Suvn0EOwmeuUwumu64QS
+  firstName: Daniel
+  lastName: Weld
   name: Daniel Weld
   professionalTitle: Thomas J. Cable / WRF Professor of Computer Science & Engineering
     and Entrepreneurial Faculty Fellow
@@ -101,6 +117,8 @@ speakers:
     Dan is an active entrepreneur with several patents and technology licenses. He co-founded Netbot Incorporated, creator of Jango Shopping Search (acquired by Excite), AdRelevance, a monitoring service for internet advertising (acquired by Nielsen NetRatings), and data integration company Nimble Technology (acquired by Actuate). Dan is a Venture Partner at the [Madrona Venture Group](http://www.madrona.com/) and on the Scientific Advisory Boards of the [Allen Institute for Artificial Intelligence](http://allenai.org/), [Context Relevant](http://www.contextrelevant.com/), the Madrona Venture Group, [Spare5](http://www.spare5.com/), and [Voicebox Technologies](http://www.voicebox.com/).
 - sys:
     id: 51qRRteYZicsKoGeEgyIQY
+  firstName: Bernardo
+  lastName: Huberman
   name: Bernardo Huberman
   professionalTitle: Senior HP Fellow and Director
   affiliation: Social Computing Lab, Hewlett-Packard Laboratories
@@ -133,23 +151,23 @@ speakers:
     in large networks."
 - sys:
     id: 527IdMMFRmu6QEocqiiWkK
-  name: Nick Oullette
+  firstName: Nick
+  lastName: Ouellette
+  name: Nick Ouellette
   professionalTitle: Associate Professor
   affiliation: Stanford University
   image:
     title: NickOuellette
     description: 
     url: "//images.contentful.com/5tbgktilyyxn/294V2i03liAYasUsMyyWeY/9b3ed12dc57eacc9c25475da340278ce/nick.jpg"
-  bio: Nick Ouellette is an Associate Professor of Civil and Environmental Engineering
-    at Stanford University. He graduated from Swarthmore College in 2002 with majors
-    in Physics and Computer Science, and earned his Ph.D. (in Physics) in 2006 from
-    Cornell University, where he worked with Eberhard Bodenschatz. He held postdoctoral
-    positions at the Max Planck Institute for Dynamics and Self-Organization in 2006
-    (with Eberhard Bodenschatz) and in the Physics Department at Haverford College
-    from 2007-2008 (with Jerry Gollub). Prior to working at Stanford, he spent seven
-    years on the faculty in Mechanical Engineering and Materials Science at Yale University.
+  bio: |-
+    Nick Ouellette is an Associate Professor of Civil and Environmental Engineering at Stanford University. He graduated from Swarthmore College in 2002 with majors in Physics and Computer Science, and earned his Ph.D. (in Physics) in 2006 from Cornell University, where he worked with Eberhard Bodenschatz. He held postdoctoral positions at the Max Planck Institute for Dynamics and Self-Organization in 2006 (with Eberhard Bodenschatz) and in the Physics Department at Haverford College from 2007-2008 (with Jerry Gollub). Prior to working at Stanford, he spent seven years on the faculty in Mechanical Engineering and Materials Science at Yale University.
+
+    Ouellette is broadly interested the behavior of complex systems far from equilibrium. In particular, a running theme in his research is dynamical self-organization. He seeks both to understand the physical principles that govern the spontaneous emergence of low-dimensional structure in high-dimensional systems and to harness this self-organization for engineering applications. His current research includes studies of turbulent flows in two and three dimensions, in both simple and complex fluids; the transport of inertial, anisotropic, and active particles in turbulence; the erosion of granular beds by fluid flows and subsequent sediment transport; and quantitative measurements of collective behavior in insect swarms and other animal groups.
 - sys:
     id: 4Yzm00ZK1O48uM2UACmkI4
+  firstName: Ece
+  lastName: Kamar
   name: Ece Kamar
   professionalTitle: Researcher
   affiliation: Microsoft Research
@@ -169,6 +187,8 @@ speakers:
     of AI 100. Their report is available [here](https://ai100.stanford.edu/2016-report). "
 - sys:
     id: 3R87RnBQvuIkouq0UmQu24
+  firstName: Geoff
+  lastName: Mulgan
   name: Geoff Mulgan
   professionalTitle: Chief Executive Officer
   affiliation: NESTA
@@ -207,9 +227,31 @@ speakers:
     \  \n\nGeoff’s Twitter handle is [@geoffmulgan](http://www.twitter.com/geoffmulgan).
     A summary of ideas Geoff has worked on can be found [here](http://www.nesta.org.uk/sites/default/files/geoff_mulgan_-_ideas.pdf)."
 - sys:
+    id: 58288NEDskkE2EKmmC8I80
+  firstName: Pablo
+  lastName: Iglesias
+  name: Pablo Iglesias
+  professionalTitle: Secretary-General
+  affiliation: Podemos
+  image:
+    title: PabloIglesias
+    description: 
+    url: "//images.contentful.com/5tbgktilyyxn/4SUHOc91K0206u8mKMmI4Y/ada5a1c00fcdbd504a479a44626f226d/PabloIglesias.jpg"
+  bio: Pablo Iglesias has been the Secretary-General of Spanish political party, Podemos
+    since 2014. Prior to his entry into politics, he was a lecturer in political science
+    at the Complutense University of Madrid. He was elected to the European Parliament
+    in the 2014 elections as the leading candidate of the newly formed party Podemos,
+    along with four other members of his party. Pablo frequently presents political
+    debate TV shows, Fort Apache for the Iranian government's Hispan TV and La Tuerka.
+    He is also the director of programming at a production company called Con Mano
+    Izquierda. He has also written articles in publications such as Público, Kaosenlared,
+    Diagonal and Rebelion.org
+- sys:
     id: 5c5DXsJ9XqWs6aiWwsmou4
+  firstName: Eric
+  lastName: Gordon
   name: Eric Gordon
-  professionalTitle: 'Associate Professor '
+  professionalTitle: 'Professor '
   affiliation: Emerson College
   image:
     title: EricGordon
@@ -229,9 +271,11 @@ speakers:
     Matters in a Networked World (Blackwell 2011, with Adriana de Souza e Silva) and
     The Urban Spectator: American Concept Cities From Kodak to Google (Dartmouth 2010).
     His edited volume (with Paul Mihailidis) entitled Civic Media: Technology, Design,
-    Practice will be published by MIT Press in 2016'
+    Practice was published by MIT Press in 2016'
 - sys:
     id: 2HFEzwt1AswYoo4EUyCI6M
+  firstName: Karen
+  lastName: Levy
   name: Karen Levy
   professionalTitle: Assistant Professor
   affiliation: Cornell University
@@ -243,63 +287,34 @@ speakers:
     Karen Levy is an assistant professor in the Department of Information Science at Cornell University, and associate member of the faculty of Cornell Law School. She researches how law and technology interact to regulate social life, with particular focus on social and organizational aspects of surveillance. Much of Dr. Levy's research analyzes the uses of monitoring for social control in various contexts, from long-haul trucking to intimate relationships. She is also interested in how data collection uniquely impacts, and is contested by, marginalized populations.
     Dr. Levy is also a fellow at the Data and Society Research Institute in New York City. She holds a Ph.D. in Sociology from Princeton University and a J.D. from Indiana University Maurer School of Law. Dr. Levy previously served as a law clerk in the United States Federal Courts.
 - sys:
-    id: 5L6ojWWvBYY0UwycSM6mQi
-  name: Kate Starbird
-  professionalTitle: Assistant Professor
-  affiliation: University of Washington
-  image:
-    title: KateStarbird
-    description: 
-    url: "//images.contentful.com/5tbgktilyyxn/1FgVPjxtfeqgcws48UIMIm/2d34b8142c80928a57d4e2f0ecc383dd/UW_EngineeringNov2012-162-web.jpg"
-  bio: "Kate Starbird is an Assistant Professor in the Department of Human Centered
-    Design & Engineering (HCDE) and Director of the [Emerging Capacities of Mass Participation
-    (emCOMP) Laboratory](http://www.hcde.washington.edu/emcomp). Her research sits
-    at the intersection of computer science and social science and falls within the
-    fields of Human-Computer Interaction (HCI) and Computer-Supported Cooperative
-    Work (CSCW). One major focus of her work examines the use of social media during
-    crisis events, specifically looking at how the converging audience (aka, the \"crowd\")
-    can contribute—and is already contributing—to crisis response efforts. \n\nUsing
-    a combination of empirical methods, including qualitative, computational and network
-    analysis, Starbird examines both small group and large scale interaction online
-    within the context of disasters and other mass disruption events, studying how
-    digital volunteers and other members of the crowd work to filter and shape the
-    information space. \n\nDr. Starbird received her PhD in Technology, Media and
-    Society from the ATLAS Institute at the University of Colorado in 2012, where
-    she examined both large-scale and small group online interaction during crisis
-    events, studying how digital volunteers and other members of the connected crowd
-    work to filter and shape the information space. As part of that research, she
-    co-created and developed the infrastructure to support the \"Tweak the Tweet\"
-    project, an innovation for using Twitter more effectively as a channel for reporting
-    actionable information during crisis. She was awarded an NSF Graduate Research
-    Fellowship for her PhD studies."
-- sys:
     id: 18EPH3nywGkwqAYmGqgIyC
+  firstName: Darlene
+  lastName: Cavalier
   name: 'Darlene Cavalier '
   professionalTitle: Founder
   affiliation: SciStarter
   image:
-    title: DarleneCavalier
+    title: Darlene Cavalier work headshot
     description: 
-    url: "//images.contentful.com/5tbgktilyyxn/5dVCNNhLGES8SiEi4EwkYU/7e7865b72aa4886a60756a6293c6402f/DarleneCavalier360p-360x375.jpg"
-  bio: 'Darlene Cavalier is a Professor at Arizona State University''s Center for
-    Engagement and Training, part of the School for the Future of Innovation in Society.
-    Cavalier is the founder of SciStarter. She is also the founder of [Science Cheerleader](http://www.sciencecheerleader.com/),
-    an organization of more than 300 current and former professional cheerleaders
-    pursuing STEM careers, and  a cofounder of [ECAST](https://www.ecastnetwork.org/):
-    Expert and Citizen Assessment of Science and Technology, a network of universities,
+    url: "//images.contentful.com/5tbgktilyyxn/2dH9Stx7e0cEwekm42OAEk/73e738e101a9e4784f2c2be1eaaf7e57/Darlene_Cavalier_work_headshot.jpg"
+  bio: 'Darlene Cavalier is a Professor of Practice at Arizona State University''s
+    Center for Engagement and Training, part of the School for the Future of Innovation
+    in Society. Ms. Cavalier is the founder of SciStarter, an online platform for
+    identifying, supporting, and participating in citizen science opportunities. She
+    is also the founder of Science Cheerleader, an organization of more than 300 current
+    and former professional cheerleaders pursuing STEM careers, and a cofounder of
+    ECAST: Expert and Citizen Assessment of Science and Technology, a network of universities,
     science centers, and think tanks that produces public deliberations to enhance
     science policymaking. She is a founding Board Member of the Citizen Science Association,
-    a senior advisor at Discover Magazine, and a member of the EPA''s National Advisory
-    Council for Environmental Policy and Technology. She is the author of [The Science
-    of Cheerleading](https://itunes.apple.com/us/book/the-science-of-cheerleading/id1017060454?mt=11)
-    and co-editor of [The Rightful Place of Science: Citizen Science](http://cspo.org/news/rightful-place-of-science-citizen-science/),
-    published by Arizona State University. Darlene hold degrees from Temple University
-    and the University of Pennsylvania and was a high school, college and NBA cheerleader.
-    Darlene lives in Philadelphia with her husband and four children'
+    a senior advisor at Discover Magazine, and a member of the Environmental Protection
+    Agency;s National Advisory Council for Environmental Policy and Technology. She
+    is the author of The Science of Cheerleading and co-editor of The Rightful Place
+    of Science: Citizen Science, published by Arizona State University. Ms. Cavalier
+    holds a master’s degree from the University of Pennsylvania.'
 session:
 - sys:
     id: 1sigzmxD4wqqEkkYgsOSGw
-  sessionName: 'Breakfast '
+  sessionName: Refreshments and Registration
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 08:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 09:00:00.000000000 -04:00
@@ -318,6 +333,8 @@ session:
   sessionSpeakers:
   - sys:
       id: 3R87RnBQvuIkouq0UmQu24
+    firstName: Geoff
+    lastName: Mulgan
     name: Geoff Mulgan
     professionalTitle: Chief Executive Officer
     affiliation: NESTA
@@ -366,6 +383,8 @@ session:
   sessionSpeakers:
   - sys:
       id: 3BMFUiWV5eG6uy4eiQqsqU
+    firstName: Dana
+    lastName: Lewis
     name: Dana Lewis
     professionalTitle: Founder
     affiliation: "#OpenAPS"
@@ -379,30 +398,34 @@ session:
       Dana frequently writes and publishes on topics specific to DIY diabetes work and the broader implications of patient-driven and -designed research. Her work has been referenced or featured in Nature, The Lancet, WNYC’s “Only Human” podcast, The Wall Street Journal, Popular Science, WebMD, Diabetes Forecast, and other mainstream media publications. Her own writings also frequently appear elsewhere, ranging from publication such as Clinical Diabetes and Journal of Diabetes Science and Technology to being cited in books like Free to Make. She has been invited numerous times to the White House under the Obama administration to participate in workshops related to the Precision Medicine Initiative, in addition to being invited by the White House to speak on stage at the White House Frontiers Conference. Additionally, Dana collaborates actively with HHS, NIH, and FDA officials on a regular basis in the U.S., in addition to sharing insight with government officials in other countries interested in patient-driven innovation. She also travels and speaks worldwide on the topics of patient DIY-ing, OpenAPS, and the changes coming to health and healthcare as a result of patients having easy access to technology and collaboration tools in their pockets. Dana has keynoted at conferences ranging from the O’Reilly Open Source Conference (OSCON) to a convenening at European Parliament.
   - sys:
       id: 18EPH3nywGkwqAYmGqgIyC
+    firstName: Darlene
+    lastName: Cavalier
     name: 'Darlene Cavalier '
     professionalTitle: Founder
     affiliation: SciStarter
     image:
-      title: DarleneCavalier
+      title: Darlene Cavalier work headshot
       description: 
-      url: "//images.contentful.com/5tbgktilyyxn/5dVCNNhLGES8SiEi4EwkYU/7e7865b72aa4886a60756a6293c6402f/DarleneCavalier360p-360x375.jpg"
-    bio: 'Darlene Cavalier is a Professor at Arizona State University''s Center for
-      Engagement and Training, part of the School for the Future of Innovation in
-      Society. Cavalier is the founder of SciStarter. She is also the founder of [Science
-      Cheerleader](http://www.sciencecheerleader.com/), an organization of more than
-      300 current and former professional cheerleaders pursuing STEM careers, and  a
-      cofounder of [ECAST](https://www.ecastnetwork.org/): Expert and Citizen Assessment
-      of Science and Technology, a network of universities, science centers, and think
-      tanks that produces public deliberations to enhance science policymaking. She
-      is a founding Board Member of the Citizen Science Association, a senior advisor
-      at Discover Magazine, and a member of the EPA''s National Advisory Council for
-      Environmental Policy and Technology. She is the author of [The Science of Cheerleading](https://itunes.apple.com/us/book/the-science-of-cheerleading/id1017060454?mt=11)
-      and co-editor of [The Rightful Place of Science: Citizen Science](http://cspo.org/news/rightful-place-of-science-citizen-science/),
-      published by Arizona State University. Darlene hold degrees from Temple University
-      and the University of Pennsylvania and was a high school, college and NBA cheerleader.
-      Darlene lives in Philadelphia with her husband and four children'
+      url: "//images.contentful.com/5tbgktilyyxn/2dH9Stx7e0cEwekm42OAEk/73e738e101a9e4784f2c2be1eaaf7e57/Darlene_Cavalier_work_headshot.jpg"
+    bio: 'Darlene Cavalier is a Professor of Practice at Arizona State University''s
+      Center for Engagement and Training, part of the School for the Future of Innovation
+      in Society. Ms. Cavalier is the founder of SciStarter, an online platform for
+      identifying, supporting, and participating in citizen science opportunities.
+      She is also the founder of Science Cheerleader, an organization of more than
+      300 current and former professional cheerleaders pursuing STEM careers, and
+      a cofounder of ECAST: Expert and Citizen Assessment of Science and Technology,
+      a network of universities, science centers, and think tanks that produces public
+      deliberations to enhance science policymaking. She is a founding Board Member
+      of the Citizen Science Association, a senior advisor at Discover Magazine, and
+      a member of the Environmental Protection Agency;s National Advisory Council
+      for Environmental Policy and Technology. She is the author of The Science of
+      Cheerleading and co-editor of The Rightful Place of Science: Citizen Science,
+      published by Arizona State University. Ms. Cavalier holds a master’s degree
+      from the University of Pennsylvania.'
   - sys:
       id: 6fX6DRbke4sgKWc2GKU22i
+    firstName: Tom
+    lastName: Kalil
     name: Tom Kalil
     professionalTitle: Former Deputy Director
     affiliation: White House Office of Science and Technology Policy
@@ -463,6 +486,8 @@ session:
   sessionSpeakers:
   - sys:
       id: 5APwZVmq4wOekosSoaCiCG
+    firstName: Noshir
+    lastName: Contractor
     name: Noshir Contractor
     professionalTitle: Jane S. & William J. White Professor of Behavioral Sciences
     affiliation: Northwestern University
@@ -478,6 +503,8 @@ session:
       Professor Contractor has a Bachelor’s degree in Electrical Engineering from the Indian Institute of Technology, Madras and a Ph.D. from the Annenberg School of Communication at the University of Southern California.
   - sys:
       id: 11jAOibnouAwSc686umkEC
+    firstName: Mark
+    lastName: Ackerman
     name: Mark Ackerman
     professionalTitle: George Herbert Mead Collegiate Professor of Human-Computer
       Interaction
@@ -492,6 +519,8 @@ session:
       Previously, Mark was a faculty member at the University of California, Irvine, and a research scientist at MIT's Laboratory for Computer Science (now CSAIL). Before becoming an academic, Mark led the development of the first home banking system, had three Billboard Top-10 games for the Atari 2600, and worked on the X Window System's first user-interface widget set. Mark has degrees from the University of Chicago, Ohio State, and MIT.
   - sys:
       id: 1crhgkkVk0UOgWaiOOso28
+    firstName: Hila
+    lastName: Lifshitz-Assaf
     name: Hila Lifshitz-Assaf
     professionalTitle: Assistant Professor
     affiliation: NYU Stern School of Business
@@ -567,6 +596,8 @@ session:
   sessionSpeakers:
   - sys:
       id: 20Suvn0EOwmeuUwumu64QS
+    firstName: Daniel
+    lastName: Weld
     name: Daniel Weld
     professionalTitle: Thomas J. Cable / WRF Professor of Computer Science & Engineering
       and Entrepreneurial Faculty Fellow
@@ -580,6 +611,8 @@ session:
       Dan is an active entrepreneur with several patents and technology licenses. He co-founded Netbot Incorporated, creator of Jango Shopping Search (acquired by Excite), AdRelevance, a monitoring service for internet advertising (acquired by Nielsen NetRatings), and data integration company Nimble Technology (acquired by Actuate). Dan is a Venture Partner at the [Madrona Venture Group](http://www.madrona.com/) and on the Scientific Advisory Boards of the [Allen Institute for Artificial Intelligence](http://allenai.org/), [Context Relevant](http://www.contextrelevant.com/), the Madrona Venture Group, [Spare5](http://www.spare5.com/), and [Voicebox Technologies](http://www.voicebox.com/).
   - sys:
       id: 51qRRteYZicsKoGeEgyIQY
+    firstName: Bernardo
+    lastName: Huberman
     name: Bernardo Huberman
     professionalTitle: Senior HP Fellow and Director
     affiliation: Social Computing Lab, Hewlett-Packard Laboratories
@@ -612,24 +645,23 @@ session:
       information in large networks."
   - sys:
       id: 527IdMMFRmu6QEocqiiWkK
-    name: Nick Oullette
+    firstName: Nick
+    lastName: Ouellette
+    name: Nick Ouellette
     professionalTitle: Associate Professor
     affiliation: Stanford University
     image:
       title: NickOuellette
       description: 
       url: "//images.contentful.com/5tbgktilyyxn/294V2i03liAYasUsMyyWeY/9b3ed12dc57eacc9c25475da340278ce/nick.jpg"
-    bio: Nick Ouellette is an Associate Professor of Civil and Environmental Engineering
-      at Stanford University. He graduated from Swarthmore College in 2002 with majors
-      in Physics and Computer Science, and earned his Ph.D. (in Physics) in 2006 from
-      Cornell University, where he worked with Eberhard Bodenschatz. He held postdoctoral
-      positions at the Max Planck Institute for Dynamics and Self-Organization in
-      2006 (with Eberhard Bodenschatz) and in the Physics Department at Haverford
-      College from 2007-2008 (with Jerry Gollub). Prior to working at Stanford, he
-      spent seven years on the faculty in Mechanical Engineering and Materials Science
-      at Yale University.
+    bio: |-
+      Nick Ouellette is an Associate Professor of Civil and Environmental Engineering at Stanford University. He graduated from Swarthmore College in 2002 with majors in Physics and Computer Science, and earned his Ph.D. (in Physics) in 2006 from Cornell University, where he worked with Eberhard Bodenschatz. He held postdoctoral positions at the Max Planck Institute for Dynamics and Self-Organization in 2006 (with Eberhard Bodenschatz) and in the Physics Department at Haverford College from 2007-2008 (with Jerry Gollub). Prior to working at Stanford, he spent seven years on the faculty in Mechanical Engineering and Materials Science at Yale University.
+
+      Ouellette is broadly interested the behavior of complex systems far from equilibrium. In particular, a running theme in his research is dynamical self-organization. He seeks both to understand the physical principles that govern the spontaneous emergence of low-dimensional structure in high-dimensional systems and to harness this self-organization for engineering applications. His current research includes studies of turbulent flows in two and three dimensions, in both simple and complex fluids; the transport of inertial, anisotropic, and active particles in turbulence; the erosion of granular beds by fluid flows and subsequent sediment transport; and quantitative measurements of collective behavior in insect swarms and other animal groups.
   - sys:
       id: 4Yzm00ZK1O48uM2UACmkI4
+    firstName: Ece
+    lastName: Kamar
     name: Ece Kamar
     professionalTitle: Researcher
     affiliation: Microsoft Research
@@ -701,8 +733,10 @@ session:
   sessionSpeakers:
   - sys:
       id: 5c5DXsJ9XqWs6aiWwsmou4
+    firstName: Eric
+    lastName: Gordon
     name: Eric Gordon
-    professionalTitle: 'Associate Professor '
+    professionalTitle: 'Professor '
     affiliation: Emerson College
     image:
       title: EricGordon
@@ -722,9 +756,11 @@ session:
       Why Location Matters in a Networked World (Blackwell 2011, with Adriana de Souza
       e Silva) and The Urban Spectator: American Concept Cities From Kodak to Google
       (Dartmouth 2010). His edited volume (with Paul Mihailidis) entitled Civic Media:
-      Technology, Design, Practice will be published by MIT Press in 2016'
+      Technology, Design, Practice was published by MIT Press in 2016'
   - sys:
       id: 2HFEzwt1AswYoo4EUyCI6M
+    firstName: Karen
+    lastName: Levy
     name: Karen Levy
     professionalTitle: Assistant Professor
     affiliation: Cornell University
@@ -735,36 +771,6 @@ session:
     bio: |-
       Karen Levy is an assistant professor in the Department of Information Science at Cornell University, and associate member of the faculty of Cornell Law School. She researches how law and technology interact to regulate social life, with particular focus on social and organizational aspects of surveillance. Much of Dr. Levy's research analyzes the uses of monitoring for social control in various contexts, from long-haul trucking to intimate relationships. She is also interested in how data collection uniquely impacts, and is contested by, marginalized populations.
       Dr. Levy is also a fellow at the Data and Society Research Institute in New York City. She holds a Ph.D. in Sociology from Princeton University and a J.D. from Indiana University Maurer School of Law. Dr. Levy previously served as a law clerk in the United States Federal Courts.
-  - sys:
-      id: 5L6ojWWvBYY0UwycSM6mQi
-    name: Kate Starbird
-    professionalTitle: Assistant Professor
-    affiliation: University of Washington
-    image:
-      title: KateStarbird
-      description: 
-      url: "//images.contentful.com/5tbgktilyyxn/1FgVPjxtfeqgcws48UIMIm/2d34b8142c80928a57d4e2f0ecc383dd/UW_EngineeringNov2012-162-web.jpg"
-    bio: "Kate Starbird is an Assistant Professor in the Department of Human Centered
-      Design & Engineering (HCDE) and Director of the [Emerging Capacities of Mass
-      Participation (emCOMP) Laboratory](http://www.hcde.washington.edu/emcomp). Her
-      research sits at the intersection of computer science and social science and
-      falls within the fields of Human-Computer Interaction (HCI) and Computer-Supported
-      Cooperative Work (CSCW). One major focus of her work examines the use of social
-      media during crisis events, specifically looking at how the converging audience
-      (aka, the \"crowd\") can contribute—and is already contributing—to crisis response
-      efforts. \n\nUsing a combination of empirical methods, including qualitative,
-      computational and network analysis, Starbird examines both small group and large
-      scale interaction online within the context of disasters and other mass disruption
-      events, studying how digital volunteers and other members of the crowd work
-      to filter and shape the information space. \n\nDr. Starbird received her PhD
-      in Technology, Media and Society from the ATLAS Institute at the University
-      of Colorado in 2012, where she examined both large-scale and small group online
-      interaction during crisis events, studying how digital volunteers and other
-      members of the connected crowd work to filter and shape the information space.
-      As part of that research, she co-created and developed the infrastructure to
-      support the \"Tweak the Tweet\" project, an innovation for using Twitter more
-      effectively as a channel for reporting actionable information during crisis.
-      She was awarded an NSF Graduate Research Fellowship for her PhD studies."
 - sys:
     id: 5Vpmhe09pK2skWuMyqYImg
   sessionName: Parallel Session 5
@@ -835,7 +841,7 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-16 17:30:00.000000000 -04:00
 - sys:
     id: 2DJfuvbhGo2GGEKiO2SEAq
-  sessionName: Breakfast and Registration
+  sessionName: Refreshments and Registration
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 08:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 09:00:00.000000000 -04:00
@@ -848,7 +854,9 @@ session:
   sessionSpeakers:
   - sys:
       id: PmDi5MlOSGoCgWMQU0AAK
-    name: Roger Luke Dubois
+    firstName: R Luke
+    lastName: Dubois
+    name: R Luke Dubois
     professionalTitle: Co-Director and Associate Professor of Integrated Digital Media
     affiliation: NYU Tandon School of Engineering
     image:
@@ -857,6 +865,8 @@ session:
       url: "//images.contentful.com/5tbgktilyyxn/6ytPdpta3CkGyoqKA8eMA4/7ef2fbc8e2f2a25b27a77c82069d86dc/20140112-LUKE-slide-7BLG-jumbo.jpg"
     bio: |
       R. Luke DuBois is a composer, artist, and performer who explores the temporal, verbal, and visual structures of cultural and personal ephemera. He holds a doctorate in music composition from Columbia University, and has lectured and taught worldwide on interactive sound and video performance. He has collaborated on interactive performance, installation, and music production work with many artists and organizations including Toni Dove, Todd Reynolds, Jamie Jewett, Bora Yoon, Michael Joaquin Grey, Matthew Ritchie, Elliott Sharp, Michael Gordon, Maya Lin, Bang on a Can, Engine 27, Harvestworks, and LEMUR, and was the director of the Princeton Laptop Orchestra for its 2007 season.
+
+      Stemming from his investigations of “time-lapse phonography,” his work is a sonic and encyclopedic relative to time-lapse photography. Just as a long camera exposure fuses motion into a single image, his projects reveal the average sonority, visual language, and vocabulary in music, film, text, or cultural information. Exhibitions of his work include: the Insitut Valencià d’Art Modern, Spain; Haus der elektronischen Künste, Switzerland; 2008 Democratic National Convention, Denver; Weisman Art Museum, Minneapolis; San Jose Museum of Art; National Constitution Center, Philadelphia; Cleveland Museum of Contemporary Art; Daelim Contemporary Art Museum, Seoul; 2007 Sundance Film Festival; the Sydney Film Festival; the Smithsonian American Art Museum; PROSPECT.2 New Orleans; and the Aspen Institute. DuBois' work and writing has appeared in print and online in the New York Times, National Geographic, and Esquire Magazine, and he was an invited speaker at the 2016 TED Conference. A major survey of his work, NOW, received its premiere at the Ringling Museum of Art in 2014, with a catalogue published by Scala Art & Heritage Publishers.
 
       An active visual and musical collaborator, DuBois is the co-author of Jitter, a software suite for the real-time manipulation of matrix data developed by San Francisco-based software company Cycling'74. He appears on nearly twenty-five albums both individually and as part of the avant-garde electronic group The Freight Elevator Quartet. He currently performs as part of Bioluminescence, a duo with vocalist Lesley Flanigan that explores the modality of the human voice, and in Fair Use, a trio with Zach Layton and Matthew Ostrowski, that looks at our accelerating culture through elecronic performance and remixing of cinema.
 
