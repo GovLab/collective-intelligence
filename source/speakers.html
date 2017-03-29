@@ -4,7 +4,8 @@ title: Plenary Speakers | Collective Intelligence
 subtitle:
 ---
 
-{% assign speakers = site.data.contentful.spaces.conference.speakers | sort: "name" %}
+{% assign speakers = site.data.contentful.spaces.conference.speakers | sort: "lastName" %}
+
 <main role="main">
   <!-- main content starts here -->
   <div class="top-section top-section--main-color">
@@ -12,7 +13,7 @@ subtitle:
   </div>
   <div class="speakers">
     {% for speaker in speakers %}
-      <div class="speaker__container" id="{{ speaker.name | slugify }}">
+      <div class="speaker__container" id="{{ speaker.firstName | slugify }}-{{speaker.lastName | slugify}}">
         <div class="row large-unstack align-center">
           <div class="large-4 medium-12 small-12 column">
             {%if speaker.image.url%}
@@ -21,7 +22,7 @@ subtitle:
           </div>
           <div class="large-8 medium-12 small-12 column">
             <div class="speaker__bio">
-              <h3>{{speaker.name}}</h3>
+              <h3>{{speaker.firstName}} {{speaker.lastName}}</h3>
               <h5>{{speaker.professionalTitle}}</h5>
               <h5>{{speaker.affiliation}}</h5>
               {{speaker.bio | markdownify}}
