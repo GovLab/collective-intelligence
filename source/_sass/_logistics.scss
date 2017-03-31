@@ -52,6 +52,14 @@
 }
 
 .address {
-  padding-left: 50px;
+  padding-left: 40px;
+  padding-bottom: 10px;
   font-weight: bold;
+  @include breakpoint($small-only) {
+    padding-left: 20px;
+  }
+}
+
+.dates {
+  margin-bottom: 0;
 }

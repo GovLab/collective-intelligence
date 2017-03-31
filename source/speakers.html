@@ -9,7 +9,7 @@ subtitle:
 <main role="main">
   <!-- main content starts here -->
   <div class="top-section top-section--main-color">
-      <h1>Plenary Speakers</h1>
+      <h1 class="speakers-header">Plenary Speakers</h1>
   </div>
   <div class="speakers">
     {% for speaker in speakers %}
@@ -24,7 +24,7 @@ subtitle:
             <div class="speaker__bio">
               <h3>{{speaker.firstName}} {{speaker.lastName}}</h3>
               <h5>{{speaker.professionalTitle}}</h5>
-              <h5>{{speaker.affiliation}}</h5>
+              <h6>{{speaker.affiliation}}</h6>
               {{speaker.bio | markdownify}}
             </div>
           </div>
