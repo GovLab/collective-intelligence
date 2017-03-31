@@ -47,7 +47,7 @@
                   {% if speaker.affiliation%}{% assign speakerDisplay = speakerDisplay | push: speaker.affiliation %}{%endif%}
 
                   <div class="row">
-                    <div class="column large-1 small-2">
+                    <div class="column large-1 medium-1 small-2">
                       <a href="{{site.url}}{{site.baseurl}}/speakers.html#{{ speaker.firstName | slugify }}-{{speaker.lastName | slugify}}">
                         <div class="speaker__image speaker__image--program" style="background-image: url('{{speaker.image.url}}')"></div>
                       </a>
