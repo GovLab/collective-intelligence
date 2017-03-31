@@ -49,11 +49,17 @@
     .title-top {
       margin-bottom:0;
       font-size: 4.5rem;
+      @include breakpoint($small-only) {
+        font-size: 4.3rem;
+      }
     }
     .title-bottom {
       margin: 0;
       margin-top: -20px;
       font-size: 3.3rem;
+      @include breakpoint($small-only) {
+        font-size: 3.1rem;
+      }
     }
     .title-details {
       h3 {margin: 0;}

@@ -19,9 +19,11 @@
     bottom: 50px;
 
     @include breakpoint($small-only) {
-      position: relative;
+      position: absolute;
       left: 20px;
-      top: 170px;
+      top: 230px;
+      margin: 0;
+      padding: 0;
     }
   }
 
