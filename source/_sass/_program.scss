@@ -31,7 +31,7 @@
       transition: max-height .6s ease;
       box-sizing: border-box;
       padding-bottom: 0;
-      &.js-active { max-height: 900px;}
+      &.js-active { max-height: 100%;}
     }
     &--title {
       font-weight: 600;

@@ -227,26 +227,6 @@ speakers:
     \  \n\nGeoff’s Twitter handle is [@geoffmulgan](http://www.twitter.com/geoffmulgan).
     A summary of ideas Geoff has worked on can be found [here](http://www.nesta.org.uk/sites/default/files/geoff_mulgan_-_ideas.pdf)."
 - sys:
-    id: 58288NEDskkE2EKmmC8I80
-  firstName: Pablo
-  lastName: Iglesias
-  name: Pablo Iglesias
-  professionalTitle: Secretary-General
-  affiliation: Podemos
-  image:
-    title: PabloIglesias
-    description: 
-    url: "//images.contentful.com/5tbgktilyyxn/4SUHOc91K0206u8mKMmI4Y/ada5a1c00fcdbd504a479a44626f226d/PabloIglesias.jpg"
-  bio: Pablo Iglesias has been the Secretary-General of Spanish political party, Podemos
-    since 2014. Prior to his entry into politics, he was a lecturer in political science
-    at the Complutense University of Madrid. He was elected to the European Parliament
-    in the 2014 elections as the leading candidate of the newly formed party Podemos,
-    along with four other members of his party. Pablo frequently presents political
-    debate TV shows, Fort Apache for the Iranian government's Hispan TV and La Tuerka.
-    He is also the director of programming at a production company called Con Mano
-    Izquierda. He has also written articles in publications such as Público, Kaosenlared,
-    Diagonal and Rebelion.org
-- sys:
     id: 5c5DXsJ9XqWs6aiWwsmou4
   firstName: Eric
   lastName: Gordon
@@ -574,6 +554,7 @@ session:
     - __Hanna Halaburda,__ Incentives and Trust in Blockchain Technologies
     - __Tino Marti,__ Score prediction of peers as a learning and evaluation system in education: the development of GuessScore
     - __Frank Nagle__, Goldilocks and the Three Programmers: Unpacking the Relationship Between Online Contributions and Productivity at Work
+    - __Ulrich Atz__, The HUMAN Project: a public resource for representative big data research addressing societal problems
 - sys:
     id: 4ToIi6NaooayquM24q4oiU
   sessionName: Break
@@ -809,7 +790,7 @@ session:
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 11:45:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
-  sessionDescription: |-
+  sessionDescription: |
     - __Christopher Welty__, The Quantum Collective
     - __Oana Inel__, Crowdsourcing for Video Event Detection
     - __Gianluigi Viscusi__, Crowd Dynamics and Crowd Capital in Small Teams: Insights from three crowdsourcing exercises in higher education
@@ -818,7 +799,6 @@ session:
     - __Carina Antonia Hallin__, The State of Collective Intelligence Behavior and Practices of Danish Corporations
     - __Edmond Awad__, Did They Escape? Judging Groups at Face Value
     - __Irene Tello Arista__, Using crowdsourcing and crowdlaw to enact anti-corruption legislation
-    - __Pavel Izhutov__, Optimal Pricing for a Matching Platform
     - __Hamed Nilforoshan__, Segment-Predict-Explain for Automatic Writing Feedback
     - __W. Ben Towne__, Even on Wikipedia, Draft Status Makes A Difference
     - __David Thompson__, A Basket of Social Science, a Bushel of Social Goo
@@ -832,7 +812,6 @@ session:
     - __Yulistina Riyadi__, Collaborative Translation to Better Listen to Citizen Feedback and Voices on a Public Sector Programme
     - __Pablo Ojanguren__, Argos: Crowdlaw Web Tool
     - __George Tilesch__, Collective Creativity as the Frontier of Innovation
-    - __Ulrich Atz__, The HUMAN Project: a public resource for representative big data research addressing societal problems
 - sys:
     id: 25a2rulLsE8i64WEqWIMa
   sessionName: Closing Remarks
@@ -871,3 +850,41 @@ session:
       An active visual and musical collaborator, DuBois is the co-author of Jitter, a software suite for the real-time manipulation of matrix data developed by San Francisco-based software company Cycling'74. He appears on nearly twenty-five albums both individually and as part of the avant-garde electronic group The Freight Elevator Quartet. He currently performs as part of Bioluminescence, a duo with vocalist Lesley Flanigan that explores the modality of the human voice, and in Fair Use, a trio with Zach Layton and Matthew Ostrowski, that looks at our accelerating culture through elecronic performance and remixing of cinema.
 
       DuBois has lived for the last twenty-two years in New York City. He is the director of the Brooklyn Experimental Media Center at the NYU Tandon School of Engineering, and is on the Board of Directors of the ISSUE Project Room. His records are available on Caipirinha/Sire, Liquid Sky, C74, and Cantaloupe Music. His artwork is represented by bitforms gallery in New York City.
+speakerLists:
+- sys:
+    id: 1hv5Omo3lAaCc2cOcOOSaC
+  listType: Parallel Session Speakers
+  speakerList: |
+    Thomas W. Malone, Using Contest Webs to Address the Problem of Global Climate Change
+    Andrew Young, Leveraging Corporate Data and Collective Intelligence to Solve Public Problems:  Data Collaboratives as Prize-Backed Challenges
+    Eoin Cullina, Driving Entrepreneurship Through Crowdsourcing in Scientific Research Funding Agencies
+    Brent Hecht, The Role of Human Geography in Collective Intelligence
+    Carsten Bergenholtz, The Ikea-effect in collective problem solving
+- sys:
+    id: 4YK1BJFC64OagYmOEIuIus
+  listType: Poster Session Speakers
+  speakerList: |-
+    Louis Rosenberg, Human Swarms amplify accuracy in Honesty Detection
+    Larissa Galdino de Magalhães Santos, Government Initiatives of E-Participation in São Paulo: e-participation, open government and public policies
+    Philip Feldman, Modeling The Law of Group Polarization
+    Carlos Parra, Collective Intelligence and Institutional (In)Stability
+    Jordan B Barlow, Emergent Roles in Computer-Mediated Collective Work
+    David Baltaxe, Amplifying Prediction Accuracy using Human Swarms
+    Jesse Shore, Network structure and patterns of information diversity on Twitter
+    Amy X Zhang, Bridging Discussions and Wikis using Recursive Summarization
+    Ramine Tinati, Collaboration in Real-Time Citizen Science Communication
+    Jie Ren, Comparing Divergent Thinking and Creativity Performance in the Crowd versus Experts –The Moderating Role of Task Type
+    Pinar Ozturk, Dialog Classification in Wikipedia
+    Danny Sierra, Motivational factors from citizens in participating civic crowdsourcing initiatives
+    Ian Miller, Influence on GitHub: Individual Limits and Organization Advantages
+    Tom Grad, The Role of Cognitive Distance in Crowd-based Evaluations
+    Justin Longo, OPEN AMC: Opening governance in the New York University Administrative Management Council
+    Qiong Bu, Quality Assessment in Complex Crowdsourcing
+    Feng Shi, Wisdom of Polarized Crowds
+    Kurt Luther, Crowdsourced Image Geolocation as Collective Intelligence
+    Simon Kloker, Partition Dependence Bias in Prediction Markets
+    Manuel Moritz, Collaborative Competition or Competitive Collaboration? Exploring User Behavior in Community-based Innovation Contests
+    Adriana Silva, Mapaton The unsustainable mobility case of México City
+    Hanna Halaburda, Incentives and Trust in Blockchain Technologies
+    Tino Marti, Score prediction of peers as a learning and evaluation system in education: the development of GuessScore
+    Frank Nagle, Goldilocks and the Three Programmers: Unpacking the Relationship Between Online Contributions and Productivity at Work
