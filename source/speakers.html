@@ -5,11 +5,12 @@ subtitle:
 ---
 
 {% assign speakers = site.data.contentful.spaces.conference.speakers | sort: "lastName" %}
+{% assign speakerLists = site.data.contentful.spaces.conference.speakerLists %}
 
 <main role="main">
   <!-- main content starts here -->
   <div class="top-section top-section--main-color">
-      <h1 class="speakers-header">Plenary Speakers</h1>
+      <h1 class="speakers-header">Speakers</h1>
   </div>
   <div class="speakers">
     {% for speaker in speakers %}
@@ -32,4 +33,14 @@ subtitle:
       </div>
     {% endfor %}
   </div>
+  <div class="divider divider--accent-color">
+    <h4>Parallel Session Speakers</h4>
+  </div>
+  {% for list in speakerLists %}
+  <div class="speakers-list">
+    <div class="row align-center">
+      {{ list.speakerList | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
 </main>
