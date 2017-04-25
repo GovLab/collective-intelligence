@@ -12,6 +12,9 @@ subtitle:
   <div class="top-section top-section--main-color">
       <h1 class="speakers-header">Speakers</h1>
   </div>
+  <div class="divider divider--accent-color">
+    <h4>Plenary Speakers</h4>
+  </div>
   <div class="speakers">
     {% for speaker in speakers %}
       <div class="speaker__container" id="{{ speaker.firstName | slugify }}-{{speaker.lastName | slugify}}">
