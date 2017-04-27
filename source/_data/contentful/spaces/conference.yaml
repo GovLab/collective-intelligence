@@ -952,7 +952,6 @@ speakerLists:
     - __Giuseppe Carbone__, Politecnico di Bari
     - __Shi Kai Chong__, MIT Media Lab
     - __Eoin Cullina__, Lero, National University of Ireland, Galway
-    - __Anca Dumitrache__, Vrije Universiteit Amsterdam
     - __Jeremy Foote__, Northwestern University
     - __John Harlow__, Arizona State University
     - __Yue Han__, Stevens Institute of Technology
@@ -972,27 +971,25 @@ speakerLists:
 - sys:
     id: 4YK1BJFC64OagYmOEIuIus
   listType: Poster Session Speakers
-  speakerList: "- __Irene Tello Arista__, Impunidad Cero \n- __Lora Aroyo__,  VU University
-    Amsterdam\n- __Edmond Awad__, MIT Media Lab\n- __David Baltaxe__, Unanimous A.I.\n-
-    __Jordan B. Barlow__, California State University, Fullerton\n- __Ohad Barzilay__,
-    Coller School of Management, Tel Aviv University\n- __Qiong Bu__, University of
-    Southampton\n- __Tyler Burleigh__, New York University\n- __Philip Feldman__,
+  speakerList: "- __Lora Aroyo__,  VU University Amsterdam\n- __Edmond Awad__, MIT
+    Media Lab\n- __David Baltaxe__, Unanimous A.I.\n- __Jordan B. Barlow__, California
+    State University, Fullerton\n- __Ohad Barzilay__, Coller School of Management,
+    Tel Aviv University\n- __Tyler Burleigh__, New York University\n- __Philip Feldman__,
     University of Maryland, Baltimore County\n- __Tom Grad__, Vienna University of
     Economics and Business\n- __Sai Gouravajhala__, University of Michigan \n- __Hanna
     Halaburda__, NYU-Stern\n- __Carina Antonia Hallin__, Copenhagen Business School
-    \n- __Oana Inel__, Vrije Universiteit Amsterdam\n- __Justin Longo__, University
-    of Regina\n- __Kurt Luther__, Virginia Tech\n- __Luana Marinho__, Social Science
-    and Political Theory Unit\n- __Tino Marti__, Excelnets Research\n- __Ian Miller__,
+    \n- __Justin Longo__, University of Regina\n- __Kurt Luther__, Virginia Tech\n-
+    __Luana Marinho__, Social Science and Political Theory Unit\n- __Ian Miller__,
     University of Toronto\n- __Manuel Moritz__, Helmut Schmidt University\n- __Hamed
     Nilforoshan__, Columbia University \n- __Frank Nagle__, University of Southern
     California\n- __Pinar Ozturk__, Stevens Institute of Technology\n- __Carlos Parra__,
     Florida International University\n- __Charles Pezeshki__, Washington State University\n-
-    __Jie Ren__, Fordham University\n- __Charlotte Reypens__, University of Warwick\n-
-    __Yulistina Riyadi__, UN Global Pulse\n- __Louis Rosenberg__, Unanimous A.I.\n-
-    __Ville Satopaa__, INSEAD\n- __Tom Saunders__, Nesta\n- __Feng Shi__, University
-    of North Carolina at Chapel Hill\n- __Jesse Shore__, Boston University\n- __Danny
-    Sierra__, Universidad Nacional de Colombia\n- __Adriana Silva__, SEIS\n- __Tim
-    Straub__, Karlsruhe Institute of Technology\n- __David Thompson__, Community Solutions,
+    __Jie Ren__, Fordham University\n- __Yulistina Riyadi__, UN Global Pulse\n- __Louis
+    Rosenberg__, Unanimous A.I.\n- __Ville Satopaa__, INSEAD\n- __Tom Saunders__,
+    Nesta\n- __Feng Shi__, University of North Carolina at Chapel Hill\n- __Jesse
+    Shore__, Boston University\n- __Danny Sierra__, Universidad Nacional de Colombia\n-
+    __Adriana Silva__, SEIS\n- __Tim Straub__, Karlsruhe Institute of Technology\n-
+    __Irene Tello Arista__, Impunidad Cero \n- __David Thompson__, Community Solutions,
     Inc.\n- __George Tilesch__, Be-novative\n- __Benjamin Timmermans__, Vrije Universiteit
     Amsterdam\n- __Ramine Tinati__, University of Southampton\n- __W. Ben Towne__,
     Carnegie Mellon University\n- __Gianluigi Viscusi__, EPFL\n- __Christopher Welty__,

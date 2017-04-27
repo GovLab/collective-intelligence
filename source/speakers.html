@@ -41,8 +41,10 @@ subtitle:
     <h4>{{ list.listType }}</h4>
   </div>
   <div class="speakers-list">
-    <div class="row">
+    <div class="row large-unstack align-center">
+    <div class="large-10 medium-10 small-12 column">
       {{ list.speakerList | markdownify }}
+    </div>
     </div>
   </div>
   {% endfor %}
