@@ -36,12 +36,12 @@ subtitle:
       </div>
     {% endfor %}
   </div>
-  <div class="divider divider--accent-color">
-    <h4>Parallel Session Speakers</h4>
-  </div>
   {% for list in speakerLists %}
+  <div class="divider divider--accent-color">
+    <h4>{{ list.listType }}</h4>
+  </div>
   <div class="speakers-list">
-    <div class="row align-center">
+    <div class="row">
       {{ list.speakerList | markdownify }}
     </div>
   </div>
