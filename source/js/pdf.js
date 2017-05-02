@@ -321,12 +321,20 @@ function undiacritic(str) {
 }
 
 $(document).ready(function() {
+
   $(".download-button").click(function() {
     var doc = new jsPDF();
+
+    var letterhead = function() {
+      doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
+      doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+      doc.setFontSize(8);
+      doc.text(10, 275, 'Current as of: ' + new Date().toJSON().slice(0,10).replace(/-/g,'/'));
+    };
+
     doc.setFont('helvetica');
 
-    doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
-    doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+    letterhead();
 
     doc.setFontSize(22);
     doc.text(10, 40, 'Program');
@@ -372,8 +380,7 @@ $(document).ready(function() {
         $(details[j]).find('li').each(function(index) {
           if (y > 260) {
             doc.addPage();
-            doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
-            doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+            letterhead();
             y = 40;
           } else {
             y += 8;
@@ -418,8 +425,7 @@ $(document).ready(function() {
             $(details[j]).find('.program-table__item--speaker').each(function(index) {
               if (y > 260) {
                 doc.addPage();
-                doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
-                doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+                letterhead();
                 y = 40;
               } else {
                 y += 8;
@@ -434,8 +440,7 @@ $(document).ready(function() {
             $(details[j]).find('li').each(function(index) {
               if (y > 260) {
                 doc.addPage();
-                doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
-                doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+                letterhead();
                 y = 35;
               } else {
                 y += 8;
@@ -453,8 +458,7 @@ $(document).ready(function() {
       // if past 260 pts do a page break and new header/footer
       if (y > 260) {
         doc.addPage();
-        doc.addImage($('#gov-logo').get(0), 41, 8, 130, 22);
-        doc.addImage($('#gov-footer').get(0), 8, 270, 195, 26);
+        letterhead();
         y = 40;
       } else {
         y += 10;
@@ -464,6 +468,6 @@ $(document).ready(function() {
     }
   });
 
-    doc.save('program.pdf');
-  });
+doc.save('program.pdf');
+});
 });
