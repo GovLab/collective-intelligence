@@ -346,6 +346,29 @@ speakers:
     a resident at [CMU STUDIO for Creative Inquiry](http://studioforcreativeinquiry.org/),
     [Eyebeam](http://eyebeam.org/), [NYU ITP](https://itp.nyu.edu/), and [Ars Electronica
     / QUT TRANSMIT³](http://www.thecube.qut.edu.au/residencies/ars/transmit3.php)."
+- sys:
+    id: 7a4JdkSPcIwC8wIeQoaWGK
+  firstName: Erin
+  lastName: Simpson
+  name: Erin Simpson
+  professionalTitle: Director of Programs
+  affiliation: Civic Hall Labs
+  image:
+    title: Erin Simpson Headshot L - Copy
+    description: 
+    url: "//images.contentful.com/5tbgktilyyxn/3OCji71IgooUMuSqmeiKw0/7723d0f7d61709276e5f95235a3a2270/Erin_Simpson_Headshot_L_-_Copy.jpg"
+  bio: Erin Simpson is the Director of Programs at Civic Hall Labs, a nonprofit that
+    builds open source technology for public good and helps others do the same. Prior
+    to Labs, Erin worked as a fellow with Microsoft’s Civic Team, where she ran community
+    organizing efforts around open data and digital equity in the Chicagoland area.
+    A Truman and Marshall Scholar, Erin will continue her career interrogating bias
+    in digital tools and exploring their civic potential at the Oxford Internet Institute
+    this fall, pursuing MsCs in the Social Science of the Internet and Comparative
+    Social Policy. Erin has a Bachelor's Degree in Public Policy from the University
+    of Chicago, where her award-winning thesis on digital inequality investigated
+    user experience in public computer centers. Erin has worked previously for the
+    White House, the Clinton Foundation, and the Neighborhood Housing Services. Find
+    her [@esmpsn](https://twitter.com/esmpsn).
 session:
 - sys:
     id: 1sigzmxD4wqqEkkYgsOSGw
@@ -707,8 +730,8 @@ session:
   sessionName: Parallel Session 3
   sessionType: Parallel Session
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 10:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 12:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-16 11:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
   sessionDescription: |
     - __Pantelis Pipergias Analytis__, Diversity of preference can increase collective welfare in sequential exploration problems
     - __Young Ji Kim__, More Evidence for a General Collective Intelligence Factor in Human Groups: A Meta-Analysis
@@ -719,31 +742,25 @@ session:
   sessionName: Parallel Session 4
   sessionType: Parallel Session
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 10:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 12:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-16 11:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
   sessionDescription: |-
     - __Andres Abeliuk__, Controlling Collective Behavior Through Position Bias
     - __Brent Hecht__, The Role of Human Geography in Collective Intelligence
     - __Hila Lifshitz-Assaf__, Delineating Emergent Role Behaviors in Wikipedia
     - __Mehdi Moussaid__, The propagation of accurate judgments in experimental transmission chains
 - sys:
-    id: 1mhKZTO0X2o06sGUS44mGi
-  sessionName: Keynote
-  sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 12:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 13:00:00.000000000 -04:00
-- sys:
     id: 70bSmA4t7aEgg8EG02SIgY
   sessionName: Lunch
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 13:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 14:00:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
 - sys:
     id: 4VnmnCLQTukIeYguYiYQSW
   sessionName: 'Plenary Talks: Government use of public / crowd participation'
   sessionType: Plenary Talk
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 16:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-16 16:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 17:30:00.000000000 -04:00
   sessionSpeakers:
   - sys:
@@ -818,13 +835,36 @@ session:
       support the \"Tweak the Tweet\" project, an innovation for using Twitter more
       effectively as a channel for reporting actionable information during crisis.
       She was awarded an NSF Graduate Research Fellowship for her PhD studies."
+  - sys:
+      id: 7a4JdkSPcIwC8wIeQoaWGK
+    firstName: Erin
+    lastName: Simpson
+    name: Erin Simpson
+    professionalTitle: Director of Programs
+    affiliation: Civic Hall Labs
+    image:
+      title: Erin Simpson Headshot L - Copy
+      description: 
+      url: "//images.contentful.com/5tbgktilyyxn/3OCji71IgooUMuSqmeiKw0/7723d0f7d61709276e5f95235a3a2270/Erin_Simpson_Headshot_L_-_Copy.jpg"
+    bio: Erin Simpson is the Director of Programs at Civic Hall Labs, a nonprofit
+      that builds open source technology for public good and helps others do the same.
+      Prior to Labs, Erin worked as a fellow with Microsoft’s Civic Team, where she
+      ran community organizing efforts around open data and digital equity in the
+      Chicagoland area. A Truman and Marshall Scholar, Erin will continue her career
+      interrogating bias in digital tools and exploring their civic potential at the
+      Oxford Internet Institute this fall, pursuing MsCs in the Social Science of
+      the Internet and Comparative Social Policy. Erin has a Bachelor's Degree in
+      Public Policy from the University of Chicago, where her award-winning thesis
+      on digital inequality investigated user experience in public computer centers.
+      Erin has worked previously for the White House, the Clinton Foundation, and
+      the Neighborhood Housing Services. Find her [@esmpsn](https://twitter.com/esmpsn).
 - sys:
     id: 5Vpmhe09pK2skWuMyqYImg
   sessionName: Parallel Session 5
   sessionType: Parallel Session
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 14:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 15:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 15:00:00.000000000 -04:00
   sessionDescription: |+
     - __Jiye Baek__, Using cohort size to promote content contribution: a field experiment on a discussion forum
     -  __Giuseppe Carbone__, Emergence of Collective Intelligence in Human Groups
@@ -841,8 +881,8 @@ session:
   sessionName: Parallel Session 6
   sessionType: Parallel Session
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 14:00:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 15:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 15:00:00.000000000 -04:00
   sessionDescription: |+
     - __Yue Han__, Collective Exploration: Remixing with Human-based Search Algorithms
     - __Ting-Hao (Kenneth) Huang__, Real-time On-Demand Crowd-powered Entity Extraction
@@ -859,13 +899,12 @@ session:
   sessionName: Poster Session 2
   sessionType: Poster Session
   sessionDay: Day Two
-  sessionStart: !ruby/object:DateTime 2017-06-16 15:30:00.000000000 -04:00
-  sessionEnd: !ruby/object:DateTime 2017-06-16 16:30:00.000000000 -04:00
+  sessionStart: !ruby/object:DateTime 2017-06-16 15:00:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 16:00:00.000000000 -04:00
   sessionDescription: |-
     - __Lora Aroyo__, Improving NER Performance by Harnessing Diversity of Machines and Crowds
     - __Edmond Awad__, Did They Escape? Judging Groups at Face Value
     - __Sai Gouravajhala__, Towards Hybrid Intelligence for Robotics
-    - __Carina Antonia Hallin__, The State of Collective Intelligence Behavior and Practices of Danish Corporations
     - __Justin Longo__, OPEN AMC: Opening governance in the New York University Administrative Management Council
     - __Luana Marinho__, Argos: Crowdlaw Web Tool
     - __Hamed Nilforoshan__, Segment-Predict-Explain for Automatic Writing Feedback
@@ -941,6 +980,12 @@ session:
       Arts. She was previously a resident at [CMU STUDIO for Creative Inquiry](http://studioforcreativeinquiry.org/),
       [Eyebeam](http://eyebeam.org/), [NYU ITP](https://itp.nyu.edu/), and [Ars Electronica
       / QUT TRANSMIT³](http://www.thecube.qut.edu.au/residencies/ars/transmit3.php)."
+- sys:
+    id: 65TPa6JQ7moWekQyu640IQ
+  sessionName: Networking and Coffee Break
+  sessionDay: Day Two
+  sessionStart: !ruby/object:DateTime 2017-06-16 10:30:00.000000000 -04:00
+  sessionEnd: !ruby/object:DateTime 2017-06-16 11:00:00.000000000 -04:00
 speakerLists:
 - sys:
     id: 1hv5Omo3lAaCc2cOcOOSaC
@@ -981,19 +1026,19 @@ speakerLists:
     Tel Aviv University\n- __Tyler Burleigh__, New York University\n- __Philip Feldman__,
     University of Maryland, Baltimore County\n- __Tom Grad__, Vienna University of
     Economics and Business\n- __Sai Gouravajhala__, University of Michigan \n- __Hanna
-    Halaburda__, NYU-Stern\n- __Carina Antonia Hallin__, Copenhagen Business School
-    \n- __Justin Longo__, University of Regina\n- __Kurt Luther__, Virginia Tech\n-
-    __Luana Marinho__, Social Science and Political Theory Unit\n- __Ian Miller__,
-    University of Toronto\n- __Manuel Moritz__, Helmut Schmidt University\n- __Hamed
-    Nilforoshan__, Columbia University \n- __Frank Nagle__, University of Southern
-    California\n- __Pinar Ozturk__, Stevens Institute of Technology\n- __Carlos Parra__,
-    Florida International University\n- __Charles Pezeshki__, Washington State University\n-
-    __Jie Ren__, Fordham University\n- __Yulistina Riyadi__, UN Global Pulse\n- __Louis
-    Rosenberg__, Unanimous A.I.\n- __Ville Satopaa__, INSEAD\n- __Tom Saunders__,
-    Nesta\n- __Feng Shi__, University of North Carolina at Chapel Hill\n- __Jesse
-    Shore__, Boston University\n- __Danny Sierra__, Universidad Nacional de Colombia\n-
-    __Adriana Silva__, SEIS\n- __Tim Straub__, Karlsruhe Institute of Technology\n-
-    __Irene Tello Arista__, Impunidad Cero \n- __David Thompson__, Community Solutions,
-    Inc.\n- __Benjamin Timmermans__, Vrije Universiteit Amsterdam\n- __Ramine Tinati__,
-    University of Southampton\n- __W. Ben Towne__, Carnegie Mellon University\n- __Gianluigi
-    Viscusi__, EPFL\n- __Christopher Welty__, Google\n- __Amy X. Zhang__, MIT"
+    Halaburda__, NYU-Stern\n- __Justin Longo__, University of Regina\n- __Kurt Luther__,
+    Virginia Tech\n- __Luana Marinho__, Social Science and Political Theory Unit\n-
+    __Ian Miller__, University of Toronto\n- __Manuel Moritz__, Helmut Schmidt University\n-
+    __Hamed Nilforoshan__, Columbia University \n- __Frank Nagle__, University of
+    Southern California\n- __Pinar Ozturk__, Stevens Institute of Technology\n- __Carlos
+    Parra__, Florida International University\n- __Charles Pezeshki__, Washington
+    State University\n- __Jie Ren__, Fordham University\n- __Yulistina Riyadi__, UN
+    Global Pulse\n- __Louis Rosenberg__, Unanimous A.I.\n- __Ville Satopaa__, INSEAD\n-
+    __Tom Saunders__, Nesta\n- __Feng Shi__, University of North Carolina at Chapel
+    Hill\n- __Jesse Shore__, Boston University\n- __Danny Sierra__, Universidad Nacional
+    de Colombia\n- __Adriana Silva__, SEIS\n- __Tim Straub__, Karlsruhe Institute
+    of Technology\n- __Irene Tello Arista__, Impunidad Cero \n- __David Thompson__,
+    Community Solutions, Inc.\n- __Benjamin Timmermans__, Vrije Universiteit Amsterdam\n-
+    __Ramine Tinati__, University of Southampton\n- __W. Ben Towne__, Carnegie Mellon
+    University\n- __Gianluigi Viscusi__, EPFL\n- __Christopher Welty__, Google\n-
+    __Amy X. Zhang__, MIT"
