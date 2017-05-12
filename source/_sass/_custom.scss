@@ -47,14 +47,9 @@
       text-transform: uppercase;
     }
     .title-img {
+        width: 320px;
       @include breakpoint($small-only) {
         max-width: 90%;
-      }
-      @include breakpoint($medium) {
-        max-width: 80%;
-      }
-      @include breakpoint($large) {
-        max-width: 320px;
       }
       margin-bottom: 40px;
 
