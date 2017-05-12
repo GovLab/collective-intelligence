@@ -1,6 +1,8 @@
 machine:
   environment:
     NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+  node:
+    version: 6.10.3
 
 general:
   branches:
