@@ -20,8 +20,7 @@ speakers:
   firstName: Tom
   lastName: Kalil
   name: Tom Kalil
-  professionalTitle: Former Deputy Director
-  affiliation: White House Office of Science and Technology Policy
+  affiliation: Eric and Wendy Schmidt Group
   image:
     title: TomKalil
     description: 
@@ -120,35 +119,22 @@ speakers:
   firstName: Bernardo
   lastName: Huberman
   name: Bernardo Huberman
-  professionalTitle: Senior HP Fellow and Director
-  affiliation: Social Computing Lab, Hewlett-Packard Laboratories
+  affiliation: Stanford University
   image:
     title: huberman
     description: 
     url: "//images.contentful.com/5tbgktilyyxn/4m8xJrhKQMkI4A84uOogMK/607b619044d44778c2209ff5b4a9312a/huberman.jpg"
-  bio: "Bernardo Huberman is a Senior HP Fellow and Director of the Social Computing
-    Lab at Hewlett-Packard Laboratories. He received his Ph.D. in Physics from the
-    University of Pennsylvania, and is currently a Consulting Professor in the Department
-    of Applied\tPhysics at Stanford University. He originally worked in condensed
-    matter physics, ranging from superionic conductors to two-dimensional superfluids,
-    and made contributions to the theory of critical phenomena in low dimensional
-    systems. He was one of the discoverers of chaos in a number of physical systems,
-    and also established a number of universal properties in nonlinear dynamical systems.
-    His research into the dynamics of complex structures led to his discovery of ultradiffusion
-    in\thierarchical systems\nFor several years,\tDr. Huberman's research concentrated
-    on the World Wide Web, with particular emphasis the dynamics of its growth and
-    use. This work helped uncover the nature of electronic markets, as well as the
-    design of novel mechanisms for enhancing privacy and trust in e-commerce and negotiations.
-    With members of his group he discovered a number of strong regularities, such
-    as the dynamics that govern the growth of the web, and the laws that determine
-    how users surf the web and create the observed congestion patterns. In addition,
-    this research helped establish and understand the winner-take-all nature of markets
-    in the web, while leading to the design of several novel mechanisms for protecting
-    privacy and enhancing trust in electronic communities. These results, were widely
-    covered by the [press](http://www.hpl.hp.com/research/idl/people/huberman/press.html).\nPresently,
-    his work centers on the design of novel mechanisms for discovering and aggregating
-    information in distributed systems as well as understanding the dynamics of information
-    in large networks."
+  bio: Bernardo Huberman was until recently an HP Senior Fellow and the Director of
+    the Mechanisms and Design lab at HP labs. He is now in the Symbolic Systems Program
+    at Stanford University. His work has centered in the dynamics of information and
+    how distributed intelligence performs as it flows within networks. As part of
+    this research he designed and implemented a globally distributed computer network
+    that allocates resources by auctioning off computons, bundles of cpu, storage
+    and bandwidth. The other aspect of this work involves designing and testing in
+    the laboratory mechanisms for discovering and aggregating widely dispersed information
+    using economic incentives. Examples are the discovery of social networks from
+    patterns in email exchanges, the prediction of uncertain events using groups of
+    people within a market setting, and more recently the economics of attention.
 - sys:
     id: 527IdMMFRmu6QEocqiiWkK
   firstName: Nick
@@ -384,7 +370,7 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-15 09:10:00.000000000 -04:00
 - sys:
     id: 768iKiRrTa04Q8mEcIu6kG
-  sessionName: 'In conversation with: Geoff Mulgan'
+  sessionName: In Conversation With Geoff Mulgan
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 09:10:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 10:00:00.000000000 -04:00
@@ -433,7 +419,7 @@ session:
       A summary of ideas Geoff has worked on can be found [here](http://www.nesta.org.uk/sites/default/files/geoff_mulgan_-_ideas.pdf)."
 - sys:
     id: 4ICf9cpINyk6Mio088k0Um
-  sessionName: 'Plenary Talks: Citizen / public innovation '
+  sessionName: 'Plenary Talks: Citizen / Public Innovation '
   sessionType: Plenary Talk
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 10:00:00.000000000 -04:00
@@ -470,8 +456,7 @@ session:
     firstName: Tom
     lastName: Kalil
     name: Tom Kalil
-    professionalTitle: Former Deputy Director
-    affiliation: White House Office of Science and Technology Policy
+    affiliation: Eric and Wendy Schmidt Group
     image:
       title: TomKalil
       description: 
@@ -508,9 +493,11 @@ session:
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 11:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 13:00:00.000000000 -04:00
-  sessionDescription: |
+  sessionDescription: |-
+    *Extended abstracts of these talks are available [here](https://drive.google.com/open?id=0B3voRoSAqLPPd21MX3FUeTdOZm8)*
     - __Eoin Cullina__, Driving Entrepreneurship Through Crowdsourcing in Scientific Research Funding Agencies
     - __Thomas Malone__, Using Contest Webs to Address the Problem of Global Climate Change
+    - __Chris Welty__, Crowdsourcing Ambiguity-Aware Ground Truth
     - __Mark Whiting__, Designing A Constitution for a Self-Governing Crowdsourcing Marketplace
     - __Andrew Young__, Leveraging Corporate Data and Collective Intelligence to Solve Public Problems:  Data Collaboratives as Prize-Backed Challenges
 - sys:
@@ -521,11 +508,12 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-15 11:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 13:00:00.000000000 -04:00
   sessionDescription: |+
+    *Extended abstracts of these talks are available [here](https://drive.google.com/file/d/0B3voRoSAqLPPNnA5QldnUnE3YWc/view?usp=sharing)*
     - __Jordan B. Barlow__, Collective Intelligence and its Relationship to Collective Individual Intelligence
     - __Carsten Bergenholtz__, The Ikea-effect in Collective Problem Solving
-    - __Alejandro Noriega Campero__, Wisdom of Dynamic Networks: Selective Social Learning and the Adaptive Wisdom of the Crowd
     -  __Shi Kai Chong__, Large-Scale Experiment on the Importance of Social Learning and Unimodality in the Wisdom of the Crowd
     - __Jeremy Foote__, The Behavior and Network Position of Peer Production Community Founders
+    - __Alejandro Noriega Campero__, Wisdom of Dynamic Networks: Selective Social Learning and the Adaptive Wisdom of the Crowd
 
 
 - sys:
@@ -606,9 +594,6 @@ session:
     - __David Baltaxe__, Amplifying Prediction Accuracy using Human Swarms
     - __Jordan B. Barlow__, Emergent Roles in Computer-Mediated Collective Work
     - __Ohad Barzilay__, A Potato Salad with a Lemon Twist: Using Supply-Side Shocks to Study the Impact of Low-Quality Actors on Crowdfunding Platforms
-    - __Tyler Burleigh__, The HUMAN Project: a public resource for representative big data research addressing societal problems
-    - __Philip Feldman__, Modeling The Law of Group Polarization
-    - __Tom Grad__, The Role of Cognitive Distance in Crowd-based Evaluations
     - __Hanna Halaburda__, Incentives and Trust in Blockchain Technologies
     - __Kurt Luther__, Crowdsourced Image Geolocation as Collective Intelligence
     - __Ian Miller__, Influence on GitHub: Individual Limits and Organization Advantages
@@ -617,13 +602,10 @@ session:
     - __Pinar Ozturk__, Dialog Classification in Wikipedia
     - __Carlos Parra__, Collective Intelligence and Institutional (In)Stability
     - __Jie Ren__, Comparing Divergent Thinking and Creativity Performance in the Crowd versus Experts –The Moderating Role of Task Type
-    - __Louis Rosenberg__, Human Swarms amplify accuracy in Honesty Detection
     - __Feng Shi__, Wisdom of Polarized Crowds
     - __Jesse Shore__, Network structure and patterns of information diversity on Twitter
-    - __Danny Sierra__, Motivational factors from citizens in participating civic crowdsourcing initiatives
     - __Adriana Silva__, Mapaton The unsustainable mobility case of México City
     - __Tim Straub__, Partition Dependence Bias in Prediction Markets
-    - __Ramine Tinati__, Collaboration in Real-Time Citizen Science Communication
     - __Christopher Welty__, Disagreement in Crowdsourcing and Active Learning for Better Distant Supervision Quality
     - __Amy X. Zhang__, Bridging Discussions and Wikis using Recursive Summarization
 - sys:
@@ -645,35 +627,23 @@ session:
     firstName: Bernardo
     lastName: Huberman
     name: Bernardo Huberman
-    professionalTitle: Senior HP Fellow and Director
-    affiliation: Social Computing Lab, Hewlett-Packard Laboratories
+    affiliation: Stanford University
     image:
       title: huberman
       description: 
       url: "//images.contentful.com/5tbgktilyyxn/4m8xJrhKQMkI4A84uOogMK/607b619044d44778c2209ff5b4a9312a/huberman.jpg"
-    bio: "Bernardo Huberman is a Senior HP Fellow and Director of the Social Computing
-      Lab at Hewlett-Packard Laboratories. He received his Ph.D. in Physics from the
-      University of Pennsylvania, and is currently a Consulting Professor in the Department
-      of Applied\tPhysics at Stanford University. He originally worked in condensed
-      matter physics, ranging from superionic conductors to two-dimensional superfluids,
-      and made contributions to the theory of critical phenomena in low dimensional
-      systems. He was one of the discoverers of chaos in a number of physical systems,
-      and also established a number of universal properties in nonlinear dynamical
-      systems. His research into the dynamics of complex structures led to his discovery
-      of ultradiffusion in\thierarchical systems\nFor several years,\tDr. Huberman's
-      research concentrated on the World Wide Web, with particular emphasis the dynamics
-      of its growth and use. This work helped uncover the nature of electronic markets,
-      as well as the design of novel mechanisms for enhancing privacy and trust in
-      e-commerce and negotiations. With members of his group he discovered a number
-      of strong regularities, such as the dynamics that govern the growth of the web,
-      and the laws that determine how users surf the web and create the observed congestion
-      patterns. In addition, this research helped establish and understand the winner-take-all
-      nature of markets in the web, while leading to the design of several novel mechanisms
-      for protecting privacy and enhancing trust in electronic communities. These
-      results, were widely covered by the [press](http://www.hpl.hp.com/research/idl/people/huberman/press.html).\nPresently,
-      his work centers on the design of novel mechanisms for discovering and aggregating
-      information in distributed systems as well as understanding the dynamics of
-      information in large networks."
+    bio: Bernardo Huberman was until recently an HP Senior Fellow and the Director
+      of the Mechanisms and Design lab at HP labs. He is now in the Symbolic Systems
+      Program at Stanford University. His work has centered in the dynamics of information
+      and how distributed intelligence performs as it flows within networks. As part
+      of this research he designed and implemented a globally distributed computer
+      network that allocates resources by auctioning off computons, bundles of cpu,
+      storage and bandwidth. The other aspect of this work involves designing and
+      testing in the laboratory mechanisms for discovering and aggregating widely
+      dispersed information using economic incentives. Examples are the discovery
+      of social networks from patterns in email exchanges, the prediction of uncertain
+      events using groups of people within a market setting, and more recently the
+      economics of attention.
   - sys:
       id: 4Yzm00ZK1O48uM2UACmkI4
     firstName: Ece
@@ -733,8 +703,9 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 11:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
   sessionDescription: |
-    - __Pantelis Pipergias Analytis__, Diversity of preference can increase collective welfare in sequential exploration problems
+    *Extended abstracts of these talks are available [here](https://drive.google.com/file/d/0B3voRoSAqLPPSW9NV19MR0RtbTQ/view?usp=sharing)*
     - __Young Ji Kim__, More Evidence for a General Collective Intelligence Factor in Human Groups: A Meta-Analysis
+    - __Pantelis Pipergias Analytis__, Diversity of preference can increase collective welfare in sequential exploration problems
     - __Emile Servan-Schreiber__, Debunking Three Myths About Crowd-Based Forecasting
     - __Taranjit Singh__, Markets and Media: A Case Study of Crowdsourcing During Election Night
 - sys:
@@ -745,7 +716,8 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 11:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 12:30:00.000000000 -04:00
   sessionDescription: |-
-    - __Andres Abeliuk__, Controlling Collective Behavior Through Position Bias
+    *Extended abstracts of these talks are available [here](https://drive.google.com/file/d/0B3voRoSAqLPPRXFFNlFIenlLMVk/view?usp=sharing)*
+    -  __Andres Abeliuk__, Controlling Collective Behavior Through Position Bias
     - __Brent Hecht__, The Role of Human Geography in Collective Intelligence
     - __Hila Lifshitz-Assaf__, Delineating Emergent Role Behaviors in Wikipedia
     - __Mehdi Moussaid__, The propagation of accurate judgments in experimental transmission chains
@@ -757,7 +729,7 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
 - sys:
     id: 4VnmnCLQTukIeYguYiYQSW
-  sessionName: 'Plenary Talks: Government use of public / crowd participation'
+  sessionName: 'Plenary Talks: Government Use of Public / Crowd Participation'
   sessionType: Plenary Talk
   sessionDay: Day Two
   sessionStart: !ruby/object:DateTime 2017-06-16 16:00:00.000000000 -04:00
@@ -866,7 +838,8 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 15:00:00.000000000 -04:00
   sessionDescription: |+
-    - __Jiye Baek__, Using cohort size to promote content contribution: a field experiment on a discussion forum
+    *Extended abstracts of these talks are available [here](https://drive.google.com/file/d/0B3voRoSAqLPPbElvVHpQTS1rMmc/view?usp=sharing)*
+    -  __Jiye Baek__, Using cohort size to promote content contribution: a field experiment on a discussion forum
     -  __Giuseppe Carbone__, Emergence of Collective Intelligence in Human Groups
     - __Pamela Hinds__, Co-creating innovation: how feedback exchange processes impact upon innovation in a crowdsourcing platform
     - __Thomas Malone__, Analyzing Group Interactions Using a Technique Developed for Measuring Consciousness
@@ -884,7 +857,8 @@ session:
   sessionStart: !ruby/object:DateTime 2017-06-16 13:30:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-16 15:00:00.000000000 -04:00
   sessionDescription: |+
-    - __Yue Han__, Collective Exploration: Remixing with Human-based Search Algorithms
+    *Extended abstracts of these talks are available [here](https://drive.google.com/file/d/0B3voRoSAqLPPQ2k2eWN5Uk1EY0U/view?usp=sharing)*
+    -  __Yue Han__, Collective Exploration: Remixing with Human-based Search Algorithms
     - __Ting-Hao (Kenneth) Huang__, Real-time On-Demand Crowd-powered Entity Extraction
     - __John Harlow__, Proactively Identifying and Correcting for Social Biases in Datasets Proliferating into Civic Technologies
     - __Yun Huang__, BandCaption: Crowdsourcing Video Caption Corrections
@@ -904,18 +878,20 @@ session:
   sessionDescription: |-
     - __Lora Aroyo__, Improving NER Performance by Harnessing Diversity of Machines and Crowds
     - __Edmond Awad__, Did They Escape? Judging Groups at Face Value
+    - __David Baltaxe__, Human Swarms amplify accuracy in Honesty Detection
+    - __Tyler Burleigh__, The HUMAN Project: a public resource for representative big data research addressing societal problems
+    - __Philip Feldman__, Modeling The Law of Group Polarization
     - __Sai Gouravajhala__, Towards Hybrid Intelligence for Robotics
+    - __Tom Grad__, The Role of Cognitive Distance in Crowd-based Evaluations
     - __Justin Longo__, OPEN AMC: Opening governance in the New York University Administrative Management Council
     - __Luana Marinho__, Argos: Crowdlaw Web Tool
     - __Hamed Nilforoshan__, Segment-Predict-Explain for Automatic Writing Feedback
     - __Charles Pezeshki__, Origins of Collective Intelligence: Is there a Homology between Social Networks and Knowledge Structures?
     - __Yulistina Riyadi__, Collaborative Translation to Better Listen to Citizen Feedback and Voices on a Public Sector Programme
-    - __Ville Satopaa__, Collecting Information from Multiple Forecasters: Inefficiency of Measures of Central Tendency
     - __Tom Saunders__, Governing with Collective Intelligence
+    - __Danny Sierra__, Motivational factors from citizens in participating civic crowdsourcing initiatives
     - __Irene Tello Arista__, Using crowdsourcing and crowdlaw to enact anti-corruption legislation
-    - __David Thompson__, A Basket of Social Science, a Bushel of Social Good
     - __Benjamin Timmermans__, ControCurator: Understanding Controversy Using Collective Intelligence
-    - __Ramine Tinati__, Quality Assessment in Complex Crowdsourcing
     - __W. Ben Towne__, Even on Wikipedia, Draft Status Makes A Difference
     - __Gianluigi Viscusi__, Crowd Dynamics and Crowd Capital in Small Teams: Insights from three crowdsourcing exercises in higher education
     - __Christopher Welty__, The Quantum Collective
@@ -933,7 +909,7 @@ session:
   sessionEnd: !ruby/object:DateTime 2017-06-15 09:00:00.000000000 -04:00
 - sys:
     id: 5bhNV2G2FGoGQsUEI2m4AU
-  sessionName: 'Keynote: Luke Dubois  and Lauren McCarthy'
+  sessionName: 'Keynote: R. Luke Dubois  and Lauren McCarthy'
   sessionDay: Day One
   sessionStart: !ruby/object:DateTime 2017-06-15 16:00:00.000000000 -04:00
   sessionEnd: !ruby/object:DateTime 2017-06-15 17:00:00.000000000 -04:00
@@ -992,12 +968,10 @@ speakerLists:
   listType: Parallel Session Speakers
   speakerList: |-
     - __Andres Abeliuk__, MIT Media Lab
-    - __Pantelis Pipergias Analytis__, Cornell University
     - __Pablo Daniel Azar__,  MIT
     - __Jiye Baek__, Boston University
     - __Jordan B. Barlow__, California State University, Fullerton
     - __Carsten Bergenholtz__, Aarhus University
-    - __Alejandro Noriega Campero__, Massachusetts Institute of Technology;  Max Planck Institute for Human Development
     - __Giuseppe Carbone__, Politecnico di Bari
     - __Shi Kai Chong__, MIT Media Lab
     - __Eoin Cullina__, Lero, National University of Ireland, Galway
@@ -1012,6 +986,8 @@ speakerLists:
     - __Hila Lifshitz-Assaf__, NYU, Stern School of business
     - __Thomas Malone__, MIT Center for Collective Intelligence
     - __Mehdi Moussaid__, Max Planck Institute for Human Development
+    - __Alejandro Noriega Campero__, Massachusetts Institute of Technology;  Max Planck Institute for Human Development
+    - __Pantelis Pipergias Analytis__, Cornell University
     - __John Prpić__, Lulea University of Technology
     - __Yuko Sakurai__, Kyushu University
     - __Emile Servan-Schreiber__, Hypermind International Limited
@@ -1033,12 +1009,10 @@ speakerLists:
     Southern California\n- __Pinar Ozturk__, Stevens Institute of Technology\n- __Carlos
     Parra__, Florida International University\n- __Charles Pezeshki__, Washington
     State University\n- __Jie Ren__, Fordham University\n- __Yulistina Riyadi__, UN
-    Global Pulse\n- __Louis Rosenberg__, Unanimous A.I.\n- __Ville Satopaa__, INSEAD\n-
-    __Tom Saunders__, Nesta\n- __Feng Shi__, University of North Carolina at Chapel
-    Hill\n- __Jesse Shore__, Boston University\n- __Danny Sierra__, Universidad Nacional
-    de Colombia\n- __Adriana Silva__, SEIS\n- __Tim Straub__, Karlsruhe Institute
-    of Technology\n- __Irene Tello Arista__, Impunidad Cero \n- __David Thompson__,
-    Community Solutions, Inc.\n- __Benjamin Timmermans__, Vrije Universiteit Amsterdam\n-
-    __Ramine Tinati__, University of Southampton\n- __W. Ben Towne__, Carnegie Mellon
-    University\n- __Gianluigi Viscusi__, EPFL\n- __Christopher Welty__, Google\n-
-    __Amy X. Zhang__, MIT"
+    Global Pulse\n- __Louis Rosenberg__, Unanimous A.I.\n- __Tom Saunders__, Nesta\n-
+    __Feng Shi__, University of North Carolina at Chapel Hill\n- __Jesse Shore__,
+    Boston University\n- __Danny Sierra__, Universidad Nacional de Colombia\n- __Adriana
+    Silva__, SEIS\n- __Tim Straub__, Karlsruhe Institute of Technology\n- __Irene
+    Tello Arista__, Impunidad Cero \n- __Benjamin Timmermans__, Vrije Universiteit
+    Amsterdam\n- __W. Ben Towne__, Carnegie Mellon University\n- __Gianluigi Viscusi__,
+    EPFL\n- __Christopher Welty__, Google\n- __Amy X. Zhang__, MIT"
