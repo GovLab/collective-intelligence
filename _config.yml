@@ -41,7 +41,7 @@ source: ./source
 contentful:
   spaces:
     - conference: # Jekyll _data folder identifier - Required
-        space: 5tbgktilyyxn     # Required
-        access_token: bd4a6990e74e7a16b01ceb01b5cd64c7ea591d3a803f9801d33870af11c01fcd
+        space: ENV_COLLECTIVE_INTEL_SPACE_ID   # Required
+        access_token: ENV_COLLECTIVE_INTEL_CONTENTFUL_ACCESS_TOKEN
         base_path: ./source         # Optional - Defaults to Current directory
         all_entries: true
